@@ -2,3 +2,6 @@ select * from hre_baocao
 
 
 nam sua master
+
+add note branch baocaodong
+
