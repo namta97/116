@@ -1,1 +1,3 @@
 select * from hre_profile
+
+where isdelete is null
