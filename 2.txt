@@ -2,3 +2,6 @@ select * from workhistory
 
 hahah
 where isdelete is null
+
+
+note 1.43
