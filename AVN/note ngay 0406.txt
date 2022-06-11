@@ -1,0 +1,14 @@
+
+condi.DL
+sto.PaymentDay
+
+
+--GroupBank, condi.EmpStatus, PayPaidType, CheckData, csc.AbilityTitleID, cost.CostCentreGroupID, ag.GradeAttendanceID, condi.CostCentreID,
+
+
+
+
+----
+
+InsuranceAmount
+  <Language Name="AVN_DA_LT_REWARD_10_15_20_25_30" Value="DA_LT.REWARD.10.15.20.25.30" />

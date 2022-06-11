@@ -1,0 +1,1 @@
+update Cat_EnumTranslate SET IsDelete = 1 WHERE EnumName ='EmploymentType' AND ServerCreate IS NULL

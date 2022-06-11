@@ -1,0 +1,168 @@
+   <!--NamTa 02/03/2022 -->
+  <Language Name="DatePayMent" Value="Payment Date" />
+  <Language Name="PaymentMethod" Value="Payment Method" />
+  <Language Name="BankName" Value="Bank Name" />
+  <Language Name="MonthPayslip_LuongTamUng" Value="Advance Amount (VND)" />
+  <Language Name="MonthPayslip_TongSoNgayCongTinhTamUng" Value="Paid working days" />
+  <Language Name="MonthPayslip_TongSoNgayNghiTrongKy" Value="Absent/ unpaid working days" />
+  <Language Name="MonthPayslip_LyDoKhongTamUng" Value="Reasons for not paying advance" />
+  <Language Name="Sal_Payslips_UnusualPay_ByTemplate" Value="Advance Payslip" />
+  <Language Name="Sal_Payslips_ByTemplate" Value="Payslip" />
+  <Language Name="HRM_Payroll_Sal_MonthYear_DetailTemp_Info" Value="Details of Advance" />
+  <Language Name="HRM_Hre_PromotionClassQualification_PromoSalaryClassID" Value="Promoted to" />
+  <Language Name="HRM_Medical_Prenatal_SalaryClassName" Value="Current Grade" />
+  <Language Name="HRM_HR_HDTJob_ProfileID" Value="Employee Name" />
+  <Language Name="E_BRANCH" Value="Division" />
+  <Language Name="E_UNIT" Value="Factory/Center" />
+  <Language Name="E_DIVISION" Value="Department" />
+  <Language Name="E_DEPARTMENT" Value="Section" />
+  <Language Name="sbs.SalaryClassID" Value="Grade" />
+  <Language Name="HRM_DynLang_Salary_PaymentMonthYear" Value="Payment Period" />
+  <Language Name="HRM_DynLang_Salary_PaymentDate" Value="Payment Date" />
+  <Language Name="HRM_DynLang_Salary_PaymentMethod" Value="Payment Method" />
+  <Language Name="HRM_DynLang_Salary_BankCode" Value="Bank Name" /> 
+  <Language Name="HRM_DynLang_Salary_AdvanceSalary" Value="Advance Amount (VND)" /> 
+  <Language Name="HRM_DynLang_Salary_PaidWorkDay" Value="Paid Working days" /> 
+  <Language Name="HRM_DynLang_Salary_AbsentUnpaidDay" Value="Absent/ Unpaid Working days" /> 
+  <Language Name="HRM_DynLang_Salary_ReasonNotAdvance" Value="Reasons for not paying advance" /> 
+  <Language Name="HRM_DynLang_Salary_Cash" Value="Cash" />
+  <Language Name="HRM_DynLang_Salary_Transfer" Value="Transfer" />
+  <Language Name="HRM_DynLang_Salary_PaymentInfor" Value="Payment Information" />
+  <Language Name="HRM_DynLang_Salary_ProfileInfor" Value="Employee Information" /> 
+  <Language Name="MonthPayslip_Group_PaymentInfor" Value="Payment Information" /> 
+  <Language Name="MonthPayslip_Group_DetailOfIncome" Value="Detail of Income" />  
+  <Language Name="MonthPayslip_Group_DetailOfDeduction" Value="Detail of Deduction" /> 
+  <Language Name="MonthPayslip_TongLuongThang" Value="Total Salary" />
+  <Language Name="MonthPayslip_DaTamUng" Value="Advanced Salary" />
+  <Language Name="MonthPayslip_TienLuongConLai" Value="Remaining Salary" />
+  <Language Name="MonthPayslip_Group_ThuNhap" Value="Detail of Income" />
+  <Language Name="MonthPayslip_ChiTietTongThuNhap" Value="Total Income" />
+  <Language Name="MonthPayslip_TienLuong" Value="Salary of Working days" />
+  <Language Name="MonthPayslip_TienLuong_Detail" Value="Salary of Working days" />
+  <Language Name="MonthPayslip_PhuCap" Value="Allowances (PC&amp;TC)" />
+  <Language Name="MonthPayslip_OT" Value="Overtime (OT)" />
+  <Language Name="MonthPayslip_NS" Value="Nigh Shift (NS)" />
+  <Language Name="MonthPayslip_ThuNhapKhac" Value="Other Incomes" />
+  <Language Name="MonthPayslip_CacKhoanThuong" Value="Bonuses" />
+  <Language Name="MonthPayslip_TruyLinh" Value="Salary Adjustment" />
+  <Language Name="MonthPayslip_Group_KhauTru" Value="Detail of Deduction" />
+  <Language Name="MonthPayslip_ChiTietTongKhauTru" Value="Total Deduction" />
+  <Language Name="MonthPayslip_BHXH" Value="Social Insurance" />
+  <Language Name="MonthPayslip_BHYT" Value="Health Insurance" />
+  <Language Name="MonthPayslip_BHTN" Value="Unemployment Insurance" />
+  <Language Name="MonthPayslip_TheBHYT" Value="Health Insurance Card" />
+  <Language Name="MonthPayslip_KhauTruKhac" Value="Other Deduction Amounts" />
+  <Language Name="MonthPayslip_TruyThu" Value="Salary Adjustment" />
+  <Language Name="MonthPayslip_PIT" Value="PIT" />
+  <Language Name="MonthPayslip_PersonalPITDeduction" Value="Taxpayer Reduction" />
+  <Language Name="MonthPayslip_DependantPITDeductionAmount" Value="Dependant Reduction" />
+  <Language Name="MonthPayslip_DependantPITDeduction" Value="Number of Dependants" />
+  <Language Name="CurrencyUnitName" Value="Currency" />
+  <Language Name="HRM_DynLang_Salary_GeneralInfo" Value="General Information" />
+  <Language Name="HRM_DynLang_Salary_Currency" Value="Currency" />
+  <Language Name="HRM_DynLang_Salary_TotalSalary" Value="Total Salary" />
+  <Language Name="HRM_DynLang_Salary_AdvancedSalary" Value="Advanced Salary" />
+  <Language Name="HRM_DynLang_Salary_RemainingSalary" Value="Remaining Salary" />
+  <Language Name="HRM_DynLang_Salary_DetailOfIncome" Value="Detail of Income" />
+  <Language Name="HRM_DynLang_Salary_TotalIncome" Value="Total Income" />
+  <Language Name="HRM_DynLang_Salary_SalaryOfWorkingDays" Value="Salary of Working days" />
+  <Language Name="HRM_DynLang_Salary_OtherIncomes" Value="Other Incomes" />
+  <Language Name="HRM_DynLang_Salary_Allowances" Value="Allowances (PC&amp;TC)" />
+  <Language Name="HRM_DynLang_Salary_Bonuses" Value="Bonuses" />
+  <Language Name="HRM_DynLang_Salary_Overtime" Value="Overtime (OT)" />
+  <Language Name="HRM_DynLang_Salary_SalaryAdjustment" Value="Salary Adjustment" />
+  <Language Name="HRM_DynLang_Salary_NighShift" Value="Nigh Shift (NS)" />
+  <Language Name="HRM_DynLang_Salary_DetailOfDeduction" Value="Detail of Deduction" />
+  <Language Name="HRM_DynLang_Salary_Deduction" Value="Total Deduction" />
+  <Language Name="HRM_DynLang_Salary_OtherDeductionAmounts" Value="Other Deduction Amounts" />
+  <Language Name="HRM_DynLang_Salary_SocialInsurance" Value="Social Insurance" />
+  <Language Name="HRM_DynLang_Salary_PIT" Value="PIT" />
+  <Language Name="HRM_DynLang_Salary_HealthInsurance" Value="Health Insurance" />
+  <Language Name="HRM_DynLang_Salary_TaxpayerReduction" Value="Taxpayer Reduction" />
+  <Language Name="HRM_DynLang_Salary_UnemploymentInsurance" Value="Unemployment Insurance" />
+  <Language Name="HRM_DynLang_Salary_DependantReduction" Value="Dependant Reduction" />
+  <Language Name="HRM_DynLang_Salary_HealthInsuranceCard" Value="Health Insurance Card" />
+  <Language Name="HRM_DynLang_Salary_NumberOfDependant" Value="Number of Dependant" />
+
+
+
+
+  <!--NamTa 02/03/2022 -->
+  <Language Name="MonthPayslip_TongSoNgayCongTinhTamUng" Value="Số ngày hưởng lương" />
+  <Language Name="MonthPayslip_TongSoNgayNghiTrongKy" Value="Số ngày vắng mặt" />
+  <Language Name="MonthPayslip_LyDoKhongTamUng" Value="Lý do không có tạm ứng" />   
+  <Language Name="Sal_Payslips_ByTemplate" Value="Phiếu Lương Tháng" />
+  <Language Name="Sal_Payslips_UnusualPay_ByTemplate" Value="Phiếu Lương Tạm Ứng" /> 
+  <Language Name="HRM_DynLang_Salary_PaymentMonthYear" Value="Kỳ thanh toán" />
+  <Language Name="HRM_DynLang_Salary_PaymentDate" Value="Ngày thanh toán" />
+  <Language Name="HRM_DynLang_Salary_PaymentMethod" Value="Hình thức thanh toán" />
+  <Language Name="HRM_DynLang_Salary_BankCode" Value="Ngân hàng" /> 
+  <Language Name="HRM_DynLang_Salary_AdvanceSalary" Value="Số tiền lương tạm ứng (VND)" /> 
+  <Language Name="HRM_DynLang_Salary_PaidWorkDay" Value="Số ngày hưởng lương" /> 
+  <Language Name="HRM_DynLang_Salary_AbsentUnpaidDay" Value="Số ngày vắng mặt/ nghỉ không hưởng lương" /> 
+  <Language Name="HRM_DynLang_Salary_ReasonNotAdvance" Value="Lý do không có tạm ứng" /> 
+  <Language Name="HRM_DynLang_Salary_Cash" Value="Tiền mặt" />
+  <Language Name="HRM_DynLang_Salary_Transfer" Value="Chuyển khoản" />
+  <Language Name="HRM_DynLang_Salary_PaymentInfor" Value="Thông tin thanh toán" />
+  <Language Name="HRM_DynLang_Salary_ProfileInfor" Value="Thông tin nhân viên" />
+  <Language Name="DatePayMent" Value="Ngày thanh toán" />
+  <Language Name="PaymentMethod" Value="Hình thức thanh toán" />
+  <Language Name="MonthPayslip_LuongTamUng" Value="Số tiền lương tạm ứng (VND)" />
+  <Language Name="MonthPayslip_Group_PaymentInfor" Value="Thông tin thanh toán" /> 
+  <Language Name="MonthPayslip_Group_DetailOfIncome" Value="Chi tiết thu nhập" /> 
+  <Language Name="MonthPayslip_Group_DetailOfDeduction" Value="Chi tiết khấu trừ" /> 
+  <Language Name="HRM_DynLang_Salary_GeneralInfo" Value="Thông tin chung" />
+  <Language Name="HRM_DynLang_Salary_Currency" Value="Đơn vị tiền tệ" />
+  <Language Name="HRM_DynLang_Salary_TotalSalary" Value="Tổng tiền lương tháng" />
+  <Language Name="HRM_DynLang_Salary_AdvancedSalary" Value="Tiền lương đã tạm ứng" />
+  <Language Name="HRM_DynLang_Salary_RemainingSalary" Value="Tiền lương còn lại" />
+  <Language Name="HRM_DynLang_Salary_DetailOfIncome" Value="Chi tiết thu nhập" />
+  <Language Name="HRM_DynLang_Salary_TotalIncome" Value="Tổng thu nhập" />
+  <Language Name="HRM_DynLang_Salary_SalaryOfWorkingDays" Value="Tiền lương ngày công (LNC)" />
+  <Language Name="HRM_DynLang_Salary_OtherIncomes" Value="Các khoản thu nhập khác" />
+  <Language Name="HRM_DynLang_Salary_Allowances" Value="Phụ cấp – Trợ cấp (PC&amp;TC)" />
+  <Language Name="HRM_DynLang_Salary_Bonuses" Value="Các khoản thưởng" />
+  <Language Name="HRM_DynLang_Salary_Overtime" Value="Ngoài giờ (OT)" />
+  <Language Name="HRM_DynLang_Salary_SalaryAdjustment" Value="Điều chỉnh lương" />
+  <Language Name="HRM_DynLang_Salary_NighShift" Value="Ca đêm (NS)" />
+  <Language Name="HRM_DynLang_Salary_DetailOfDeduction" Value="Chi tiết khấu trừ" />
+  <Language Name="HRM_DynLang_Salary_Deduction" Value="Tổng khấu trừ" />
+  <Language Name="HRM_DynLang_Salary_OtherDeductionAmounts" Value="Các khoản khấu trừ khác" />
+  <Language Name="HRM_DynLang_Salary_SocialInsurance" Value="BHXH" />
+  <Language Name="HRM_DynLang_Salary_PIT" Value="Thuế TNCN" />
+  <Language Name="HRM_DynLang_Salary_HealthInsurance" Value="BHYT" />
+  <Language Name="HRM_DynLang_Salary_TaxpayerReduction" Value="Giảm trừ cá nhân" />
+  <Language Name="HRM_DynLang_Salary_UnemploymentInsurance" Value="BHTN" />
+  <Language Name="HRM_DynLang_Salary_DependantReduction" Value="Giảm trừ người phụ thuộc" />
+  <Language Name="HRM_DynLang_Salary_HealthInsuranceCard" Value="Thẻ BHYT" />
+  <Language Name="HRM_DynLang_Salary_NumberOfDependant" Value="Số người phụ thuộc" />
+
+
+  <Language Name="condi.PositionID" Value="Chức vụ" />
+  <Language Name="condi.WorkPlaceID" Value="Nơi làm việc" />
+  <Language Name="condi.SalaryClassID" Value="Cấp bậc" />
+  <Language Name="condi.JobTitleID" Value="Chức danh" />
+  <Language Name="condi.EmployeeGroupID" Value="Lao động theo công ty" />
+  <Language Name="condi.EmploymentType" Value="Loại hình lao động" />
+  <Language Name="condi.LaborType" Value="Nhóm Local/Expat" />
+  <Language Name="condi.EmpStatus" Value="Trạng thái nhân viên" />
+  <Language Name="hp.DateEndProbation" Value="Ngày kết thúc thử việc" />
+  <Language Name="hp.DateQuit" Value="Ngày nghỉ việc" />
+  <Language Name="hp.DateHire" Value="Ngày vào làm" />
+  <Language Name="cos.OrderNumber" Value="Cơ cấu trực thuộc" />
+  <Language Name="IsSalary" Value="Có lương" />
+  <Language Name="IsNotSalary" Value="Không có lương" />
+  <Language Name="IsSalaryBanking" Value="Có ngân hàng" />
+  <Language Name="AmountCondition" Value="Giá trị thanh toán" />
+  <Language Name="PayPaidType" Value="Hình thức thanh toán" />
+
+  <Language Name="cost.CostCentreGroupID" Value="Nhóm mã chi phí" />
+  <Language Name="condi.CostCentreID" Value="Mã chi phí" />
+  <Language Name="ag.GradeAttendanceID" Value="Đối tượng chấm công" />
+  <Language Name="csc.AbilityTitleID" Value="Loại chi phí" />
+  
+  <Language Name="condi.DL" Value="Ngày nghỉ ngừng việc" />
+  <Language Name="sto.PaymentDay" Value="Ngày thanh lý" />
+
+
+

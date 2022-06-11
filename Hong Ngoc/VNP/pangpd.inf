@@ -1,0 +1,109 @@
+;-------------------------------------------------------------------------------
+; PANGPD.INF
+;
+; Palo Alto Networks GlobalProtect Virtual Ethernet Adapter
+;
+; Copyright (c) Palo Alto Networks.  All rights reserved.
+
+[version]
+Signature           = "$Windows NT$"
+CatalogFile.ntx86   = pangpd.cat
+CatalogFile.ntamd64 = pangpd64.cat
+Class               = Net
+ClassGUID           = {4d36e972-e325-11ce-bfc1-08002be10318}
+Provider            = %PAN%
+DriverVer           = 10/20/2020,5.0.0.26
+
+;-------------
+;For NDIS 6.x
+;-------------
+[ControlFlags]
+ExcludeFromSelect=*
+
+[Manufacturer]
+%PAN% = PAN,ntx86,ntamd64
+
+[PAN.ntx86]
+%PanGpd.DeviceDesc%    = PanGpd.ndi, PanGpd 
+[PAN.ntamd64]
+%PanGpd.DeviceDesc%    = PanGpd.ndi, PanGpd 
+
+[PanGpd.ndi]
+Characteristics = 0x81 ; NCF_VIRTUAL | NCF_HAS_UI
+;For NDIS 6.x
+*IfType            = 0x6 ; IF_TYPE_ETHERNET_CSMACD
+*MediaType         = 0x0 ; NdisMedium802_3
+*PhysicalMediaType = 0  ; NdisPhysicalMediumUnspecified
+;For NDIS 6.x end
+AddReg          = PanGpd.Reg
+AddReg          = PanGpd.Params.Reg
+CopyFiles       = PanGpd.CopyFiles
+
+[PanGpd.ndi.Services]
+AddService      = PanGpd, 2, PanGpd.Service
+
+[PanGpd.Reg]
+HKR, Ndi,                         Service,             0, "PanGpd"
+HKR, Ndi\Interfaces,              UpperRange,          0, "ndis5"
+HKR, Ndi\Interfaces,              LowerRange,          0, "ethernet"
+HKR, ,                            Manufacturer,        0, "%PAN%"
+HKR, ,                            ProductName,         0, "PanGpd.DeviceDesc" 
+
+[PanGpd.Params.Reg]
+HKR, Ndi\params\MTU,              ParamDesc,           0, "MTU"
+HKR, Ndi\params\MTU,              Type,                0, "int"
+HKR, Ndi\params\MTU,              Default,             0, "1400"
+HKR, Ndi\params\MTU,              Optional,            0, "0"
+HKR, Ndi\params\MTU,              Min,                 0, "100"
+HKR, Ndi\params\MTU,              Max,                 0, "1500"
+HKR, Ndi\params\MTU,              Step,                0, "1"
+HKR, Ndi\params\MediaStatus,      ParamDesc,           0, "Media Status"
+HKR, Ndi\params\MediaStatus,      Type,                0, "enum"
+HKR, Ndi\params\MediaStatus,      Default,             0, "0"
+HKR, Ndi\params\MediaStatus,      Optional,            0, "0"
+HKR, Ndi\params\MediaStatus\enum, "0",                 0, "Application Controlled"
+HKR, Ndi\params\MediaStatus\enum, "1",                 0, "Always Connected"
+HKR, Ndi\params\MAC,              ParamDesc,           0, "MAC Address"
+HKR, Ndi\params\MAC,              Type,                0, "edit"
+HKR, Ndi\params\MAC,              Optional,            0, "1"
+HKR, Ndi\params\SPEED,            ParamDesc,           0, "SPEED"
+HKR, Ndi\params\SPEED,            Type,                0, "int"
+HKR, Ndi\params\SPEED,            Default,             0, "2000"
+HKR, Ndi\params\SPEED,            Optional,            0, "0"
+HKR, Ndi\params\SPEED,            Min,                 0, "1"
+HKR, Ndi\params\SPEED,            Max,                 0, "10000"
+HKR, Ndi\params\SPEED,            Step,                0, "1"
+HKR, Ndi\params\PACKETS,          ParamDesc,           0, "PACKETS"
+HKR, Ndi\params\PACKETS,          Type,                0, "int"
+HKR, Ndi\params\PACKETS,          Default,             0, "1024"
+HKR, Ndi\params\PACKETS,          Optional,            0, "0"
+HKR, Ndi\params\PACKETS,          Min,                 0, "10"
+HKR, Ndi\params\PACKETS,          Max,                 0, "8192"
+HKR, Ndi\params\PACKETS,          Step,                0, "1"
+
+[PanGpd.CopyFiles]
+pangpd.sys,,,2 ;COPYFLG_NOSKIP
+
+[PanGpd.Service]
+DisplayName     = %PanGpd.Service.DispName%
+ServiceType     = 1 ;%SERVICE_KERNEL_DRIVER%
+StartType       = 3 ;%SERVICE_DEMAND_START%
+ErrorControl    = 1 ;%SERVICE_ERROR_NORMAL%
+ServiceBinary   = %12%\pangpd.sys
+LoadOrderGroup  = NDIS
+
+[SourceDisksNames]
+1 = %PanGpd.DeviceDesc%,pangpd.sys
+
+[SourceDisksFiles]
+pangpd.sys  = 1
+
+[DestinationDirs]
+PanGpd.CopyFiles = 12
+
+[Strings]
+PAN                      = "PaloAltoNetworks"                      
+PanGpd.DeviceDesc        = "PANGP Virtual Ethernet Adapter"
+PanGpd.Service.DispName    = "PanGP Virtual Miniport"
+
+

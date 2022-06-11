@@ -1,0 +1,76 @@
+;;;
+;;; Copyright (c) Paloalto Networks. All rights reserved
+;;;
+;;; Abstract:
+;;; Callout driver install configuration.
+;;;
+
+[Version]
+signature   =   "$Windows NT$"
+Provider 	=   %Paloalto%
+DriverVer=10/01/2019,14.56.51.662
+Class = NetService
+ClassGuid = {4d36e974-e325-11ce-bfc1-08002be10318}
+CatalogFile = gpfltdrv.cat
+
+[DestinationDirs]
+DefaultDestDir	        = 12
+gpfltdrv.DriverFiles      = 12 			;%windir%\system32\drivers
+
+;;
+;; Default install sections
+;;
+
+[DefaultInstall]
+OptionDesc          = %gpfltdrvServiceDesc%
+CopyFiles           = gpfltdrv.DriverFiles
+
+[DefaultInstall.Services]
+AddService          = %gpfltdrvServiceName%,,gpfltdrv.Service
+
+;;
+;; Default uninstall sections
+;;
+
+[DefaultUninstall]
+DelFiles   = gpfltdrv.DriverFiles
+
+[DefaultUninstall.Services]
+DelService = gpfltdrv,0x200		; Flags note to stop service first
+
+;
+; Services Section
+;
+
+[gpfltdrv.Service]
+DisplayName      = %gpfltdrvServiceName%
+Description      = %gpfltdrvServiceDesc%
+ServiceBinary    = %12%\gpfltdrv.sys  	;%windir%\system32\drivers\gpfltdrv.sys
+ServiceType      = 1					;SERVICE_KERNEL_DRIVER
+StartType        = 3					;SERVICE_DEMAND_START
+ErrorControl     = 1					;SERVICE_ERROR_NORMAL
+
+;
+; Copy Files
+;
+
+[gpfltdrv.DriverFiles]
+gpfltdrv.sys,,,0x00000040   ; COPYFLG_OVERWRITE_OLDER_ONLY
+
+
+[SourceDisksNames]
+1 = %DiskId1%,,,""
+[SourceDisksFiles]
+gpfltdrv.sys = 1,,
+
+;;
+;; String Section
+;;
+
+[Strings]
+Paloalto             = "PaloAltoNetworks"
+gpfltdrvServiceDesc  = "PANGP filter driver"
+gpfltdrvServiceName  = "gpfltdrv"
+gpfltdrvRegistry     = "system\currentcontrolset\services\gpfltdrv"
+DiskId1              = "PANGP filter driver Installation Disks"
+

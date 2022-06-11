@@ -1,0 +1,79 @@
+BankBranchName: Tên ngân hàng, chi nhánh ( nếu không được Tên ngân hành_Chi nhánh)
+GroupBankName: Tên nhóm ngân hàng
+BranchName: Chi nhánh ngân hàng
+BankName: Ngân hàng
+DateEndProbation: Ngày kết thúc thử việc
+Noemployee: Số nhân viên
+AdvanceAmount: Lương ứng
+SalaryAmount: Lương tháng
+SumAdvanceAmount: Tổng lương ứng
+AccountCompanyNo: Tài khoản chi trả
+PeriodPayment: Kỳ thanh toán
+TransferComment: Nội dung chuyển khoản
+MonthYear: Kỳ Công/Lương
+BranchSortCode: Tên ngân hàng GCMS
+BranchSwiftCode: Mã ngân hàng GCMS
+--------
+EmpStatus: Trạng thái nhân viên
+PaymentAmount: Số tiền thanh toán
+BranchName: Chi nhánh ngân hàng
+EmploymentType: Loại hình lao động
+EmployeeGroupName: Nhóm nhân viên
+
+------------------31/8
+CenterName: Nhà máy| Trung tâm
+SectionName: Bộ phận
+DepartmentName: Phòng
+CostTypeName: Loại chi phí
+
+====2/9
+RateShare: Tỉ lệ phân bổ
+ReasonOfDifference: Lý do chênh lệch
+NetInCome: Thực nhận
+
+=== 14/9
+tên màn hình
+CatUnusualAllowanceCfgInfo_wnd_title: 
+option edit : Cập nhật Khoản Thêm lương/Khấu trừ lương/Điều chỉnh lương
+option tạo mới : Thêm lương/Khấu trừ lương/Điều chỉnh lương
+
+https://hr.ajinomoto.com.vn/#/Hrm_Main_Web/Cat_UnusualAllowanceCfg/Index
+Đổi tên màn hình thành : Khoản Thêm lương/Khấu trừ lương/Điều chỉnh lương
+
+UnusualAllowanceCfgName: Loại khoản tiền
+MonthStart: Từ kỳ lương
+MonthEnd: Đến kỳ lương
+
+===16/9
+NameEnglish: Tên tiếng Anh
+
+
+===19/9
+
+DivisionName_Share: Khối phân bổ
+CenterName_Share: Nhà máy| Trung tâm phân bổ
+DepartmentName_Share: Phòng phân bổ
+SectionName_Share: Bộ phận phân bổ
+UnitName_Share: Đơn vị phân bổ
+SalaryClassName_Share: Cấp bậc phân bổ
+CostTypeName_Share: Loại chi phí phân bổ
+CostCentreName_Share: Mã chi phí phân bổ
+RateShare: Tỷ lệ phân bổ
+DateEffectFrom: Hiệu lực từ
+DateEffectTo: Hiệu lực đến
+
+
+=== 5/10
+WFHCount: Số ngày làm việc tại nhà
+
+NotPaidWorkDayCountP: Tổng số ngày công không hưởng lương
+
+
+
+
+==== 22/12
+AVN_NguoiPhuThuoc > AVN_SoNguoiPhuThuoc : Số NPT
+
+
+===24/02
+HRM_Message_PleaseSelect_TypeToConfirm: Vui lòng chọn dữ liệu cùng loại!

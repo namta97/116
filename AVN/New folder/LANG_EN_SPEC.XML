@@ -1,0 +1,1197 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Language" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Language">
+            <xs:complexType>
+              <xs:attribute name="Name" type="xs:string" use="required" />
+              <xs:attribute name="Value" type="xs:string" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Language" />
+        <xs:field xpath="@Name" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Language Name="RotationMutationStatus__E_REJECTED" Value="Rejected" />
+  <Language Name="ChangeInsInfoRegister_Status__E_NOTTRANSFERRED" Value="Pending Send" />
+  <Language Name="EvaluationResult__E_FAILED" Value="test" />
+  <Language Name="OverTimePlanStatus__E_WAIT_APPROVED" Value="Wait To Approve" />
+  <Language Name="OverTimePlanStatus__E_SUBMIT" Value="Wait To Approve" />
+  <Language Name="RotationMutationStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="BusinessTravelTransferStatus__E_CANCEL" Value="Canceled" />
+  <Language Name="ComputeAttendanceStatus__E_SUBMIT" Value="Waiting Confirm" />
+  <Language Name="ComputeAttendanceStatus__E_APPROVED" Value="Confirmed" />
+  <Language Name="RotationMutationStatus__E_CONFIRM" Value="Confirmed" />
+  <Language Name="HRM_Portal_Button_Overtime" Value="Overtime" />
+  <Language Name="TypeOfStopType__E_EXPIREDPROBATION" Value="Expired Probation" />
+  <Language Name="EvaluationStatus__E_APPROVED2" Value="2nd Approver" />
+  <Language Name="EvaluationStatus__E_APPROVED" Value="Evaluated" />
+  <Language Name="ApproveType__E_BASICSALARY" Value="Basic salary" />
+  <Language Name="BusinessType__E_CHANGEBASICSALARY_APPROVED" Value="Approve Base Salary" />
+  <Language Name="UsualAllowanceConditionType__E_SALARYCLASS" Value="Grade" />
+  <Language Name="HRM_HR_Profile_OrgStructureID" Value="Organization" />
+  <Language Name="ComputeWorkdayAdjustStatus__E_CONFIRMED" Value="Confirmed" />
+  <Language Name="PaymenCostRegisterStatus__E_REJECTED" Value="Rejected" />
+  <Language Name="PaymenCostRegisterStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="PaymenCostRegisterStatus__E_APPROVED" Value="Approved" />
+  <Language Name="PaymenCostRegisterStatus__E_APPROVED3" Value="3rd: Approved" />
+  <Language Name="PaymenCostRegisterStatus__E_APPROVED2" Value="2nd: Approved" />
+  <Language Name="PaymenCostRegisterStatus__E_APPROVED1" Value="1st: Approved" />
+  <Language Name="PaymenCostRegisterStatus__E_SUBMIT_TEMP" Value="Temp. saved" />
+  <Language Name="PaymenCostRegisterStatus__E_SUBMIT" Value="For Approval" />
+  <Language Name="ComputeAttendanceStatus__E_REJECTED" Value="Rejected" />
+  <Language Name="ComputeAttendanceStatus__E_SUBMIT_TEMP" Value="Temp. saved" />
+  <Language Name="EmailType__E_REJECTION_TIMESHEET_TO_REQUESTER" Value="Notify timesheet Rejection to requester" />
+  <Language Name="EmailType__E_APPROVE_TIMESHEET_TO_REQUESTER" Value="Notify timesheet Approval to requester" />
+  <Language Name="EmailType__E_APPROVE_TIMESHEET_TO_APPROVER" Value="Notify timesheet approval to approver" />
+  <Language Name="InsuranceRecordType__E_RESTORATION_PREGNANCY" Value="Convalescence for maternity" />
+  <Language Name="EmploymentType__E_PARTTIME" Value="CONTRACT" />
+  <Language Name="EmploymentType__E_FULLTIME" Value="PERMANENT" />
+  <Language Name="EmploymentType__E_SEASONAL" Value="SEASONAL" />
+  <Language Name="EmploymentType__E_PROBATION" Value="OUTSOURCE" />
+  <Language Name="PayRaiseConditions__E_CHANGE_EMPLOYMENT_TYPE" Value="Change Employment Type" />
+  <Language Name="PayRaiseConditions__E_MUTATIONORROTATION" Value="Mutation" />
+  <Language Name="PayRaiseConditions__E_PAYRANK" Value="Base Up" />
+  <Language Name="PayRaiseConditions__E_IS_GLOBALRANK" Value="SMAA" />
+  <Language Name="UnitPaymentAmount__E_DAY" Value="Suất" />
+  <Language Name="PaymentAdvanceCondition__E_OTHERREASON" Value="Other Reason" />
+  <Language Name="PaymentAdvanceCondition__E_TOTALPAIDWORKINGDAYSEQUALSZERO" Value="Total paid working days equals 0" />
+  <Language Name="WorkDayInvalidNote__E_REQUESTED_OT_BUT_CHECKIN_DATA_DOES_NOT_EXIST" Value="OT registered, No punching time-in." />
+  <Language Name="Relative__E_FATHER" Value="Father" />
+  <Language Name="Relative__E_MOTHER" Value="Mother" />
+  <Language Name="Relative__E_WIFE" Value="Wife" />
+  <Language Name="InsuranceRecordType__E_PREGNANCY_SUCKLE" Value="Childbirth" />
+  <Language Name="WorkDayInvalidNote__E_BIZTRAVEL_BUT_CHECKIN_DATA_EXISTS" Value="Business Trip registered, Punchung time-in." />
+  <Language Name="WorkDayInvalidNote__E_BIZTRAVEL_BUT_CHECKOUT_DATA_EXISTS" Value="Business Trip registered but punching time-out." />
+  <Language Name="WorkDayInvalidNote__E_BIZTRAVEL_BUT_CHECKINOUT_DATA_EXISTS" Value="Business Trip registered but punchung time-in." />
+  <Language Name="PaymentAdvanceCondition__E_TOTALDAYSOFABSENCEANDUNPAIDLEAVEISOVERLIMIT" Value="Total Days of absence and unpaid leave is over limit" />
+  <Language Name="WorkDayInvalidNote__E_REQUESTED_OT_BEFORE_SHIFT_BUT_CHECKIN_RECORD_IS_BEFORE_REQUESTED_START_WORKING_TIME_15_MINS" Value="OT registered, Punchung time-in earlier than registered OT Start." />
+  <Language Name="WorkDayInvalidNote__E_REQUESTED_OT_BEFORE_SHIFT_BUT_CHECK_IN_RECORD_IS_OVER_REQUESTED_START_WORKING_TIME" Value="OT registered, Punchung time-in later than registered OT Start." />
+  <Language Name="PaymentAdvanceCondition__E_QUITINPAYROLLPERIOD" Value="Quit in payroll period" />
+  <Language Name="StatusApprovedGradeBasicSalary__E_APPROVED" Value="Final-Approved" />
+  <Language Name="Sal_BasicSalaryStatus__E_APPROVED" Value="Final-Approved" />
+  <Language Name="CatNewsGroupType__E_POSTS" Value="Posts" />
+  <Language Name="LockObjectStatus__E_CANCEL" Value="Unlocked" />
+  <Language Name="LockObjectStatus__E_APPROVED" Value="Locked" />
+  <Language Name="PayrollTableProfileStatus__E_PROFILE_NEW" Value="Working in month" />
+  <Language Name="HRM_Attendance_Message_DuplicateBusinessTravelRequestData" Value="Duplucate the business trip registration" />
+  <Language Name="HRM_Attendance_Message_AssignedToPreviouslyRequestedBizTravelData" Value="coincides with trip registration on" />
+  <Language Name="Gender__E_OTHER" Value="OTHER" />
+  <Language Name="HRM_Attendance_Message_MessageName" Value="Condition" />
+  <Language Name="HRM_Attendance_Message_EmployeeNonAllowHasCatGradeNonAllowOTWeekDay" Value="Manager Grade registers to work overtime on normal working day(s)" />
+  <Language Name="HRM_Category_OrgStructure_ProfileCount" Value="Quantity" />
+  <Language Name="HRM_Attendance_Message_EmployeeNonAllowOTPlanInDay" Value="Register to work overtime on normal working day(s)" />
+  <Language Name="HRM_Attendance_Message_NonAllowOTWeekDay" Value="" />
+  <Language Name="HRM_Attendance_Message_EmployeeHasPregnancyTypeNonRegisterOTPlan" Value="Overtime registration during the period of nursing child under 12 months of age or the pregnancy from the 7th month" />
+  <Language Name="HRM_Attendance_Message_EmployeeInsideGradeAttendance" Value="Overtime registration on" />
+  <Language Name="HRM_Attendance_Message_SubmitOvertimeOnDay" Value="Overtime registration on" />
+  <Language Name="HRM_Attendance_Message_InTime" Value="is under the period of" />
+  <Language Name="HRM_Attendance_Message_IsNotAllow" Value="is prohibited!" />
+  <Language Name="HRM_Attendance_Message_DuplicateOTPlanRequestData" Value="Duplicate overtime registration" />
+  <Language Name="HRM_Attendance_Message_RegisterOTPlanTime" Value="Overtime registration on" />
+  <Language Name="HRM_Attendance_Message_RegisterOTPlanDuplicate" Value="coincides with previous overtime registration on" />
+  <Language Name="HRM_Attendance_Message_DateStart" Value="Start date" />
+  <Language Name="HRM_Attendance_Message_StartDateEndDateInvalid" Value="Start date - End date of child-care is invalid" />
+  <Language Name="HRM_Attendance_Message_GreaterThanOfEqualBirthday" Value="must be the same or after childbirth date" />
+  <Language Name="HRM_Attendance_Message_DateEnd" Value="The end date" />
+  <Language Name="HRM_Attendance_Message_LessThan" Value="must be before or the same with the date on which the child gets 12 months old [" />
+  <Language Name="HRM_Attendance_Message_Children12Month" Value="]. Please contact HR dept for assistance. Thank you!" />
+  <Language Name="HRM_Attendance_Message_DuplicatePregRegisterRequestData" Value="Duplicate child-care registration " />
+  <Language Name="HRM_Attendance_Message_TimePregRegister" Value="Child-care registration[" />
+  <Language Name="HRM_Attendance_Message_DuplicateDataPregRegisterBefore" Value="] overlaps previous child-care registration" />
+  <Language Name="HRM_Attendance_Message_PregnancyRegisterGender" Value="Male employee registers child-care" />
+  <Language Name="HRM_Attendance_Message_EmployeeOfGenderAllowed" Value="For male employees, to register child-care, please contact HR Dept. for more instruction. Thank you!" />
+  <Language Name="HRM_Attendance_Message_RequestBizTravelWhileHavingEmployeeBenefit" Value="Business trip registration during the pregnancy from 7th month or the child-care" />
+  <Language Name="HRM_Attendance_Message_TimeforRequestBizTravel" Value="Business trip registration on" />
+  <Language Name="HRM_Attendance_Message_AssignedToTheTimeOfEmployeeBenefit" Value="is under the period of pregnancy" />
+  <Language Name="EmploymentType__E_TRAINEE" Value="TRAINEE" />
+  <Language Name="EmploymentType__E_JAN_EMPLOYEE" Value="DAILY" />
+  <Language Name="CatNewsGroupType__E_UNEXPECTED" Value="Unexpected notice" />
+  <Language Name="SalUnusualProfileStatus__E_PROFILE_ACTIVE" Value="Working" />
+  <Language Name="PayrollTableProfileStatus__E_PROFILE_ACTIVE" Value="Working" />
+  <Language Name="PayrollTableProfileStatus__E_PROFILE_QUIT" Value="Profile quit in month" />
+  <Language Name="SalUnusualProfileStatus__E_PROFILE_QUIT" Value="Profile quit in month" />
+  <Language Name="HRM_Attendance_Message_WorkdayHoursLimitDay" Value="Overtime registration exceeds 12 hours/day on weekly days off, public holidays" />
+  <Language Name="HRM_Attendance_Message_WorkdayHoursLimitWeek" Value="Overtime by week" />
+  <Language Name="HRM_Attendance_Message_OTPlanLimitDay" Value="Overtime registration exceeds 4 hours/normal working day" />
+  <Language Name="HRM_Attendance_Message_OTPlanLimitWeek" Value="Overtime by week" />
+  <Language Name="HRM_Attendance_Message_OTPlanLimitMonth" Value="Overtime registration exceeds 40 hours/month" />
+  <Language Name="HRM_Attendance_Message_OTPlanLimitYear" Value="Overtime registration exceeds 200 hours/year" />
+  <Language Name="HRM_Attendance_Message_WorkdayHoursLimitDayDetail" Value="Registering overtime more than 12/day of weekly holidays, Tet Holidays" />
+  <Language Name="HRM_Attendance_Message_HourInDay" Value="hours/day" />
+  <Language Name="HRM_Attendance_Message_OTPlanDoNotWork" Value=" on weekly days off, public holidays" />
+  <Language Name="HRM_Attendance_Message_OTPlan_Register" Value="registered" />
+  <Language Name="HRM_Attendance_Message_WorkdayHoursLimitWeekDetail" Value="Register to work overtime during the week in excess" />
+  <Language Name="HRM_Attendance_Message_OTPlanLimitDayDetail" Value="Overtime registration exceeds " />
+  <Language Name="HRM_Attendance_Message_TotalOTPlanInside" Value="Overtime hours from" />
+  <Language Name="HRM_Attendance_Message_Did" Value="is" />
+  <Language Name="HRM_Attendance_Message_HourInMonth" Value=" hours per month" />
+  <Language Name="HRM_Attendance_Message_OTPlanHours" Value="hours" />
+  <Language Name="HRM_Attendance_Message_OTPlanDoWork" Value="work as usual" />
+  <Language Name="HRM_Attendance_Message_OTPlanTotalHour" Value="Total overtime registration during" />
+  <Language Name="ApproveType__E_LEAVE_DAY" Value="Approve leave  day" />
+  <Language Name="WorkDayInvalidNote__E_REQUESTED_ANNUALLEAVE_BUT_CHECKIN_DATA_EXISTS" Value="Leave registered but punching time-in" />
+  <Language Name="WorkDayInvalidNote__E_REQUESTED_ANNUALLEAVE_BUT_CHECKOUT_DATA_EXISTS" Value="Leave registered but punching time-out" />
+  <Language Name="WorkDayInvalidNote__E_REQUESTED_ANNUALLEAVE_BUT_CHECKINOUT_DATA_EXISTS" Value="Leave registered but punching time-in &amp; time-out" />
+  <Language Name="WorkDayInvalidNote__E_TOTAL_CHECKINOUT_MORETHAN_8_HOURS_BUT_NOT_HAVE_SHIFT_SCHEDULE_NOT_REQUEST_OT" Value="No OT registered, No work-day scheduled but punching time-in &amp; time-out" />
+  <Language Name="WorkDayInvalidNote__E_REQUESTED_OT_BUT_CHECKOUT_DATA_DOES_NOT_EXIST" Value="OT registered, No punching time-out" />
+  <Language Name="WorkDayInvalidNote__E_REQUESTED_OT_BUT_CHECKIN_TIME_IS_OVER_START_WORKING_TIME" Value="OT registered, Punchung time-in later than registered OT Start." />
+  <Language Name="WorkDayInvalidNote__E_REQUESTED_OT_BUT_CHECKOUT_TIME_IS_OVER_END_WORKING_TIME" Value="OT registered, Punchung time-out earlier than registered OT End." />
+  <Language Name="WorkDayInvalidNote__E_REQUESTED_OT_BUT_CHECKIN_TIME_IS_BEFORE_START_WORKING_TIME_15_MINS" Value="OT registered, Punching time-in earer than registered OT Start." />
+  <Language Name="WorkDayInvalidNote__E_REQUESTED_OT_BUT_CHECKOUT_TIME_IS_OVER_END_WORKING_TIME_15_MINS" Value="OT registered, Punching time-out later than registered OT End." />
+  <Language Name="WorkDayInvalidNote__E_REQUESTED_OT_BEFORE_SHIFT_BUT_DOES_NOT_HAVE_CHECKIN_DATA" Value="OT registered, No punching time-in" />
+  <Language Name="WorkDayInvalidNote__E_REQUESTED_OT_BEFORE_SHIFT_BUT_CHECKOUT_DATA_DOES_NOT_EXIST" Value="OT registered, No punching time-out" />
+  <Language Name="WorkDayInvalidNote__E_REQUESTED_OT_BEFORE_SHIFT_BUT_CHECKOUT_RECORD_IS_BEFORE_REQUESTED_END_WORKING_TIME" Value="OT registered, Punchung time-out earlier than registered OT End" />
+  <Language Name="WorkDayInvalidNote__E_REQUESTED_OT_BEFORE_SHIFT_BUT_CHECKOUT_RECORD_IS_OVER_REQUESTED_END_WORKING_TIME_15_MINS" Value="OT registered, Punching time-out later than registered OT End" />
+  <Language Name="WorkDayInvalidNote__E_NOT_REQUEST_OT_BUT_CHECKINOUT_AFTER_SHIFT_EXISTS" Value="No OT registered but punching time-out" />
+  <Language Name="WorkDayInvalidNote__E_NOT_REQUEST_OT_BUT_CHECKINOUT_BEFORE_SHIFT_EXISTS" Value="No OT registered but punching time-in" />
+  <Language Name="WorkDayInvalidNote__E_MISS_OUT" Value="No Time-out" />
+  <Language Name="WorkDayInvalidNote__E_MISS_IN" Value="No Time-in." />
+  <Language Name="WorkDayInvalidNote__E_MISS_IN_OUT" Value="No Time-in &amp; Time-out" />
+  <Language Name="WorkDayInvalidNote__E_LATE" Value="Late-In" />
+  <Language Name="WorkDayInvalidNote__E_EARLY" Value="Punching time-out early" />
+  <Language Name="WorkDayInvalidNote__E_LATE_EARLY" Value="Late-In, Early-Out" />
+  <Language Name="WorkDayInvalidNote__E_WRONG_SHIFT" Value="Wrong working shift" />
+  <Language Name="PayrollTableProfileStatus__E_PROFILE_QUITED" Value="Quit job" />
+  <Language Name="SalUnusualProfileStatus__E_PROFILE_NEW" Value="Working in month" />
+  <Language Name="HRM_Attendance_Message_BecausePregnancy" Value="during the period of nursing child under 12 months of age" />
+  <Language Name="PayrollTableProfileStatus__E_PROFILE_NEW_ACTIVE" Value="Working and new" />
+  <Language Name="ProcessApproveSendMailOT_Page" Value="Overtime approval" />
+  <Language Name="ProfileTimeSheetStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="RequirementTrainDetailStatusCreate__E_CANCEL" Value="Cancelled" />
+  <Language Name="AnnualDayOffTransfer__E_CANCEL" Value="Cancelled" />
+  <Language Name="StatusApprovedReport__E_CANCEL" Value="Cancelled" />
+  <Language Name="WorkHistoryStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="ModelStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="RequirementTrainStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="ContractExtendStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="OverTimeStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="ARCHIVESSTATUS__E_CANCEL" Value="Cancelled" />
+  <Language Name="StopWorkStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="JobVacancyStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="AttendanceDataStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="TrainingCompensationCostStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="StatusOT__E_CANCEL" Value="Cancelled" />
+  <Language Name="CandidateStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="RegisterStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="FacilityIssueStatus__E_FACILITY_CANCEL" Value="Cancelled" />
+  <Language Name="RecruitmentCampaignStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="HDTJobStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="RequirementTrainIndexStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="WorkdayStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="Eva_PerformanceKPIStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="TAMScanLogRegisterStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="UnusualAllowanceStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="LeaveDayStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="HoldSalaryStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="RosterStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="EvictionStatus__E_EVICTION_CANCEL" Value="Cancelled" />
+  <Language Name="TraineeRegisterStatus__E_REJECTED" Value="Cancelled" />
+  <Language Name="Kai_KaizenDataStatus__E_REJECTED" Value="Cancelled" />
+  <Language Name="PregnancyRegisterStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="Status__E_CANCEL" Value="Cancelled" />
+  <Language Name="DepartmentTranferStatus__E_CANCELED" Value="Cancelled" />
+  <Language Name="TraineeRegisterStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="AssignTask__E_CANCEL" Value="Cancelled" />
+  <Language Name="VoucherCostStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="TransferAnnualDayOffStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="LeaveDayStatus__E_APPROVED2" Value="3rd: Approved" />
+  <Language Name="LeaveDayStatus__E_APPROVED1" Value="2nd: Approved" />
+  <Language Name="ProfileTimeSheetStatus__E_SUBMIT" Value="Submit" />
+  <Language Name="OvertimeDayType__E_WEEKEND" Value="Weekend" />
+  <Language Name="OvertimeDurationType__E_OT_UNLIMIT" Value="Day without work-shift" />
+  <Language Name="PregnancyTypeRegister__E_MATERNITY_UP_7MONTHS" Value="Pregnant Employees from 7th Month" />
+  <Language Name="PregnancyType__E_MATERNITY_UP_7MONTHS" Value="pregnancy from 7th month" />
+  <Language Name="LeaveDayDurationType__E_LASTHALFSHIFT" Value="Last half shift" />
+  <Language Name="LaborType__E_INDIRECT" Value="LOCAL" />
+  <Language Name="LaborType__E_DIRECT" Value="EXPAT" />
+  <Language Name="MarriageStatus__E_SINGLE" Value="SINGLE" />
+  <Language Name="E_SINGLE" Value="SINGLE" />
+  <Language Name="TypeControl__E_Single" Value="SINGLE" />
+  <Language Name="VisaType__E_SINGLE" Value="SINGLE" />
+  <Language Name="MarriageStatus__E_MARRIED" Value="MARRIED" />
+  <Language Name="E_MARRIED" Value="MARRIED" />
+  <Language Name="OvertimeDurationType__E_OT_EARLY" Value="OT before shift" />
+  <Language Name="WorkDayInvalidNote__E_REQUESTED_OT_BUT_CHECKINOUT_DATA_DOES_NOT_EXIST" Value="OT registered, No punching time-in and time-out" />
+  <Language Name="BussinessTravelStatus__E_REJECTED" Value="Rejected" />
+  <Language Name="BussinessTravelStatus__E_CANCEL" Value="Cancelled" />
+  <Language Name="OvertimeDurationType__E_OT_LATE" Value="OT after Shift" />
+  <Language Name="LaborType__E_OTHER" Value="Former Employement" />
+  <Language Name="StatusOT__E_SAVETEMP" Value="Temp. saved" />
+  <Language Name="RosterStatus__E_SUBMIT_TEMP" Value="Temp. saved" />
+  <Language Name="RegisterStatus__E_SUBMIT_TEMP" Value="Temp. saved" />
+  <Language Name="LeaveDayStatus__E_SUBMIT_TEMP" Value="Temp. saved" />
+  <Language Name="OverTimeStatus__E_SUBMIT_TEMP" Value="Temp. saved" />
+  <Language Name="AttendanceDataStatus__E_SUBMIT_TEMP" Value="Temp. saved" />
+  <Language Name="WorkdayStatus__E_SUBMIT_TEMP" Value="Temp. saved" />
+  <Language Name="PregnancyRegisterStatus__E_SUBMIT_TEMP" Value="Temp. saved" />
+  <Language Name="ComputeWorkdayAdjustStatus__E_SUBMIT_TEMP" Value="Temp. saved" />
+  <Language Name="BussinessTravelStatus__E_SUBMIT_TEMP" Value="Temp. saved" />
+  <Language Name="StatusEvaluation__E_SAVETEMP" Value="Temp. saved" />
+  <Language Name="TAMScanLogRegisterStatus__E_SUBMIT_TEMP" Value="Temp. saved" />
+  <Language Name="VoucherCostStatus__E_SUBMIT_TEMP" Value="Temp. saved" />
+  <Language Name="StatusApprovedGradeBasicSalary__E_SUBMIT" Value="Request" />
+  <Language Name="ResultContract__OUT" Value="OUT" />
+  <Language Name="ResultContract__PASS" Value="PASS" />
+  <Language Name="RosterType__E_CHANGE_SHIFT" Value="Change" />
+  <Language Name="Type__E_CHANGE" Value="Change" />
+  <Language Name="RosterType__E_DEFAULT" Value="Daily" />
+  <Language Name="TypeLoadData__E_DEFAULT" Value="Daily" />
+  <Language Name="Type__E_EVERYDAY" Value="Everyday" />
+  <Language Name="FieldInfoSpecEnum__INFO_SPEC_EN" Value="Foreigner" />
+  <Language Name="TrainingType__E_BRIDGEPROGRAMS" Value="On-line training" />
+  <Language Name="TrainingType__E_SERVICEEDUCATION" Value="On-job training" />
+  <Language Name="TrainingType__E_PARTTIME" Value="Remote training" />
+  <Language Name="TrainingType__E_EXCHANGETRAINING" Value="Exchange training" />
+  <Language Name="TrainingType__E_INFORMAL" Value="In-formal" />
+  <Language Name="TrainingType__E_FORMAL" Value="Full-time training" />
+  <Language Name="Sexual__E_MALE" Value="Male" />
+  <Language Name="Gender__E_MALE" Value="Male" />
+  <Language Name="GenderType__E_MALE" Value="Male" />
+  <Language Name="Sexual__E_FEMALE" Value="Female" />
+  <Language Name="Gender__E_FEMALE" Value="Female" />
+  <Language Name="GenderType__E_FEMALE" Value="Female" />
+  <Language Name="Transfer__E_CASH" Value="Payment" />
+  <Language Name="UnusualPayPaidType__E_CASH" Value="Payment" />
+  <Language Name="PregnancyType__E_CHILDCARECOMPENSATION" Value="3 days of leave per month." />
+  <Language Name="PregnancyTypeRegister__E_CHILDCARECOMPENSATION" Value="3 days of leave per month." />
+  <Language Name="PregnancyType__E_NEW_BORN_CHILD" Value="60 minutes of leave per day" />
+  <Language Name="PregnancyType__E_LEAVE_EARLY" Value="60 minutes of leave per day" />
+  <Language Name="PregnancyTypeRegister__E_LEAVE_EARLY" Value="60 minutes of leave per day" />
+  <Language Name="BussinessTravelStatus__E_SUBMIT" Value="For Approval" />
+  <Language Name="InsuranceRecordType__E_PREGNANCY_LEAVE_PREG_NORMAL_CASE" Value="E_PREGNANCY_LEAVE_PREG_NORMAL_CASE" />
+  <Language Name="HR_App_Profile_Information" Value="Employee's Profile" />
+  <Language Name="HRM_HR_Profile_SalaryClassName" Value="Grade" />
+  <Language Name="HRM_HR_Contract_PositionID" Value="Position" />
+  <Language Name="HRM_HR_Information" Value="Personal information" />
+  <Language Name="HRM_HR_Profile_EthnicID" Value="Race" />
+  <Language Name="HRM_HR_Profile_NationalityID" Value="Nationality" />
+  <Language Name="Cellphone" Value="Mobile phone" />
+  <Language Name="HRM_HR_Profile_Email2" Value="Personal email" />
+  <Language Name="HRM_HR_Profile_HomePhone" Value="Extention" />
+  <Language Name="HRM_Category_Bank" Value="Bank name" />
+  <Language Name="HRM_Category_AccountCompany_AccountCompanyNo" Value="Bank account number" />
+  <Language Name="HRM_HR_Profile_StartDate" Value="LC Start Date" />
+  <Language Name="HRM_HR_Profile_EndDate" Value="LC End Date" />
+  <Language Name="HRM_Sal_InsuranceSalry_DecisionNo" Value="Decision number" />
+  <Language Name="HR_Relatives" Value="Family Relatives" />
+  <Language Name="HR_Dependant" Value="Dependants" />
+  <Language Name="HRM_HR_Dependant_HouseHold" Value="Household members" />
+  <Language Name="HRM_HR_Profile_Basic" Value="Employee's Information" />
+  <Language Name="HRM_HR_Profile_ImagePath" Value="Image" />
+  <Language Name="HRM_HR_Profile_Image_Of_You" Value="Your personal image" />
+  <Language Name="HR_ProfileInformation" Value="Employee's Information" />
+  <Language Name="HRM_HR_Profile_CodeTax" Value="PIT Code" />
+  <Language Name="HRM_HR_Profile_DateHire" Value="Start Date" />
+  <Language Name="HRM_HR_Profile_DateSenior" Value="Day for Seniority Count" />
+  <Language Name="HRM_HR_Profile_DateEndProbation" Value="Ending date of probation" />
+  <Language Name="HRM_HRM_WorkingPosition" Value="Current Working Position" />
+  <Language Name="HRM_HR_Profile_OrgStructureName" Value="Organization" />
+  <Language Name="HRM_HR_Profile_JobTitleName" Value="Position title" />
+  <Language Name="HRM_HR_WorkHistory_SalaryClassID" Value="Grade" />
+  <Language Name="HRM_Rec_JobVacancy_WorkPlaceName" Value="Working Place" />
+  <Language Name="HRM_HR_Profile_EmploymentType" Value="Type of Employement" />
+  <Language Name="HRM_HR_Profile_LaborType" Value="Local/Expat Allocation" />
+  <Language Name="HRM_HR_Profile_EmpTypeID" Value="Team" />
+  <Language Name="HRM_HR_Profile_EmployeeGroup" Value="Company Belonging" />
+  <Language Name="HRM_HR_Profile_DayOfBirth" Value="Day of birth " />
+  <Language Name="HRM_HR_Profile_PlaceOfBirth" Value="Place of birth" />
+  <Language Name="HRM_HR_Profile_Gender" Value="Gender" />
+  <Language Name="HRM_HR_Profile_MarriageStatus" Value="Marital Status" />
+  <Language Name="HRM_HR_Profile_NationalityName" Value="Nationality" />
+  <Language Name="HRM_HR_Profile_EthnicGroupName" Value="Race" />
+  <Language Name="HRM_HR_Profile_ReligionName" Value="Religion" />
+  <Language Name="HRM_HR_Profile_Origin" Value="Native country" />
+  <Language Name="HRM_HR_Profile_IDNo" Value="ID number" />
+  <Language Name="HRM_HR_Profile_IDDateOfIssue" Value="ID issued date" />
+  <Language Name="HRM_HR_Profile_IDPlaceOfIssue" Value="ID issued place" />
+  <Language Name="HRM_HR_Rec_Candidate_IDCard" Value="CI number" />
+  <Language Name="HRM_HR_Rec_Candidate_IDCardDateOfIssue" Value="CI issued date" />
+  <Language Name="HRM_HR_Rec_Candidate_IDCardPlaceOfIssue" Value="CI issued place" />
+  <Language Name="HRM_HR_Profile_ContactInfo" Value="Contact information" />
+  <Language Name="Email" Value="Company Email" />
+  <Language Name="Email2" Value="Personal Email" />
+  <Language Name="HRM_HR_Profile_CellPhone" Value="Mobile 1" />
+  <Language Name="HRM_HR_Profile_BusinessPhone" Value="Mobile 2" />
+  <Language Name="HomePhone" Value="Extention" />
+  <Language Name="HRM_HR_Profile_TAAddress" Value="Temporary Residence Address" />
+  <Language Name="HRM_HR_Profile_TACountry" Value="Country" />
+  <Language Name="HRM_HR_Profile_TAddressID" Value="House number, Street, Villages, hamlet" />
+  <Language Name="HRM_HR_Profile_PAAddress" Value="Permanent Residence Address" />
+  <Language Name="HRM_HR_Profile_PACountry" Value="Country" />
+  <Language Name="HRM_HR_Profile_PAProvince" Value="Province/City" />
+  <Language Name="HRM_HR_Profile_PADistrict" Value="District" />
+  <Language Name="HRM_HR_Profile_PAddressID" Value="House number, Street, Villages, hamlet" />
+  <Language Name="HRM_HR_Profile_ContactInfo2" Value="Emergency Contact Information" />
+  <Language Name="HRM_HR_Profile_AddressEmergency" Value="Address" />
+  <Language Name="HRM_HR_Profile_NameContactForEmergency" Value="Contact person" />
+  <Language Name="HRM_HR_Profile_CellPhoneForEmergency" Value="Mobile" />
+  <Language Name="HRM_HR_Profile_Relationship1" Value="Relationship with Employee" />
+  <Language Name="HRM_Payroll_Sal_SalaryInformation_Bank1" Value="Bank name" />
+  <Language Name="HRM_Payroll_Sal_SalaryInformation_BankBrandName" Value="Bank branch" />
+  <Language Name="HRM_Payroll_Sal_SalaryInformation_AccountName" Value="Bank account owner" />
+  <Language Name="HRM_Payroll_Sal_SalaryInformation_AccountNo" Value="Bank account number" />
+  <Language Name="HRM_Payroll_Sal_SalaryInformation_SortCode" Value="GCMS bank name" />
+  <Language Name="HRM_Payroll_Sal_SalaryInformation_SwiftCode" Value="GCMS bank code" />
+  <Language Name="HRM_Contract" Value="Labor contract" />
+  <Language Name="ContractNo" Value="Labor Contract No." />
+  <Language Name="HRM_HR_Contract_ContractTypeID" Value="LC Type" />
+  <Language Name="HRM_HR_Contract_DateSigned" Value="LC Effective date" />
+  <Language Name="HRM_HR_Contract_DateStart" Value="LC Start Date" />
+  <Language Name="HRM_HR_Contract_DateEnd" Value="LC End Date" />
+  <Language Name="HRM_HR_Appendix_Contract" Value="LC Appendix" />
+  <Language Name="HRM_Hre_ContractExtend_AnnexCode" Value="Appendix Number" />
+  <Language Name="AppendixContractTypeName" Value="LC Appendix Type" />
+  <Language Name="HRM_Hre_ContractExtend_DateStart" Value="LC Appendix Start Date" />
+  <Language Name="HRM_Hre_ContractExtend_DateEnd" Value="LC Appendix End Date" />
+  <Language Name="HRM_HR_AppendixContract_TypeAppendix" Value="Reason of making appendix" />
+  <Language Name="Hrm_Portal_Login_Enter_Password" Value="Enter Password" />
+  <Language Name="Confirm" Value="Confirm" />
+  <Language Name="HRM_Payroll_BasicSalary" Value="Salary information" />
+  <Language Name="HRM_Payroll_BasicSalary_DateOfEffect" Value="Effective date" />
+  <Language Name="HRM_Payroll_BasicSalary_AmountTotal" Value="Total Salary &amp; Allowance" />
+  <Language Name="HRM_Payroll_Basic_Salary" Value="Basic salary" />
+  <Language Name="TotalAllowance" Value="Total Allowance" />
+  <Language Name="HRM_HR_Contract_AllowanceID1" Value="Family Allowance" />
+  <Language Name="HRM_HR_Contract_AllowanceID2" Value="Housing Allowance" />
+  <Language Name="HRM_HR_Contract_AllowanceID3" Value="Housing Allowance 2" />
+  <Language Name="HRM_HR_Contract_AllowanceID4" Value="Appraisal Merit Allowance" />
+  <Language Name="HRM_HR_Contract_AllowanceID5" Value="SMAA" />
+  <Language Name="HRM_HR_Contract_AllowanceID6" Value="Position Allowance" />
+  <Language Name="HRM_HR_Contract_AllowanceID7" Value="Job Allowance" />
+  <Language Name="HRM_HR_Contract_AllowanceID8" Value="Basic salary adjustment Allowance" />
+  <Language Name="HRM_HR_Contract_AllowanceID9" Value="Attractive Allowance" />
+  <Language Name="HRM_HR_Contract_AllowanceID10" Value="Transportation Allowance" />
+  <Language Name="HRM_HR_Contract_AllowanceID11" Value="Mutation Allowance" />
+  <Language Name="HRM_HR_Contract_AllowanceID12" Value="Remained Senioriry Allowance" />
+  <Language Name="HRM_HR_Contract_AllowanceID13" Value="Remained Job Allowance" />
+  <Language Name="HRM_HR_Contract_AllowanceID14" Value="Salary Adjustment Allowance" />
+  <Language Name="EducationLevelName" Value="Education Level" />
+  <Language Name="HRM_HR_Qualification_QualificationName" Value="Academic Level" />
+  <Language Name="HRM_HR_Qualification_SpecialLevelID" Value="Academic Rank/Degree" />
+  <Language Name="HRM_HR_Qualification_TrainingType" Value="Type of Education" />
+  <Language Name="HRM_Hre_ProfileQualification_QualificationID" Value="Diploma" />
+  <Language Name="HRM_Category_Cat_ListQualificationLevel_Name" Value="Degree Rating" />
+  <Language Name="HRM_Cat_SubMajor_SubMajorName" Value="Specialization" />
+  <Language Name="HRM_HR_Qualification_TrainingPlace" Value="Graduation School" />
+  <Language Name="HRM_HR_Qualification_DateOfIssueCertificate" Value="Certificate Issued Date" />
+  <Language Name="RelativeName" Value="Relative's name" />
+  <Language Name="RelativeTypeName" Value="Relationship" />
+  <Language Name="GenderView" Value="Gender" />
+  <Language Name="DateOfBirth" Value="Day of Birth " />
+  <Language Name="YearOfLose" Value="Date of Death" />
+  <Language Name="NationalityName" Value="Nationality" />
+  <Language Name="EthnicGroupName" Value="Race" />
+  <Language Name="HRM_HR_Relatives_HealthInsNo" Value="Health Insurance number" />
+  <Language Name="HRM_HR_Relatives_SocialInsNo" Value="Social Insurance number" />
+  <Language Name="IDNo" Value="ID number" />
+  <Language Name="HRM_HR_Relatives_IDDateOfIssue" Value="ID issued date" />
+  <Language Name="RelativesIDPlaceOfIssue" Value="ID issued place" />
+  <Language Name="HRM_HR_Profile_PassportDateOfIssue" Value="Passport Issued Date" />
+  <Language Name="HRM_HR_Profile_PassportPlaceOfIssue" Value="Passport Issued Place" />
+  <Language Name="Address" Value="House number, Street, Villages, hamlet" />
+  <Language Name="HRM_HR_Dependant_DependantName" Value="Dependent" />
+  <Language Name="HRM_HR_Dependant_RelationID" Value="Relationship" />
+  <Language Name="HRM_HR_Dependant_Gender" Value="Gender" />
+  <Language Name="HRM_HR_Dependant_CodeTax" Value="Dependent PIT number" />
+  <Language Name="HRM_HR_Dependant_NationlatyID" Value="Nationality" />
+  <Language Name="HRM_Hre_HouseholdInfo_Career" Value="Profession" />
+  <Language Name="HRM_Hre_Dependant_DependentsAddress" Value="Address" />
+  <Language Name="HRM_Hre_HouseholdInfo_PhoneNumber" Value="Phone number" />
+  <Language Name="HRM_Hre_InformationToInput" Value="Citizen Certificate" />
+  <Language Name="HRM_HR_Dependant_IDNo" Value="ID number" />
+  <Language Name="HRM_HR_Dependent_IDDateOfIssue" Value="ID issued date" />
+  <Language Name="DependantIDPlaceOfIssue" Value="ID issued place" />
+  <Language Name="IdentificationNo" Value="CI number" />
+  <Language Name="DateOfIssuanceOfIdentityCard" Value="CI issued date" />
+  <Language Name="PlaceOfIssuanceOfIdentityCard" Value="CI issued place" />
+  <Language Name="HRM_HR_Profile_PassportNo" Value="Passport Number" />
+  <Language Name="HRM_HR_DependantPassportDateOfIssue" Value="Passport Issued Date" />
+  <Language Name="HRM_HR_DependantPassportPlaceOfIssue" Value="Passport Issued Place" />
+  <Language Name="HRM_HR_Relatives_PlaceRegister" Value="Birth Certificate issued place" />
+  <Language Name="HRM_HR_Relatives_NoDocument" Value="Birth Certificate number" />
+  <Language Name="HRM_HR_Relatives_VolDocument" Value="Birth Certificate book" />
+  <Language Name="HRM_HR_Dependant_Address" Value="House number, Street, Villages, hamlet" />
+  <Language Name="HRM_HR_GeneralInformation" Value="General information" />
+  <Language Name="HRM_Hre_HouseholdInfo_RelativeName" Value="Household name" />
+  <Language Name="HRM_HR_Dependant_DateOfBirth" Value="Day of birth " />
+  <Language Name="HouseholdTypeName" Value="Relationship with Householder" />
+  <Language Name="HRM_Hre_HouseholdInfo_No" Value="Permanent/Temporary Residence Address" />
+  <Language Name="HRM_Hre_HouseholdInfo_BookNo" Value="Residence Book Number" />
+  <Language Name="HRM_Hre_HouseholdInfo_SocialInsNo" Value="Social Insurance Book" />
+  <Language Name="HRM_HR_Profile_TAProvince" Value="Province/City" />
+  <Language Name="HRM_HR_Profile_TADistrict" Value="District" />
+  <Language Name="HRM_HR_Profile_Village" Value="Ward/Commune" />
+  <Language Name="HRM_Hre_HouseholdInfo_HouseholdIssuePlace" Value="Birth Certificate Registration Place" />
+  <Language Name="HRM_HR_Profile_WorkHistory" Value="Working History" />
+  <Language Name="HRM_HR_WorkHistory_JRType" Value="Type of Rotation" />
+  <Language Name="HRM_HR_WorkHistory_DateEffective" Value="Effective date" />
+  <Language Name="HRM_Category_TypeOfTransfer_Name" Value="Type of Rotation" />
+  <Language Name="HRM_HR_WorkHistory_OrgStructureID" Value="Organization" />
+  <Language Name="HRM_HR_WorkHistory_PositionID" Value="Position" />
+  <Language Name="HRM_HR_WorkHistory_JobTitleID" Value="Position title" />
+  <Language Name="HRM_HR_WorkHistory_WorkLocation" Value="Working Place" />
+  <Language Name="HRM_Rec_RecruimentInternal_EmploymentTypeView" Value="Type of Employement" />
+  <Language Name="HRM_Attendance_AttDataConfig_LaborType" Value="Local/Expat Allocation" />
+  <Language Name="EmployeeTypeName" Value="Team" />
+  <Language Name="EmployeeGroupName" Value="Company Belonging" />
+  <Language Name="HRM_Attendance_LeaveDay_AddNew" Value="Leave registration" />
+  <Language Name="HRM_Attendance_Overtime_ProfileName" Value="Employee Name" />
+  <Language Name="HRM_Attendance_Leaveday_DateFromTo" Value="Day of Registration" />
+  <Language Name="HRM_Attendance_Leaveday_LeaveDayTypeID" Value="Leave type" />
+  <Language Name="HRM_Attendance_Leaveday_TotalLeave" Value="Total Day" />
+  <Language Name="HRM_Attendance_Leaveday_UserApproveID" Value="1st Approver" />
+  <Language Name="HRM_Attendance_Leaveday_UserApproveID2" Value="Final Approver" />
+  <Language Name="HRM_Attendance_SendTo" Value="Request for Gatepass" />
+  <Language Name="SELECT_ITEM" Value="Please select" />
+  <Language Name="HRM_Attendance_LeaveDay_Edit" Value="Leave Edit" />
+  <Language Name="E_DAY" Value="Day" />
+  <Language Name="HRM_Attendance_TotalDate_Common" Value="Total Day" />
+  <Language Name="HRM_Attendance_Type" Value="Type" />
+  <Language Name="E_REASON" Value="Reason" />
+  <Language Name="E_AT_TIME" Value="Registered time/day:" />
+  <Language Name="HRM_System_Resource_Sys_Edit" Value="Edit" />
+  <Language Name="MoreActions" Value="More" />
+  <Language Name="HRM_Common_SendMail" Value="Submit" />
+  <Language Name="HRM_Common_Delete" Value="Delete" />
+  <Language Name="HRM_Common_Cancel" Value="Cancel" />
+  <Language Name="HRM_Common_ViewMore" Value="Detail" />
+  <Language Name="HRM_HR_Profile_Info" Value="Employee's Information" />
+  <Language Name="HRM_HR_Profile_CodeEmp" Value="Employee Code" />
+  <Language Name="HRM_Eva_Performance_OrgStructureName" Value="Organization" />
+  <Language Name="HRM_Payroll_BasicSalary_SalaryClassName" Value="Grade" />
+  <Language Name="HRM_HR_Profile_PositionName" Value="Position" />
+  <Language Name="HRM_Detail_Process_Info_Common" Value="Registration Information" />
+  <Language Name="HRM_Category_LeaveDayType_LeaveDayTypeName" Value="Leave Type" />
+  <Language Name="HRM_Dashboard_Balance" Value="Leave Day Remained" />
+  <Language Name="HRM_Attendance_Leaveday_DateStart" Value="Start Day" />
+  <Language Name="HRM_Attendance_Leaveday_DateEnd" Value="End Day" />
+  <Language Name="HRM_Sys_TimeRange" Value="Time" />
+  <Language Name="HRM_Attendance_Leaveday_Duration" Value="Leave Hours" />
+  <Language Name="HRM_Detail_Approve_Info_Common" Value="Approver's Information" />
+  <Language Name="HRM_Att_Leaveday_LeavedayList_DateSubmitTemp" Value="Temporarily Saved Day" />
+  <Language Name="DateCancel" Value="Day of cancellation" />
+  <Language Name="HRM_Attendance_Leaveday_DateReject" Value="Day of rejection" />
+  <Language Name="HRM_Attendance_Leaveday_DateApprove" Value="Approval date" />
+  <Language Name="HRM_Att_Leaveday_LeavedayList_DateRequest" Value="Day of Registration" />
+  <Language Name="HRM_Attendance_LeaveDay" Value="Leave registration" />
+  <Language Name="HRM_Common_Search" Value="Search" />
+  <Language Name="HRM_Category_OrgStructure_OrgStructureName" Value="Organization" />
+  <Language Name="HRM_Attendance_Leaveday_CommentReson" Value="Reason of Leave" />
+  <Language Name="HRM_Attendance_Leaveday_PlaceSendToID" Value="Request for Gatepass" />
+  <Language Name="HRM_Common_SaveNew" Value="Save &amp; Add new" />
+  <Language Name="HRM_Common_Save_SendEmail" Value="Submit" />
+  <Language Name="HRM_Portal_Button_LeavedaySummary" Value="Leave history" />
+  <Language Name="HRM_TeachingScheduler_OrderNumber" Value="Ord." />
+  <Language Name="HRM_Attendance_LeaveDayAnalyze_TypeAnnual" Value="Leave Code" />
+  <Language Name="HRM_Attendance_Description" Value="Leave Type" />
+  <Language Name="HRM_Att_LeaveDayApprovedNote" Value="Leave Regulations" />
+  <Language Name="HRM_Att_LeaveDayApprovedDetail_LeaveInMonth" Value="Leave Day Used" />
+  <Language Name="HRM_Att_LeaveDayApprovedDetail_Remain" Value="Leave Day Remained" />
+  <Language Name="HRM_Attendance_ViewAnnualDetail" Value="Detail" />
+  <Language Name="HRM_Att_Leaveday_LeavedayList_DateStart" Value="Start Day" />
+  <Language Name="HRM_Att_Leaveday_LeavedayList_DateEnd" Value="End Day" />
+  <Language Name="HRM_Att_Leaveday_LeavedayList_LeaveDays" Value="Total Day" />
+  <Language Name="HRM_Attendance_Leaveday_LeaveDayType" Value="Leave Type" />
+  <Language Name="HRM_Att_Leaveday_LeavedayList_CodeEmp" Value="Employee Code" />
+  <Language Name="OrgStructureName" Value="Organization" />
+  <Language Name="HRM_Payroll_AdjustmentSuggesttion_SalaryClassName" Value="Grade" />
+  <Language Name="PositionName" Value="Position" />
+  <Language Name="HRM_Attendance_Leaveday_DurationType" Value="Leave time vs Shift" />
+  <Language Name="HRM_Attendance_Overtime_OvertimeList_Status" Value="Status" />
+  <Language Name="HRM_Attendance_Leaveday_LeaveDays" Value="Total Day" />
+  <Language Name="HRM_Attendance_HoursFrom" Value="Start Time" />
+  <Language Name="HRM_Attendance_HoursTo" Value="End Time" />
+  <Language Name="HRM_Att_Leaveday_LeavedayList_LeaveHours" Value="Total Leave hour" />
+  <Language Name="HRM_Attendance_Leaveday_DeclineReason" Value="Comments (if any)" />
+  <Language Name="HRM_Attendance_Leaveday_CommentCancel" Value="Reason of Cancellation" />
+  <Language Name="Added" Value="Add New" />
+  <Language Name="Modified" Value="Edit" />
+  <Language Name="HRM_Common_SendRequest" Value="Submit" />
+  <Language Name="HRM_ChangeColumn" Value="Change Column" />
+  <Language Name="HRM_Common_Export" Value="Excel Report" />
+  <Language Name="HRM_Portal_Leaveday_Approve" Value="For Approval" />
+  <Language Name="HRM_HR_Profile_ProfileName" Value="Employee Name" />
+  <Language Name="HRM_Attendance_Leaveday_Status" Value="Status" />
+  <Language Name="HRM_Category_SelectLeaveDayType" Value="Please select" />
+  <Language Name="SalaryClassName" Value="Grade" />
+  <Language Name="LeaveDayTypeName" Value="Leave Type" />
+  <Language Name="HRM_Attendance_Leaveday_TotalLeaveByType" Value="Leave Day Used" />
+  <Language Name="UserApproveID4" Value="Final Approver" />
+  <Language Name="HRM_Portal_Pager_ItemsPerPage" Value="items/page" />
+  <Language Name="HRM_Common_Reject" Value="Reject" />
+  <Language Name="HRM_Attendance_AttendanceTable_DateRegister" Value="Day of Registraton" />
+  <Language Name="HRM_Attendance_TAM_OrgStructureID" Value="Organization" />
+  <Language Name="HRM_Attendance_Position" Value="Position" />
+  <Language Name="HRM_Attendance_LeaveDay_Waiting_Approve" Value="Leave" />
+  <Language Name="HRM_Common_Waitting" Value="For Approval" />
+  <Language Name="HRM_Common_Approve" Value="Approve" />
+  <Language Name="SELECT_ALL" Value="Select All" />
+  <Language Name="ReasonApprove" Value="Comments (if any)" />
+  <Language Name="ReasonReject" Value="Comments (if any)" />
+  <Language Name="HRM_Common_Close" Value="Close" />
+  <Language Name="HRM_HR_WorkHistory_LaborType" Value="Local/Expat Allocation" />
+  <Language Name="HRM_HR_Profile_EmployeeTypeName" Value="Team" />
+  <Language Name="HRM_Hre_LabelCMND" Value="Identity card" />
+  <Language Name="HRM_Hre_LabelCCCD" Value="Citizen identification" />
+  <Language Name="HRM_Hre_LabelPassport" Value="Passport" />
+  <Language Name="HRM_HR_Profile_PassportDateOfExpiry" Value="Passport Expiration Date" />
+  <Language Name="HR_ListDependant_Portal" Value="Dependent's Information" />
+  <Language Name="HRM_Recruitment_UnusualAllowance_Household" Value="Household members" />
+  <Language Name="HR_ListHouseholdInfo_Portal" Value="Household Information" />
+  <Language Name="HR_ListProfileQualification_Portal" Value="Academic's Informatioin" />
+  <Language Name="HR_ListBankAccount_Portal" Value="Bank Accounts" />
+  <Language Name="HRM_Recruitment_UnusualAllowance_BankAccount" Value="Bank account" />
+  <Language Name="HR_Qualification" Value="Academic Level" />
+  <Language Name="HRM_Recruitment_UnusualAllowance_RelativeName" Value="Relatives" />
+  <Language Name="HR_ListRelatives_Portal" Value="Relative's Informatioin" />
+  <Language Name="HRM_HR_Travel" Value="Working History" />
+  <Language Name="HRM_StatusTranslate_E_SUBMIT" Value="Registration/Application" />
+  <Language Name="HRM_Att_SummaryWorkday" Value="Monthly timesheet" />
+  <Language Name="HRM_Attendance_BussinessTravel" Value="Business trip/WFH registration" />
+  <Language Name="HRM_Attendance_PlanOvertime" Value="Overtime registration" />
+  <Language Name="HRM_Attendance_PregnancyRegister" Value="Child-care registration" />
+  <Language Name="HRM_Portal_Button_WorkingShift" Value="Working shift approval" />
+  <Language Name="HRM_Att_Att_Leaveday_Approve_Approve_DayOff" Value="Leave approval" />
+  <Language Name="HRM_Attendance_BussinessTravel_Approve" Value="Business trip/WFH approval" />
+  <Language Name="HRM_Attendance_PlanOvertimeApprove" Value="Overtime" />
+  <Language Name="New_Att_PregnancyRegister_Approve_New_Index" Value="Child-care approval" />
+  <Language Name="HRM_Portal_Button_Personalnfo" Value="Individual Data" />
+  <Language Name="HRM_Portal_Button_Personalnfo_Description" Value="Employee Profile" />
+  <Language Name="HRM_Portal_Button_PersonalSumbit" Value="Registration/Application" />
+  <Language Name="HRM_Portal_Button_PersonalSumbit_Description" Value="Self registration/application for approval such as Leave, Overtime, Business Trip…" />
+  <Language Name="HRM_Common_Approved" Value="Processed" />
+  <Language Name="HRM_Portal_Button_Approve_Description" Value="To approve the registration/application submitted by your subordinates." />
+  <Language Name="HRM_Portal_Button_EmpProfile" Value="Empl. Profile" />
+  <Language Name="HRM_Attendance_WaitingConfirmComputeWorkdayAdjust" Value="Timesheet confirmation" />
+  <Language Name="HRM_StatusTranslate_E_APPROVED" Value="Approval" />
+  <Language Name="PlaceHolder" Value="Please select" />
+  <Language Name="HRM_Common_SaveClose" Value="Save &amp; Close" />
+  <Language Name="HRM_Attendance_ComputeRemainAnlDays" Value="Leave Day Remained" />
+  <Language Name="HRM_Att_LeaveDayApprovedDetail_Year" Value="Employee's detailed leave history" />
+  <Language Name="HRM_Att_LeaveDayApprovedDetail_Title" Value="Employee's detailed leave history" />
+  <Language Name="HRM_Att_LeaveDayApprovedDetail_Available" Value="Entitled Leave Day" />
+  <Language Name="HRM_Att_LeaveDayApprovedDetailInYear_Title" Value="Employee's detailed leave history" />
+  <Language Name="HRM_Att_Leaveday_LeavedayList_ProfileName" Value="Employee Name" />
+  <Language Name="HRM_Message_PleaseSelectTheLeastOneRow" Value="Please select 1 record!" />
+  <Language Name="Hrm_Succeed" Value="Completed" />
+  <Language Name="Success" Value="Completed" />
+  <Language Name="HRM_Common_CreateOrEdit_Success" Value="Completed" />
+  <Language Name="FieldsNotAllowNull" Value="[{0}] - [{1}] Can not be blank!" />
+  <Language Name="FieldNotAllowNull" Value="[{0}] Can not be blank!" />
+  <Language Name="HRM_HR_NoneData" Value="There is no record!" />
+  <Language Name="HRM_Portal_Leaveday_IsApproved" Value="Processed" />
+  <Language Name="HRM_Travel_Working_Time_Over" Value="OT Duration" />
+  <Language Name="HRM_BizTripOTHrsDay" Value="Register OT/Travel hours for 1 day trip" />
+  <Language Name="HRM_RequestEntryExiGate" Value="Request for Gatepass" />
+  <Language Name="HRM_RequestEmergencyAllowancePayment" Value="Request for Emergency Allowance" />
+  <Language Name="HRM_RequestOTMeal" Value="Request for OT Meal" />
+  <Language Name="HRM_RequestShuttleCar" Value="Bus route" />
+  <Language Name="HRM_Attendance_Overtime_WorkDate" Value="OT Day" />
+  <Language Name="HRM_Category_ShiftItem_DayType" Value="Work shift" />
+  <Language Name="HRM_System_UserApprove_Type" Value="OT before or after Shift:" />
+  <Language Name="HRM_Attendance_Overtime_HourStartOverTime" Value="OT time" />
+  <Language Name="HRM_Attendance_Overtime_RegisterHours" Value="Registered hours" />
+  <Language Name="HRM_Attendance_Overtime_MethodPayment" Value="Compensation method" />
+  <Language Name="HRM_Attendance_Overtime_UserApproveID" Value="1st Approver" />
+  <Language Name="HRM_Attendance_Overtime_ReasonOT" Value="Reason of overtime" />
+  <Language Name="HRM_InformationOverTimeOut" Value="Additional Registration" />
+  <Language Name="HRM_Attendance_Message_EmployeeRegisterOTPlan" Value="OT Hours" />
+  <Language Name="HRM_Sys_TemplateSendMail_DefaultEmail" Value="Send to" />
+  <Language Name="HRM_OTWorkingArea" Value="OT work place" />
+  <Language Name="HRM_JobTypeOT" Value="Bus route" />
+  <Language Name="HRM_PlaceTypeOT" Value="Bus station" />
+  <Language Name="HRM_Att_Leaveday_Submit__btnSaveNewAndSendMailLeaveday" Value="Save &amp; Submit" />
+  <Language Name="HRM_Common_ViewLimit" Value="Overtime hour accumulation" />
+  <Language Name="HRM_Attendance_OTPlanLimit_udHourByMonth" Value="Monthly accumulation:" />
+  <Language Name="HRM_Attendance_OTPlanLimit_udHourByYear" Value="Calendar year accumulation:" />
+  <Language Name="HRM_Attendance_OTPlanLimit_udHourByYearFinance" Value="Fiscal year accumulation" />
+  <Language Name="HRM_Attendance_Overtime_OvertimeList_CodeEmp" Value="Employee Code" />
+  <Language Name="HRM_Attendance_AttendanceTable_WorkDate" Value="OT Day" />
+  <Language Name="DayType" Value="Working shift" />
+  <Language Name="HRM_Attendance_Overtime_OvertimeList_RegisterHours" Value="OT Hours" />
+  <Language Name="HRM_Attendance_Overtime_OvertimeList_InTime" Value="OT Start" />
+  <Language Name="HRM_Attendance_Overtime_OvertimeList_OutTime" Value="OT End" />
+  <Language Name="HRM_Attendance_Overtime_OvertimeList_OvertimeTypeName" Value="OT hour vs shift" />
+  <Language Name="HourByMonth" Value="Monthly accumulation:" />
+  <Language Name="HourByYear" Value="Calendar year accumulation:" />
+  <Language Name="HourByYearFinance" Value="Fiscal year accumulation:" />
+  <Language Name="HRM_Attendance_Att_Overtime_Submit_ReasonOT" Value="Reason of overtime" />
+  <Language Name="CancelReason" Value="Reason of Cancellation" />
+  <Language Name="HRM_Attendance_Att_Overtime_Submit_UserApproveID" Value="1st Approver" />
+  <Language Name="udHourByMonth" Value="Monthly accumulation" />
+  <Language Name="udHourByYear" Value="Calendar year accumulation" />
+  <Language Name="udHourByYearFinance" Value="Fiscal year accumulation" />
+  <Language Name="HRM_Portal_Overtime_Approve" Value="For Approval" />
+  <Language Name="HRM_Portal_Overtime_IsApproved" Value="Processed" />
+  <Language Name="HRM_Attendance_Overtime_ProfileID" Value="Employee Code" />
+  <Language Name="HRM_Attendance_Att_Overtime_Submit_ProfileName" Value="Employee Name" />
+  <Language Name="HRM_Attendance_Att_Overtime_Submit_TypeTemp" Value="OT hour vs shift" />
+  <Language Name="HRM_Attendance_Overtime_UserApproveID2" Value="Final Approver" />
+  <Language Name="HRM_Portal_Button_OT_Summary" Value="Overtime history" />
+  <Language Name="HRM_Att_Overtime_udHourByMonth" Value="Monthly accumulation" />
+  <Language Name="HRM_Att_Overtime_udHourByYear" Value="Calendar year accumulation" />
+  <Language Name="HRM_Attendance_Att_Overtime_Submit_UserApproveID2" Value="Final Approver" />
+  <Language Name="HRM_BusinessTravel_Working_Time" Value="Day" />
+  <Language Name="HRM_Attendance_BusinessTravelType" Value="Type" />
+  <Language Name="HRM_Attendance_DurationType" Value="Time" />
+  <Language Name="HRM_Attendance_HoursFromTrip" Value="From time" />
+  <Language Name="HRM_Attendance_HoursToTrip" Value="To time" />
+  <Language Name="HRM_Attendance_BusinessTravel_PlaceFromView" Value="Depart from" />
+  <Language Name="HRM_Attendance_BusinessTravel_PlaceToView" Value="Destination" />
+  <Language Name="HRM_Attendance_PlaceOutTo" Value="Oversea Destination" />
+  <Language Name="HRM_Attendance_BusinessTravel_UserApproveID" Value="1st Approver" />
+  <Language Name="HRM_Attendance_BusinessTravel_UserApproveID2" Value="2nd Approver" />
+  <Language Name="HRM_Attendance_BusinessTravel_UserApproveID3" Value="3rd Approver" />
+  <Language Name="HRM_Attendance_BusinessTravel_UserApproveID4" Value="Final Approver" />
+  <Language Name="HRM_Attendance_Leaveday_Comment" Value="Notes" />
+  <Language Name="HRM_Rec_JobVacancy_FileAttachment" Value="Attachment" />
+  <Language Name="ChooseFile" Value="Select file" />
+  <Language Name="HRM_Evaluation_DownloadTemplateFile" Value="Trip Form Download" />
+  <Language Name="HRM_Att_Leaveday_Submit__btnSaveNewDelegateApprove" Value="Save &amp; Create new" />
+  <Language Name="HRM_Portal_Pager_Empty" Value="There is no item!" />
+  <Language Name="HRM_Attendance_PositionName" Value="Position" />
+  <Language Name="HRM_Attendance_DateFromTrip" Value="From Day" />
+  <Language Name="HRM_Attendance_DateToTrip" Value="To Day" />
+  <Language Name="PlaceFromAllView" Value="Depart from" />
+  <Language Name="PlaceToAllView" Value="Destination" />
+  <Language Name="Notes" Value="Reason of trip" />
+  <Language Name="DeclineReason" Value="Comments (if any)" />
+  <Language Name="CommentCancel" Value="Reason of Cancellation" />
+  <Language Name="HRM_Attendance_FirstApproverName" Value="1st Approver" />
+  <Language Name="HRM_Attendance_MidApproverName" Value="2nd Approver" />
+  <Language Name="HRM_Attendance_NextApproverName" Value="3rd Approver" />
+  <Language Name="HRM_Attendance_LastApproverName" Value="Final Approver" />
+  <Language Name="Note" Value="Reason of trip/WFH" />
+  <Language Name="HRM_Portal_BusinessTravel_Approve" Value="For Approval" />
+  <Language Name="HRM_Portal_BusinessTravel_IsApproved" Value="Processed" />
+  <Language Name="FileAttachment" Value="Attachment" />
+  <Language Name="HRM_Att_BusinessTravel_FileAttachment" Value="Attachment" />
+  <Language Name="HRM_Common_Search_Duration" Value="Effective date" />
+  <Language Name="HRM_Attendance_Pregnancy_Type" Value="Leave type" />
+  <Language Name="HRM_Att_PregnancyRegister" Value="Child-care Leave Registration" />
+  <Language Name="HRM_Attendance_Leaveday_ProfileID" Value="Employee Name" />
+  <Language Name="PregnancyLeaveEarlyType__E_FIRST" Value="60 minutes coming-late/day" />
+  <Language Name="PregnancyLeaveEarlyType__E_LAST" Value="60 minutes early-leave/day" />
+  <Language Name="HRM_Attendance_Pregnancy_ChildName" Value="Child name" />
+  <Language Name="HRM_Attendance_Pregnancy_DateOfBirth" Value="Child's day of birth" />
+  <Language Name="HRM_HR_Profile_DateOfEffect" Value="Leave Period" />
+  <Language Name="HRM_Attendance_Pregnancy_IsAdjustment" Value="Update" />
+  <Language Name="HRM_Attendance_TAMScanLog_UserApproveID" Value="1st Approver" />
+  <Language Name="HRM_Attendance_TAMScanLog_UserApproveID2" Value="Final Approver" />
+  <Language Name="HRM_Attendance_Pregnancy_Comment" Value="Notes" />
+  <Language Name="HRM_Attendance_AnnualDayOffTransfers_PositionName" Value="Position" />
+  <Language Name="HRM_Attendance_WorkDay_Status" Value="Status" />
+  <Language Name="HRM_Attendance_Pregnancy_DateStart" Value="Start Day" />
+  <Language Name="HRM_Attendance_Pregnancy_DateEnd" Value="End Day" />
+  <Language Name="ChildName" Value="Child name" />
+  <Language Name="HRM_Attendance_Pregnancy_TypePregnancyEarlyView" Value="Application type" />
+  <Language Name="HRM_AttendanceProfileTimeSheet_Note" Value="Reason" />
+  <Language Name="HRM_Att_Leaveday_LeavedayList_DateReject" Value="Reason of Cancellation" />
+  <Language Name="HRM_Portal_Childcare_Approve" Value="For Approval" />
+  <Language Name="HRM_Portal_Childcare_IsApproved" Value="Processed" />
+  <Language Name="HRM_Att_ScheduleShift_Total__FilterCond" Value="Data filter" />
+  <Language Name="HRM_Att_ScheduleShift_Total__Shift" Value="Working Shift " />
+  <Language Name="HRM_Att_ScheduleShift_Total__RequestedLeave" Value="Leave/Business trip" />
+  <Language Name="HRM_Att_ScheduleShift_Total__OT" Value="Overtime" />
+  <Language Name="HRM_Att_ScheduleShift_Total__InOut" Value="In/Out" />
+  <Language Name="HRM_Att_ScheduleShift_Total__FilterAsStatus" Value="Status filter" />
+  <Language Name="E_WAIT_APPROVED" Value="For Approval" />
+  <Language Name="HRM_Rec_JobVacancy_IsApprove" Value="Processed" />
+  <Language Name="HRM_Payroll_Sal_TaxInformationRegister_CodeEmp" Value="Employee Code" />
+  <Language Name="Section" Value="Team" />
+  <Language Name="HRM_Att_WorkdaySummary_Total_Workday" Value="Total work" />
+  <Language Name="E_MONDAY" Value="Mon" />
+  <Language Name="E_TUESDAY" Value="Tue" />
+  <Language Name="E_WEDNESDAY" Value="Wed" />
+  <Language Name="E_THURSDAY" Value="Thu" />
+  <Language Name="E_FRIDAY" Value="Fri" />
+  <Language Name="E_SATURDAY" Value="Sat" />
+  <Language Name="E_SUNDAY" Value="Sun" />
+  <Language Name="ChooseOrgStructure" Value="Please select" />
+  <Language Name="HRM_Category_SelectJobType" Value="Please select" />
+  <Language Name="HRM_Att_WorkdaySummary_SecGrid_Title" Value="Monthly Timesheet Summary" />
+  <Language Name="HRM_Category_ShiftDetail_ShiftName" Value="Working Shift " />
+  <Language Name="HRM_Att_WorkdaySummary_Workday" Value="Scheduled work-day" />
+  <Language Name="HRM_Att_WorkdaySummary_Weekly_Leave" Value="Day OFF" />
+  <Language Name="HRM_Att_WorkdaySummary_Holiday" Value="Holiday" />
+  <Language Name="HRM_Att_WorkdaySummary_ActualWorkday" Value="Actual Worked Day" />
+  <Language Name="HRM_Att_WorkdaySummary_BizTrip" Value="Business Trip Day" />
+  <Language Name="HRM_Att_WorkdaySummary_PaidLeave" Value="Paid Day" />
+  <Language Name="HRM_Att_WorkdaySummary_UnpaidLeave" Value="No-paid Day" />
+  <Language Name="HRM_Att_WorkdaySummary_ForceMajeureLeave" Value="Stoppage Day" />
+  <Language Name="HRM_Att_WorkdaySummary_OT" Value="Overtime" />
+  <Language Name="HRM_Att_NewOrg" Value="Organization" />
+  <Language Name="HRM_System_AsynTask_Summary_CutOffDuration" Value="Payroll month" />
+  <Language Name="HRM_HR_SoftSkill_ProfileID" Value="Employee name" />
+  <Language Name="HRM_ContractAnnex" Value="Labor Contract Appendix" />
+  <Language Name="HRM_HR_ContractExtend_TypeAppendix" Value="LC Appendix Type" />
+  <Language Name="HRM_HR_ContractExtend_AnnexCode" Value="Appendix Number" />
+  <Language Name="HRM_HR_ContractExtend_DateSigned" Value="LC Appendix Signed Date" />
+  <Language Name="HRM_HR_ContractExtend_DateStart" Value="LC Appendix Start Date" />
+  <Language Name="HRM_HR_ContractExtend_DateEnd" Value="LC Appendix End Date" />
+  <Language Name="HRM_Payroll_BasicSalary_BasicSalary" Value="Basic salary" />
+  <Language Name="E_AllowanceAmount1" Value="Family Allowance" />
+  <Language Name="E_AllowanceAmount2" Value="Housing Allowance" />
+  <Language Name="E_AllowanceAmount3" Value="Housing Allowance 2" />
+  <Language Name="E_AllowanceAmount4" Value="Appraisal Merit Allowance" />
+  <Language Name="E_AllowanceAmount5" Value="SMAA" />
+  <Language Name="E_AllowanceAmount6" Value="Position Allowance" />
+  <Language Name="E_AllowanceAmount7" Value="Job Allowance" />
+  <Language Name="E_AllowanceAmount8" Value="Basic salary adjustment Allowance" />
+  <Language Name="E_AllowanceAmount9" Value="Attractive Allowance" />
+  <Language Name="E_AllowanceAmount10" Value="Transportation Allowance" />
+  <Language Name="E_AllowanceAmount11" Value="Mutation Allowance" />
+  <Language Name="E_AllowanceAmount12" Value="Remained Senioriry Allowance" />
+  <Language Name="E_AllowanceAmount13" Value="Remained Job Allowance" />
+  <Language Name="E_AllowanceAmount14" Value="Salary Adjustment Allowance" />
+  <Language Name="chart" Value="Statistics" />
+  <Language Name="Hrm_Portal_Submit_Leaveday" Value="Leave registration" />
+  <Language Name="HRM_Message_RecordSelected" Value="selected records" />
+  <Language Name="HRM_ATT_RecordSelected" Value="selected records?" />
+  <Language Name="AreYouSureYouWantToDelete" Value="Are you sure to delete" />
+  <Language Name="AreYouSureYouWantToDeleteV2" Value="Are you sure to delete" />
+  <Language Name="HRM_Att_DoYouWantToCancelVoucherCost" Value="Cancellations are allowed only with" />
+  <Language Name="HRM_Common_CommentCancel" Value="Reason of Cancellation" />
+  <Language Name="HRM_Common_SelectOne" Value="Please select 1 record!" />
+  <Language Name="HRM_Common_NotSelectRow" Value="Please select record!" />
+  <Language Name="HRM_Common_AreYouSure_Cancel" Value="Are you sure to cancel" />
+  <Language Name="HRM_SAL_UnusualEDChild_RecordSelected" Value="selected records?" />
+  <Language Name="HRM_Att_UnusualEDChild_RecordSelected" Value="selected records?" />
+  <Language Name="HRM_Common_AreYouSure_Approve" Value="Confirm to approve" />
+  <Language Name="HRM_Common_AreYouSure_Reject" Value="Confirm to reject" />
+  <Language Name="HRM_SAL_UnusualEDChild_AreYouSure" Value="Confirm to approve" />
+  <Language Name="HRM_Message_AreYouSureApprove" Value="Confirm to approve" />
+  <Language Name="HRM_JobVacancy_AreYouSureWantApprove" Value="Confirm to approve" />
+  <Language Name="HRM_Att_DoYouWantToRejectOvertime" Value="Confirm to reject" />
+  <Language Name="HRM_Att_DoYouWantToRejectLeaveDay" Value="Confirm to reject" />
+  <Language Name="HRM_ATT_DoYouWantToReject" Value="Confirm to reject" />
+  <Language Name="Hrm_Portal_Submit_PlanOvertime" Value="Overtime registration" />
+  <Language Name="HRM_TotalOTWorkingHrs" Value="OT Hours" />
+  <Language Name="HRM_TotalHrsTravel" Value="Travel hours" />
+  <Language Name="HRM_HR_HDTJob_Type" Value="Bus route" />
+  <Language Name="HRM_Attendance_BussinessTravel_Popup_DayOff_Create" Value="Business trip/WFH registration" />
+  <Language Name="HRM_Attendance_BussinessTravel_Popup_DayOff_Edit" Value="Edit Business Trip/WFH Registration" />
+  <Language Name="Business_Travel_Create" Value="Business trip/WFH registration" />
+  <Language Name="HRM_Attendance_LeaveDayTrip" Value="Business trip/WFH registration" />
+  <Language Name="HRM_Attendance_PregnancyRegister_AddNew" Value="Child-Care Leave Registration" />
+  <Language Name="PrenancyTypeSetting__E_CHILDCARECOMPENSATION" Value="3 days of leave per month" />
+  <Language Name="HRM_Attendance_Childcarecompensation" Value="3 days of leave per month" />
+  <Language Name="Childcarecompensation" Value="3 days of leave per month" />
+  <Language Name="PregnancyStatus__E_NEWEMPLOYEE" Value="60 minutes of leave per day" />
+  <Language Name="E_LEAVE_EARLY" Value="60 minutes of leave per day" />
+  <Language Name="PrenancyTypeSetting__E_LEAVE_EARLY" Value="60 minutes of leave per day" />
+  <Language Name="PregnancyStatus__E_LEAVE_EARLY" Value="60 minutes of leave per day" />
+  <Language Name="HRM_PortalApp_Expand_UserApprove" Value="Approver's Information" />
+  <Language Name="HRM_PortalApp_Colspan_Info" Value="Collapse" />
+  <Language Name="HRM_PortalApp_Expand_Info" Value="Additional Registration" />
+  <Language Name="StatusVoucher__Paid" Value="Payment" />
+  <Language Name="ControlStatus__Paid" Value="Payment" />
+  <Language Name="HRM_Insurance_InsuranceRecord_PopUpTitle" Value="Payment" />
+  <Language Name="FIN_ClaimItem_ClaimID" Value="Payment" />
+  <Language Name="HRM_Common_Payment_Salary" Value="Payment" />
+  <Language Name="E_CASHOUT" Value="Payment" />
+  <Language Name="MethodPayment__E_CASHOUT" Value="Payment" />
+  <Language Name="IsPaymented" Value="Payment" />
+  <Language Name="MethodOption__E_CASHOUT" Value="Thanh toán" />
+  <Language Name="Attentendance_Tab" Value="Attendance" />
+  <Language Name="TypeDataReportAtt__E_HOUR" Value="Time" />
+  <Language Name="E_HOUR" Value="Time" />
+  <Language Name="DurationUnit__E_HOUR" Value="Time" />
+  <Language Name="HRM_Attendance_PlaceInFrom" Value="Depart from" />
+  <Language Name="HRM_Grade" Value="Application Type" />
+  <Language Name="HRM_Common_From" Value="Start Day" />
+  <Language Name="HRM_Common_To" Value="End Day" />
+  <Language Name="HRM_System_Resource_Att_TAMScan" Value="Check In/Out" />
+  <Language Name="HRM_HR_AppendixContract_List" Value="Contract Appendix" />
+  <Language Name="HRM_Hr_AppendixContract_Title" Value="Contract Appendix" />
+  <Language Name="Att_LeaveDay_Request" Value="Leave registration" />
+  <Language Name="EmailType__E_REQUEST_LEAVEDAY" Value="Leave registration" />
+  <Language Name="HRM_ATT_Holiday_RegisterDayOff" Value="Leave registration" />
+  <Language Name="HRM_New_Att_Require" Value="Leave registration" />
+  <Language Name="HRM_Attendance_Limit_Violation_Title" Value="Violation of OT registration condition!" />
+  <Language Name="HRM_Travel_Working_Time" Value="Trip time" />
+  <Language Name="HRM_Att_DownLoadTemPlate1" Value="Form 1: Gate-Pass" />
+  <Language Name="HRM_Att_DownLoadTemPlate2" Value="Form 2: Domestic Business Trip Form" />
+  <Language Name="HRM_Att_DownLoadTemPlate3" Value="Form 3: Oversea Business Trip Form" />
+  <Language Name="HRM_Detail_LeaveDay_Waiting_Approve" Value="Detail" />
+  <Language Name="HRM_Detail_LeaveDay_Approved" Value="Detail" />
+  <Language Name="HRM_Detail_BusinessStrip_Waiting_Approve" Value="Detail" />
+  <Language Name="HRM_Detail_BusinessStrip_Approved" Value="Detail" />
+  <Language Name="HRM_Detail_PlanOvertime_Waiting_Approve" Value="Detail" />
+  <Language Name="HRM_Detail_PlanOvertime_Approved" Value="Detail" />
+  <Language Name="HRM_Detail_Pregnancy_Waiting_Approve" Value="Detail" />
+  <Language Name="HRM_Detail_Pregnancy_Approved" Value="Detail" />
+  <Language Name="HRM_HR_Common_Profile_CodeEmp" Value="Employee Code" />
+  <Language Name="HRM_HR_Common_Profile_ProfileName" Value="Employee Name" />
+  <Language Name="FunctionType__E_BENEFITREGISTER" Value="Child-care Leave" />
+  <Language Name="ApproveType__E_PREGNANCYREGISTER" Value="Child-care" />
+  <Language Name="Notify" Value="Notification" />
+  <Language Name="EmptyData" Value="There is no data" />
+  <Language Name="HRM_Attendance_Pregnancy_AddNew" Value="Child-care Leave Registration" />
+  <Language Name="List_Approved_Business_Travel" Value="Business Trip/WFH" />
+  <Language Name="E_LEAVE_DAY_BUSINESSTRAVEL" Value="Business Trip/WFH" />
+  <Language Name="HRM_Attendance_TabWorkdate_TotalWorkdatePayroll" Value="Total workday for salary calculation" />
+  <Language Name="HRM_Attendance_TabWorkdate_TotalOTHourPayroll" Value="Total OT for payroll" />
+  <Language Name="HRM_Attendance_TabWorkdate_TotalLeavedayNoPayroll" Value="Total days without pay" />
+  <Language Name="HRM_Attendance_TabWorkdate_TotalBusinessTravel" Value="Total business days" />
+  <Language Name="HRM_Attendance_TabWorkdate_TotalLateEarly" Value="Total early delay minus attendance" />
+  <Language Name="HRM_Attendance_TabWorkdate_TotalNS" Value="Total Night Shift" />
+  <Language Name="HRM_Attendance_TabWorkdateHourInOut" Value="Check In/ Out" />
+  <Language Name="HRM_Attendance_TabWorkdate_LateEarlyDiligentView" Value="Late in/Early out" />
+  <Language Name="HRM_Attendance_TabWorkdate_Leaveday" Value="Leave Day" />
+  <Language Name="HRM_Attendance_TabWorkdate_BusinessTravel" Value="Business Trip/WFH Day" />
+  <Language Name="HRM_Attendance_TabWorkdate_WorkdayPayroll" Value="Workday for salary calculation" />
+  <Language Name="HRM_Attendance_TabWorkdate_NS" Value="Night Shift" />
+  <Language Name="HRM_Attendance_TabWorkdate_TotalOTRegister" Value="Total OT Registration" />
+  <Language Name="HRM_Att_ComputeWorkdayAdjust_InvalidNotes" Value="Description for Invalid data" />
+  <Language Name="InvalidNoteView" Value="Description for Invalid data" />
+  <Language Name="HRM_Common_SaveAndSendMail" Value="Submit" />
+  <Language Name="HRM_Common_Register" Value="" />
+  <Language Name="HRM_Bussiness_Notify_Leave" Value="Leave registration" />
+  <Language Name="HRM_Bussiness_Notify_Travel" Value="Business trip/WFH registration" />
+  <Language Name="HRM_Bussiness_Notify_Prenancy" Value="Child-care registration" />
+  <Language Name="HRM_Bussiness_Notify_OTPlan" Value="OT registration" />
+  <Language Name="HRM_Action_Notify_Canceled" Value="has been cancelled" />
+  <Language Name="HRM_Action_Notify_Rejected" Value="has been rejected" />
+  <Language Name="HRM_Action_Notify_Approved" Value="has been approved" />
+  <Language Name="HRM_Attendance_TabWorkdate_TotalOTPayroll" Value="Total OT for payroll" />
+  <Language Name="HRM_Attendance_TabWorkdate_OT1Payroll" Value="OT1 for payroll" />
+  <Language Name="HRM_Attendance_TabWorkdate_OT2Payroll" Value="OT2 for payroll" />
+  <Language Name="HRM_Attendance_TabWorkdate_OT2HPayroll" Value="OT2_H for payroll" />
+  <Language Name="HRM_Attendance_TabWorkdate_NSOT1" Value="NS_OT1" />
+  <Language Name="HRM_Attendance_TabWorkdate_NSOT2" Value="NS_OT2" />
+  <Language Name="HRM_Attendance_TabWorkdate_NSOT2_H" Value="NS_OT2_H" />
+  <Language Name="HRM_Tab_Attendance_CardSwiping" Value="Check In-Out" />
+  <Language Name="HRM_Attendance_IsUnitAssistant" Value="Send to admin staff" />
+  <Language Name="E_OT_UNLIMIT" Value="Day without work-shift" />
+  <Language Name="E_OT_EARLY" Value="OT before Shift" />
+  <Language Name="E_OT_LATE" Value="OT after Shift" />
+  <Language Name="HRM_Search_Follow" Value="Search in" />
+  <Language Name="HRM_Attendance_CheckIn_GPS" Value="Check-in GPS" />
+  <Language Name="HRM_Att_WorkdaySummary_Title" Value="Monthly timesheet" />
+  <Language Name="HRM_PleaseInputReasonToReject" Value="Please comment (if any)" />
+  <Language Name="HRM_Attendance_OTPlanAboutTitle" Value="Includes:" />
+  <Language Name="HRM_Attendance_Message_Inside" Value="" />
+  <Language Name="HRM_Attendance_WaitingConfirmComputeWorkdayAdjust_Dashboard" Value="Timesheet" />
+  <Language Name="HRM_Attendance_TabWorkdate_TotalOTHourRegister" Value="Total registered OT hours" />
+  <Language Name="HRM_Portal_Button_BusinessTrip" Value="Business Trip/WFH" />
+  <Language Name="BussinessTravelTypeHalfShift__E_FIRST" Value="Last half of first day" />
+  <Language Name="BussinessTravelTypeHalfShift__E_FIRST_AND_LAST" Value="Second halt of 1st day - First half of last day" />
+  <Language Name="BussinessTravelTypeHalfShift__E_FULLSHIFT" Value="Full Shift" />
+  <Language Name="BussinessTravelTypeHalfShift__E_LAST" Value="First half of last day" />
+  <Language Name="HRM_Attendance_Message_WorkdateIsBlock" Value="Overtime registration on" />
+  <Language Name="HRM_Attendance_Message_TimeForRequestBizTravelAssignedToLockedPeriod" Value="Business Trip/WFH  registration coincides with a locked payroll month" />
+  <Language Name="HRM_Attendance_Message_AssignedToThePeriod" Value="belongs to the locked payroll month" />
+  <Language Name="HRM_Attendance_Message_IsLocked" Value="" />
+  <Language Name="HRM_Attendance_Message_TimeForRequestOTPlanAssignedToLockedPeriod" Value="Overtime registration coincides with a locked payroll month" />
+  <Language Name="HRM_Attendance_Message_OTPlanRegisterTime" Value="Overtime registration on" />
+  <Language Name="HRM_Attendance_Message_AttendanceToThePeriod" Value="belongs to the locked payroll month" />
+  <Language Name="HRM_Attendance_Message_OfAFearPeriod" Value="belongs to the locked payroll month" />
+  <Language Name="HRM_Attendance_Message_OfThePeriod" Value="belongs to the locked payroll month" />
+  <!--NamTa 02/03/2022 -->
+  <Language Name="DatePayMent" Value="Payment Date" />
+  <Language Name="PaymentMethod" Value="Payment Method" />
+  <Language Name="BankName" Value="Bank Name" />
+  <Language Name="MonthPayslip_LuongTamUng" Value="Advance Amount (VND)" />
+  <Language Name="MonthPayslip_TongSoNgayCongTinhTamUng" Value="Paid working days" />
+  <Language Name="MonthPayslip_TongSoNgayNghiTrongKy" Value="Absent/ unpaid working days" />
+  <Language Name="MonthPayslip_LyDoKhongTamUng" Value="Reasons for not paying advance" />
+  <Language Name="Sal_Payslips_UnusualPay_ByTemplate" Value="Advance Payslip" />
+  <Language Name="Sal_Payslips_ByTemplate" Value="Payslip" />
+  <Language Name="HRM_Payroll_Sal_MonthYear_DetailTemp_Info" Value="Details of Advance" />
+  <Language Name="HRM_Hre_PromotionClassQualification_PromoSalaryClassID" Value="Promoted to" />
+  <Language Name="HRM_Medical_Prenatal_SalaryClassName" Value="Current Grade" />
+  <Language Name="HRM_HR_HDTJob_ProfileID" Value="Employee Name" />
+  <Language Name="E_BRANCH" Value="Division" />
+  <Language Name="E_UNIT" Value="Factory/Center" />
+  <Language Name="E_DIVISION" Value="Department" />
+  <Language Name="E_DEPARTMENT" Value="Section" />
+  <Language Name="sbs.SalaryClassID" Value="Grade" />
+  <Language Name="HRM_DynLang_Salary_PaymentMonthYear" Value="Payment Period" />
+  <Language Name="HRM_DynLang_Salary_PaymentDate" Value="Payment Date" />
+  <Language Name="HRM_DynLang_Salary_PaymentMethod" Value="Payment Method" />
+  <Language Name="HRM_DynLang_Salary_BankCode" Value="Bank Name" />
+  <Language Name="HRM_DynLang_Salary_AdvanceSalary" Value="Advance Amount (VND)" />
+  <Language Name="HRM_DynLang_Salary_PaidWorkDay" Value="Paid working days" />
+  <Language Name="HRM_DynLang_Salary_AbsentUnpaidDay" Value="Absent/ unpaid working days" />
+  <Language Name="HRM_DynLang_Salary_ReasonNotAdvance" Value="Reasons for not paying advance" />
+  <Language Name="HRM_DynLang_Salary_Cash" Value="Cash" />
+  <Language Name="HRM_DynLang_Salary_Transfer" Value="Bank-Transfer" />
+  <Language Name="HRM_DynLang_Salary_PaymentInfor" Value="Payment Information" />
+  <Language Name="HRM_DynLang_Salary_ProfileInfor" Value="Employee Information" />
+
+  <Language Name="MonthPayslip_DonViTienTe" Value="Unit" />
+  <Language Name="MonthPayslip_ThongTinThanhToan" Value="Detail of payment" />
+  <Language Name="MonthPayslip_TongLuongThang" Value="Total Salary" />
+  <Language Name="MonthPayslip_DaTamUng" Value="Advanced Salary" />
+  <Language Name="MonthPayslip_TienLuongConLai" Value="Remaining Salary" />
+  <Language Name="MonthPayslip_Group_ThuNhap" Value="Detail of income" />
+  <Language Name="MonthPayslip_ChiTietTongThuNhap" Value="Total Income" />
+  <Language Name="MonthPayslip_TienLuong" Value="Salary of working days" />
+  <Language Name="MonthPayslip_TienLuong_Detail" Value="Salary of working days" />
+  <Language Name="MonthPayslip_PhuCap" Value="Allowances (PC&amp;TC)" />
+  <Language Name="MonthPayslip_OT" Value="Overtime (OT)" />
+  <Language Name="MonthPayslip_NS" Value="Nigh shift (NS)" />
+  <Language Name="MonthPayslip_ThuNhapKhac" Value="Other incomes" />
+  <Language Name="MonthPayslip_CacKhoanThuong" Value="Bonuses" />
+  <Language Name="MonthPayslip_TruyLinh" Value="Salary adjustment" />
+  <Language Name="MonthPayslip_Group_KhauTru" Value="Detail of Deduction" />
+  <Language Name="MonthPayslip_ChiTietTongKhauTru" Value="Deduction" />
+  <Language Name="MonthPayslip_BHXH" Value="Social Insurance" />
+  <Language Name="MonthPayslip_BHYT" Value="Health Insurance" />
+  <Language Name="MonthPayslip_BHTN" Value="Unemployment Insurance" />
+  <Language Name="MonthPayslip_TheBHYT" Value="Health Insurance card" />
+  <Language Name="MonthPayslip_KhauTruKhac" Value="Other Deduction Amounts" />
+  <Language Name="MonthPayslip_TruyThu" Value="Salary adjustment" />
+  <Language Name="MonthPayslip_PIT" Value="PIT" />
+  <Language Name="MonthPayslip_PersonalPITDeduction" Value="Taxpayer Reduction" />
+  <Language Name="MonthPayslip_DependantPITDeductionAmount" Value="Dependant Reduction" />
+  <Language Name="MonthPayslip_DependantPITDeduction" Value="Number of Dependants" />
+  <Language Name="HRM_Category_Pur_MCAM_PayMentMethod_Info" Value="Detail of payment" /> 
+  <Language Name="CurrencyUnitName" Value="Currency" />
+  <Language Name="MonthPayslip_Group_GeneralInfo" Value="General Information" /> 
+  <Language Name="MonthPayslip_Group_PaymentInfor" Value="Payment Information" /> 
+  <Language Name="MonthPayslip_Group_DetailOfDeduction" Value="Detail of Deduction" /> 
+
+  <Language Name="HRM_DynLang_Salary_GeneralInfo" Value="Thông tin chung" />
+  <Language Name="HRM_DynLang_Salary_Currency" Value="Đơn vị tiền tệ" />
+  <Language Name="HRM_DynLang_Salary_TotalSalary" Value="Tổng tiền lương tháng" />
+  <Language Name="HRM_DynLang_Salary_AdvancedSalary" Value="Tiền lương đã tạm ứng" />
+  <Language Name="HRM_DynLang_Salary_RemainingSalary" Value="Tiền lương còn lại" />
+  <Language Name="HRM_DynLang_Salary_DetailOfIncome" Value="Chi tiết thu nhập" />
+  <Language Name="HRM_DynLang_Salary_TotalIncome" Value="Tổng thu nhập" />
+  <Language Name="HRM_DynLang_Salary_SalaryOfWorkingDays" Value="Tiền lương ngày công (LNC)" />
+  <Language Name="HRM_DynLang_Salary_OtherIncomes" Value="Các khoản thu nhập khác" />
+  <Language Name="HRM_DynLang_Salary_Allowances" Value="Phụ cấp – Trợ cấp (PC&amp;TC)" />
+  <Language Name="HRM_DynLang_Salary_Bonuses" Value="Các khoản thưởng" />
+  <Language Name="HRM_DynLang_Salary_Overtime" Value="Ngoài giờ (OT)" />
+  <Language Name="HRM_DynLang_Salary_SalaryAdjustment" Value="Điều chỉnh lương" />
+  <Language Name="HRM_DynLang_Salary_NighShift" Value="Ca đêm (NS)" />
+  <Language Name="HRM_DynLang_Salary_DetailOfDeduction" Value="Chi tiết khấu trừ" />
+  <Language Name="HRM_DynLang_Salary_Deduction" Value="Tổng khấu trừ" />
+  <Language Name="HRM_DynLang_Salary_OtherDeductionAmounts" Value="Các khoản khấu trừ khác" />
+  <Language Name="HRM_DynLang_Salary_SocialInsurance" Value="BHXH" />
+  <Language Name="HRM_DynLang_Salary_PIT" Value="Thuế TNCN" />
+  <Language Name="HRM_DynLang_Salary_HealthInsurance" Value="BHYT" />
+  <Language Name="HRM_DynLang_Salary_TaxpayerReduction" Value="Giảm trừ cá nhân" />
+  <Language Name="HRM_DynLang_Salary_UnemploymentInsurance" Value="BHTN" />
+  <Language Name="HRM_DynLang_Salary_DependantReduction" Value="Giảm trừ người phụ thuộc" />
+  <Language Name="HRM_DynLang_Salary_HealthInsuranceCard" Value="Thẻ BHYT" />
+  <Language Name="HRM_DynLang_Salary_NumberOfDependant" Value="Số người phụ thuộc" />
+
+  
+  <!-- Key_Hac_Add -->
+  <Language Name="SalaryClass" Value="Grade" />
+  <Language Name="HRM_Attendance_SalaryClassName" Value="Grade" />
+  <Language Name="HRM_Att_TimeSheetByEmployee_TotalLateMinutes" Value="Total minutes of late in" />
+  <Language Name="HRM_Att_TimeSheetByEmployee_TotalEarlyMinutes" Value="Total minutes of early out" />
+  <Language Name="HRM_Att_TimeSheetByEmployee_TotalOtRegisterHours" Value="Total registered OT hours" />
+  <Language Name="HRM_Att_TimeSheetByEmployee_TotalOtConfirmHours" Value="Total paid OT hours" />
+  <Language Name="HRM_Att_TimeSheetByEmployee_TotalPaidLeaves" Value="Total paid leave days" />
+  <Language Name="HRM_Att_TimeSheetByEmployee_TotalUnpaidLeaves" Value="Total unpaid leave days" />
+  <Language Name="HRM_Att_TimeSheetByEmployee_TotalBusinessDays" Value="Total business trip/ WFH days" />
+  <Language Name="HRM_Att_TimeSheetByEmployee_OrgStructure" Value="Organization" />
+  <Language Name="HRM_Att_TimeSheetByEmployee_TotalNightWorkHours" Value="Total night shift hours" />
+  <Language Name="HRM_Att_TimeSheetByEmployee_TotalActualWorkingDays" Value="Total working days at workplace" />
+  <Language Name="HRM_Att_TimeSheetByEmployee_TotalPaidWorkdays" Value="Total paid workdays" />
+  <Language Name="StandardWorkDays" Value="Standard workdays" />
+  <Language Name="StdWorkDay" Value="Standard workdays" />
+  <Language Name="MonthYear" Value="Payroll month" />
+  <Language Name="TotalHolidays" Value="Total Holidays" />
+  <Language Name="CodeEmp" Value="Employee Code" />
+  <Language Name="UserCreate" Value="Creating user" />
+  <Language Name="HRM_Att_ComputeWorkdayAdjust_DateHireFrom" Value="Start date" />
+  <Language Name="HRM_Attendance_TimeSheetByEmployee_Approve" Value="Monthly Timesheet confirmation" />
+  <Language Name="HRM_Attendance_CodeEmp" Value="Employee code" />
+  <Language Name="LeaveDay1Days" Value="Total Holidays" />
+  <Language Name="HRM_Att_TimeSheetByEmployee_TotalHolidays" Value="Total Holidays" />
+  <Language Name="HRM_Report_Dynamic" Value="Reports" />
+  <!-- Key_Dung_0403_Add -->
+  <Language Name="HRM_Insurance_InsuranceRecordWaiting_OrgStructureName" Value="Organization" />
+  <Language Name="HRM_Sal_PaymentCostRegister_NoteOfSecretary" Value="Notes of Admin staff" />
+  <Language Name="HRM_Sal_PaymentCostRegister_Note" Value="Notes of Employee" />
+  <Language Name="Datanote" Value="Warning/Reminder" />
+  <Language Name="HRM_Common_FileAttach" Value="Attachment" />
+  <Language Name="HRM_Sal_PaymentCostRegister_Quantity" Value="Quantity/Amount" />
+  <Language Name="TotalAmount" Value="Total payment" />
+  <Language Name="PaymentAmountID" Value="Expense items" />
+  <Language Name="HRM_Category_PaymentAmount_PaymentCostsGroupID" Value="Expense group" />
+  <Language Name="HRM_HR_Contract_UserApproveID2Eva" Value="2nd Approver" />
+  <Language Name="ProfileID" Value="Employee Name" />
+  <Language Name="HRM_Sal_PaymentCostRegister_PayPeriod" Value="Payment Period" />
+  <Language Name="HRM_Sal_PaymentCostRegister_Title" Value="Salary expense registration" />
+  <Language Name="SelectPayPeriod" Value="Please Select Payment Period!" />
+  <Language Name="HRM_Common_SelectPayPeriod" Value="Please Select Payment Period!" />
+  <Language Name="HRM_System_User_UserName" Value="Employee Name" />
+  <Language Name="HRM_Category_OrgStructure_OrgFullName" Value="Employee Name" />
+  <Language Name="HRM_Tra_PlanDetail_Quantity" Value="Quantity/Amount" />
+  <Language Name="HRM_Sal_UnusualPayCheck_SalaryClassName" Value="Grade" />
+  <Language Name="HRM_Sal_PaymentCostRegister_PaymentCost" Value="Expense items" />
+  <Language Name="HRM_HR_Contract_UserApproveIDEva" Value="1st Approver" />
+  <Language Name="HRM_HR_Contract_UserApproveID4Eva" Value="Final Approver" />
+  <Language Name="HRM_Common_SearchAddPayCost" Value="Add" />
+  <Language Name="HRM_Sal_PaymentCostRegister_TotalAmount" Value="Total payment" />
+  <Language Name="HRM_Sal_PaymentCost_TotalAmount" Value="Total payment" />
+  <Language Name="PaymentPeriodName" Value="Payment Period" />
+  <Language Name="HRM_Sal_Reward_PositionName" Value="Position" />
+  <Language Name="HRM_Sal_Reward_JobTitleName" Value="Position title" />
+  <Language Name="UserApproveName1" Value="1st Approver" />
+  <Language Name="UserApproveName2" Value="2nd Approver" />
+  <Language Name="UserApproveName4" Value="Final Approver" />
+  <Language Name="UserApproveName" Value="1st Approver" />
+  <Language Name="JobTitleName" Value="Position title" />
+  <Language Name="UserInfoFirstApproverName1" Value="1st Approver " />
+  <Language Name="UserInfoNextApproverName2" Value="2nd Approver " />
+  <Language Name="UserInfoMidApproverName3" Value="Next Approver" />
+  <Language Name="UserInfoLastApporoverName4" Value="Final Approver" />
+  <Language Name="HRM_sal_PaymentCostRegister_PaymentAmountName" Value="Expense items" />
+  <Language Name="UserApproveID" Value="1st Approver" />
+  <Language Name="UserApproveID1" Value="1st Approver" />
+  <Language Name="UserApproveID2" Value="2nd Approver" />
+  <Language Name="HRM_Sal_PaymentCost_JobTitleName" Value="Position title" />
+  <Language Name="BusinessType__E_ROTATIONCONCURRENT" Value="Rotation/ Assignment" />
+  <Language Name="HRM_Category_New_Hre_PromoClassQualificationTemp" Value="Promotion/Class Qualtfication" />
+  <Language Name="HRM_Common_SendMailHR_Button" Value="Send to Admin staff" />
+  <Language Name="HRM_Salary_New_Sal_PaymentCostRegister" Value="Salary Expense Payment" />
+  <Language Name="HRM_Sal_PaymentCostRegister_Create_Title" Value="Salary expense registration" />
+  <Language Name="HRM_Sal_PaymentCostRegister_Edit_Title" Value="Edit Salary expense registration" />
+  <Language Name="HRM_Sal_PaymentCostRegister_PaymentCostGroupName" Value="Expense group" />
+  <Language Name="UserApproveID2Name" Value="2nd Approver" />
+  <Language Name="ScheduleWorkStatus__E_APPROVED2" Value="2nd Approver " />
+  <Language Name="UserApproveLevel__E_MIDAPPROVER" Value="2nd Approver" />
+  <Language Name="E_MIDAPPROVER" Value="2nd Approver" />
+  <Language Name="HRM_Button_Fee_Check" Value="Expense check" />
+  <Language Name="HRM_Portal_Sal_ConfirmPaymentCost" Value="Processed" />
+  <Language Name="HRM_Portal_Sal_WaitingConfirmPaymentCost" Value="For Approval" />
+  <Language Name="HRM_HR_Profile_Portal_EmpCode" Value="Employee code" />
+  <Language Name="HRM_Attendance_Overtime_UserApproveID3" Value="2nd Approver " />
+  <Language Name="PayPeriod" Value="Payment Period" />
+  <Language Name="HRM_Common_ToDate" Value="To Date" />
+  <Language Name="HRM_Sal_PaymentCostRegister_QuantitySystem" Value="Quantity calculated by System" />
+  <Language Name="HRM_Portal_Att_TimesheetEvaluation_DataNote" Value="Data Notes" />
+  <Language Name="HRM_Common_SelectOnePaymentCostToFeeCheck" Value="Please select data to check expense!" />
+  <Language Name="HRM_Notification_Don_Have_PaymentCost_To_Fee_Check" Value="Please select data!" />
+  <Language Name="HRM_PaymentCostRe_Please_Select_PayPeriod_RequestPeriod" Value="Please select Payment Period greater than or equal to Request Period!" />
+  <Language Name="HRM_Message_NoDataStreamsSelected" Value="Please select data!" />
+  <Language Name="Error_PleaseSelectDataRow" Value="Please select data!" />
+  <Language Name="Error_PleaseSelectDataRow_Confrim" Value="Please select data!" />
+  <Language Name="HRM_Common_Att_Selected" Value="Please select data!" />
+  <Language Name="HRM_PaymentCostRe_Please_Input_FromDateToDate_RequestPeriod" Value="Please select From date - To date less than or equal to Request period." />
+  <Language Name="HRM_PaymentCostRe_Please_Select_FromDateToDate_RequestPeriodNew" Value="From date - To date is out of the Request Period. Do you want to continue saving?" />
+  <Language Name="HRM_PaymentCostRe_Duplicate_Data" Value="The Request Period has been registered. Please check again!" />
+  <Language Name="HRM_Sys_TemplateSendMail_Notes" Value="Notes of Employee" />
+  <Language Name="HRM_Common_NoteofSecretary" Value="Notes of Admin staff" />
+  <Language Name="HRM_Sal_PaymentCostRegister_FileAttachment" Value="Attachment" />
+    <Language Name="HRM_Category_JobTitle_JobTitleName" Value="Position title" />
+  <Language Name="HRM_Sal_PaymentCostRegister_DataNote_Content" Value="There is differential in payment amount. Please check again!" />
+  
+  <!-- Key_VuAnh_0503_Add -->
+  <Language Name="HRM_Att_MovementType" Value="Moving Type" />
+  <Language Name="HRM_Att_TransferDate" Value="Moving Date" />
+  <Language Name="HRM_Att_BusinessTrip" Value="Business Trip period" />
+  <Language Name="LeavedayTypeView" Value="Leave Type" />
+  <Language Name="HRM_Att_BusinessTravelTransfer_HourFrom" Value="From Time" />
+  <Language Name="HRM_Att_BusinessTravelTransfer_HourTo" Value="To Time" />
+  <Language Name="HRM_Att_BusinessTravelTransfer_TotalHour" Value="Moving hours" />
+  <Language Name="HRM_Att_BusinessTravelTransfer_TransferRoute" Value="Moving route" />
+  <Language Name="HRM_Attendance_BusinessTravelTransfer_Popup_Create" Value="Business Trip moving payment registration" />
+  <Language Name="HRM_Attendance_ScheduleWork" Value="Date Type" />
+  <Language Name="HRM_Att_BusinessTravelTransfer_TransferDate" Value="Moving time" />
+  <Language Name="HRM_Attendance_BusinessTravelTransfer_Title" Value="Biz Trip Moving Payment" />
+  <Language Name="HRM_Attendance_BusinessTravelTransfer_Approve" Value="Biz Trip Moving Payment" />
+  <Language Name="HRM_Sal_UnusualAllowance_Title" Value="Welfare payment" />
+  <Language Name="UserUpdate" Value="Updating user" />
+  <Language Name="HRM_Portal_BusinessTravelTransfer_Approve" Value="For Approval" />
+  <Language Name="HRM_Portal_BusinessTravelTransfer_IsApproved" Value="Processed" />
+  <Language Name="HRM_Sys_Grid_OrderNumber" Value="Ord." />
+  <Language Name="HRM_Cat_SalaryClassName" Value="Grade" />
+  <Language Name="HRM_Payroll_UnusualED_MonthStart" Value="Payment Period" />
+  <Language Name="UsualAllowanceName" Value="Payment Type" />
+  <Language Name="DateOfWedding" Value="Marriage Registered Date" />
+  <Language Name="HRM_Payroll_UnusualED_Notes" Value="Notes" />
+  <Language Name="HRM_Attendance_Roster_CommentCancel" Value="Reason of cancellation" />
+  <Language Name="HRM_Sal_PaymentAmountRegister_UserCancelName" Value="Cancelling User" />
+  <Language Name="HRM_Payroll_UnusualED_UnusualEDTypeID" Value="Payment Type" />
+  <Language Name="HRM_Category_Subject_Notes" Value="Notes" />
+  <Language Name="HRM_Att_Leaveday_Submit__btnSaveNewLeaveday" Value="Save &amp; Add New" />
+  <Language Name="New_Att_ProfileTimeSheetRegister_btnSaveAndSendMail" Value="Save &amp; Submit" />
+  <Language Name="DateApprove" Value="Approval Date" />
+  <Language Name="HRM_Attendance_LeavedayTypeView" Value="Leave Type" />
+  <Language Name="HRM_Attendance_WorkDay_ProfileID" Value="Employee Name" />
+  <Language Name="HRM_Sal_ConfirmPaymentCost" Value="Salary Expense Payment" />
+  <!-- Key_MaiAdd_0703_Add -->
+  <Language Name="Hrm_EvaluationContract_TabApprove" Value="For approval" />
+  <Language Name="Hrm_EvaluationContract_TabApproved" Value="Processed" />
+  <Language Name="HRM_Common_Create_ReEvaContract" Value="Evaluate" />
+  <Language Name="HRM_Attendance_Leaveday_CodeEmp" Value="Employee Code" />
+  <Language Name="HRM_Attendance_JobTitle" Value="Position title" />
+  <Language Name="HRM_Hre_ContractExtend_DateStartContract" Value="Start date of Labor contract" />
+  <Language Name="HRM_Hre_ContractExtend_DateEndContract" Value="End date of Labor contract" />
+  <Language Name="HRM_HR_EvaluationContractWaitingApproved_LaborType" Value="Type of Labor Contract" />
+  <Language Name="HRM_Performance_IsNotYetEvaluation" Value="Not yet evaluated" />
+  <Language Name="HRM_HR_Discipline_JobTitleName" Value="Position title" />
+  <Language Name="ContractTypeName" Value="Type of Labor Contract" />
+  <Language Name="ProbationEvaluationDateStartProbation" Value="Probation Start Date" />
+  <Language Name="ProbationEvaluationDateEndProbation" Value="Probation End Date" />
+  <Language Name="ProbationEvaluationLabortype" Value="Employment Type" />
+  <Language Name="EvaAttachment" Value="Attachment" />
+  <Language Name="HRM_HR_Discipline_UserApprovedID1Name" Value="1st Approver" />
+  <Language Name="HRM_Rec_EmploymentType" Value="Type of Employement" />
+  <Language Name="HRM_HR_Profile_DateStartProbation" Value="Starting date of probation" />
+  <Language Name="RotationE_BRANCH_Old" Value="Current Division" />
+  <Language Name="RotationE_UNIT_Old" Value="Current Factory/Center" />
+  <Language Name="RotationE_DIVISION_Old" Value="Current Department/ Branch" />
+  <Language Name="RotationE_DEPARTMENT_Old" Value="Current Section/ Region" />
+  <Language Name="HRM_HR_New_Hre_RotationMutation_Create" Value="Create Rotation/ Assignment Proposal" />
+  <Language Name="HRM_HR_Dependant_ProfileID" Value="Employee Name" />
+  <Language Name="HRM_Rec_CandidateProfile_pbht" Value="Current Organization" />
+  <Language Name="HRM_Rec_CandidateProfile_cvht" Value="Current Position" />
+  <Language Name="HRM_Rec_CandidateProfile_cdht" Value="Current Position title" />
+  <Language Name="HRM_HR_New_Hre_RotationMutation_WorkPlaceNow" Value="Current Working place" />
+  <Language Name="Hrm_Hre_OrgStructureNew" Value="New Organization" />
+  <Language Name="Hrm_Hre_SalaryClassNew" Value="New Grade" />
+  <Language Name="Hrm_Hre_PositionIDNew" Value="New Position" />
+  <Language Name="Hrm_Hre_JobtitleIDNew" Value="New Position title" />
+  <Language Name="Hrm_Hre_WorkPlaceIDNew" Value="New Working place" />
+  <Language Name="HRM_HR_EffectiveDate" Value="Effective date" />
+  <Language Name="HRM_Hre_StopWorking_UserApproveID" Value="1st Approver" />
+  <Language Name="HRM_Hre_StopWorking_UserApproveID2" Value="2nd Approver" />
+  <Language Name="HRM_Hre_StopWorking_UserApproveID3" Value="3rd Approver" />
+  <Language Name="HRM_Hre_StopWorking_UserApproveID4" Value="Final Approver" />
+  <Language Name="Hre_ProfileCard_ProfileID" Value="Employee Name" />
+  <Language Name="HRM_Cat_ConstructionProject_DateEffective" Value="Effective date" />
+  <Language Name="HRM_HR_Profile_IsEmailProfile" Value="Employee's Email" />
+  <Language Name="HRM_HR_Relatives_ProfileName" Value="Employee Name" />
+  <Language Name="RotationE_TEAM_Old" Value="Current Unit/Team" />
+  <Language Name="RotationMutationDateHire" Value="Start Date" />
+  <Language Name="RotationSalaryClassName_Old" Value="Current Grade" />
+  <Language Name="RotationJobTitleName_Old" Value="Current Position title" />
+  <Language Name="RotationPositionName_Old" Value="Current Position" />
+  <Language Name="RotationWorkplaceName_Old" Value="Current Working place" />
+  <Language Name="Hre_ReportBirthday_Workplace" Value="Working place" />
+  <Language Name="New_Hre_TrainingPath_UserApprove1" Value="1st Approver" />
+  <Language Name="New_Hre_TrainingPath_UserApprove2" Value="2nd Approver" />
+  <Language Name="New_Hre_TrainingPath_UserApprove3" Value="3rd Approver" />
+  <Language Name="New_Hre_TrainingPath_UserApprove4" Value="Final Approver" />
+  <Language Name="HRM_Payroll_Costcentre_CodeEmp" Value="Employee Code" />
+  <Language Name="HRM_Att_Ot_IsWorkPlaceID" Value="Working place" />
+  <Language Name="Hrm_Hre_ProbationEvaluation_SaveAndSend" Value="Save and Submit" />
+  <Language Name="HRM_HR_Discipline_UserApprovedID2Name" Value="2nd Approver" />
+  <Language Name="HRM_HR_Discipline_UserApprovedID3Name" Value="3rd Approver" />
+  <Language Name="HRM_HR_Discipline_UserApprovedID4Name" Value="Final Approver" />
+  <Language Name="Hrm_Hre_ProbationEvaluation_EvaluationDate" Value="Evaluation Time" />
+  <Language Name="HRM_Category_SalaryClass_SalaryClassName" Value="Grade" />
+  <Language Name="HRM_Category_ContractType_ContractTypeName" Value="Type of Labor Contract" />
+  <Language Name="HRM_Category_JobTitle_FileAttachment" Value="Attachment" />
+  <Language Name="HRM_Common_SaveAndSendRequest" Value="Save and Submit" />
+  <Language Name="HRM_Tra_CreateDetailedTrainingRequirement_ProfileName" Value="Employee Name" />
+  <Language Name="Hrm_Hre_EvaluationContract_TabApprove" Value="For approval" />
+  <Language Name="Hrm_Hre_EvaluationContract_TabApproved" Value="Processed" />
+</NewDataSet>

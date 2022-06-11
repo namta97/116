@@ -1,0 +1,14 @@
+màn hình HSL đổi trường LCB tính TCTV, BHXH-BHYT-BHTN - > LCB tính BHXH-BHYT-BHTN
+
+
+LCB tính TCTV = Lương cơ bản + phụ cấp ( trừ nhờ ở 1, nhà ở 2, trợ cấp đi lại )
+
+
+Cần sửa lại: 
+	+ Hồ sơ lương, tên trên lưới, và báo cáo xuất ra - DOne
+	+ Bảng lương chi tiết sửa tên ( LCB tính TCTV, BHXH-BHYT-BHTN ) , công thức ở cột trợ cấp thôi việc - Done
+	+ Tạm tính lương ngày công - Done
+	+ Thanh lý thôi việc
+
+
+thêm cột codeemp gì đó	

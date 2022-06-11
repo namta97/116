@@ -1,0 +1,78 @@
+06/04/2022 01:09:03.720 [Info ]: GlobalProtect service started (client version: 5.1.8-15, OS version: Microsoft Windows 10 Pro , 64-bit).
+06/04/2022 01:10:15.183 [Info ]: Portal login completed with address 222.252.30.36 and conect method of user-logon.
+06/04/2022 01:10:15.197 [Info ]: Network discovery started.
+06/04/2022 01:10:15.782 [Info ]: Auto Gateway login finished with address 222.252.30.36 and user tandd.
+06/04/2022 01:10:19.411 [Info ]: SSL tunnel creation finished with Gateway 222.252.30.36.
+06/04/2022 01:10:28.284 [Info ]: Completed HIP Report check with Gateway 222.252.30.36.
+06/04/2022 01:10:39.371 [Info ]: Completed HIP Report check with Gateway 222.252.30.36.
+06/04/2022 02:10:42.702 [Info ]: Completed HIP Report check with Gateway 222.252.30.36.
+06/04/2022 03:10:56.625 [Info ]: Completed HIP Report check with Gateway 222.252.30.36.
+06/04/2022 03:22:23.829 [Info ]: Tunnel is down due to disconnection.
+06/04/2022 03:22:24.357 [Info ]: User was logged out of Gateway 222.252.30.36.
+06/04/2022 13:24:34.539 [Info ]: GlobalProtect service started (client version: 5.1.8-15, OS version: Microsoft Windows 10 Pro , 64-bit).
+06/04/2022 16:45:17.072 [Info ]: Portal login completed with address 222.252.30.36 and conect method of on-demand.
+06/04/2022 16:45:17.079 [Info ]: Network discovery started.
+06/04/2022 16:45:17.490 [Info ]: Auto Gateway login finished with address 222.252.30.36 and user tandd.
+06/04/2022 16:45:20.994 [Info ]: SSL tunnel creation finished with Gateway 222.252.30.36.
+06/04/2022 16:45:30.076 [Info ]: Completed HIP Report check with Gateway 222.252.30.36.
+06/04/2022 17:15:20.355 [Info ]: Tunnel is down due to disconnection.
+06/04/2022 17:15:23.859 [Info ]: User could not be logged out of Gateway 222.252.30.36.
+06/04/2022 17:15:23.874 [Info ]: GlobalProtect service stopped.
+06/04/2022 17:24:45.278 [Info ]: GlobalProtect service started (client version: 5.1.8-15, OS version: Microsoft Windows 10 Pro , 64-bit).
+06/04/2022 21:59:05.216 [Info ]: GlobalProtect service started (client version: 5.1.8-15, OS version: Microsoft Windows 10 Pro , 64-bit).
+06/04/2022 22:00:45.407 [Info ]: Portal login completed with address 222.252.30.36 and conect method of on-demand.
+06/04/2022 22:00:45.418 [Info ]: Network discovery started.
+06/04/2022 22:00:45.823 [Info ]: Auto Gateway login finished with address 222.252.30.36 and user tandd.
+06/04/2022 22:00:49.474 [Info ]: SSL tunnel creation finished with Gateway 222.252.30.36.
+06/04/2022 22:00:58.836 [Info ]: Completed HIP Report check with Gateway 222.252.30.36.
+06/04/2022 22:01:04.496 [Info ]: Completed HIP Report check with Gateway 222.252.30.36.
+06/04/2022 23:01:13.219 [Info ]: Completed HIP Report check with Gateway 222.252.30.36.
+06/05/2022 00:01:27.039 [Info ]: Completed HIP Report check with Gateway 222.252.30.36.
+06/05/2022 01:01:41.400 [Info ]: Completed HIP Report check with Gateway 222.252.30.36.
+06/05/2022 01:36:52.393 [Info ]: Tunnel is down due to disconnection.
+06/05/2022 01:36:55.821 [Info ]: User could not be logged out of Gateway 222.252.30.36.
+06/05/2022 01:36:55.835 [Info ]: GlobalProtect service stopped.
+06/05/2022 08:38:03.914 [Info ]: GlobalProtect service started (client version: 5.1.8-15, OS version: Microsoft Windows 10 Pro , 64-bit).
+06/05/2022 08:46:28.960 [Info ]: Portal login completed with address 222.252.30.36 and conect method of on-demand.
+06/05/2022 08:46:28.978 [Info ]: Network discovery started.
+06/05/2022 08:46:29.417 [Info ]: Auto Gateway login finished with address 222.252.30.36 and user tandd.
+06/05/2022 08:46:32.992 [Info ]: SSL tunnel creation finished with Gateway 222.252.30.36.
+06/05/2022 08:46:41.849 [Info ]: Completed HIP Report check with Gateway 222.252.30.36.
+06/05/2022 08:47:22.447 [Info ]: Completed HIP Report check with Gateway 222.252.30.36.
+06/05/2022 09:02:28.948 [Info ]: Tunnel is down due to disconnection.
+06/05/2022 09:02:29.434 [Info ]: User was logged out of Gateway 222.252.30.36.
+06/05/2022 12:14:09.733 [Info ]: Portal login completed with address 222.252.30.36 and conect method of on-demand.
+06/05/2022 12:14:09.740 [Info ]: Network discovery started.
+06/05/2022 12:14:10.143 [Info ]: Auto Gateway login finished with address 222.252.30.36 and user tandd.
+06/05/2022 12:14:14.022 [Info ]: SSL tunnel creation finished with Gateway 222.252.30.36.
+06/05/2022 12:14:22.472 [Info ]: Completed HIP Report check with Gateway 222.252.30.36.
+06/05/2022 13:15:33.584 [Info ]: Completed HIP Report check with Gateway 222.252.30.36.
+06/05/2022 14:15:47.331 [Info ]: Completed HIP Report check with Gateway 222.252.30.36.
+06/05/2022 15:03:02.944 [Info ]: Tunnel is down due to network change.
+06/05/2022 15:03:02.944 [Info ]: Gateway GP: Checking network availability and restoring VPN connection when network is available.
+06/05/2022 15:39:42.053 [Info ]: User was logged out of Gateway 222.252.30.36.
+06/06/2022 20:07:11.774 [Info ]: GlobalProtect service started (client version: 5.1.8-15, OS version: Microsoft Windows 10 Pro , 64-bit).
+06/06/2022 20:10:35.014 [Info ]: GlobalProtect service stopped.
+06/06/2022 20:10:54.249 [Info ]: GlobalProtect service started (client version: 5.1.8-15, OS version: Microsoft Windows 10 Pro , 64-bit).
+06/06/2022 20:20:37.052 [Info ]: GlobalProtect service stopped.
+06/06/2022 20:20:57.323 [Info ]: GlobalProtect service started (client version: 5.1.8-15, OS version: Microsoft Windows 10 Pro , 64-bit).
+06/07/2022 00:32:40.928 [Info ]: GlobalProtect service stopped.
+06/07/2022 19:13:04.088 [Info ]: GlobalProtect service started (client version: 5.1.8-15, OS version: Microsoft Windows 10 Pro , 64-bit).
+06/07/2022 22:02:07.004 [Info ]: GlobalProtect service started (client version: 5.1.8-15, OS version: Microsoft Windows 10 Pro , 64-bit).
+06/07/2022 23:34:44.312 [Info ]: GlobalProtect service started (client version: 5.1.8-15, OS version: Microsoft Windows 10 Pro , 64-bit).
+06/08/2022 01:16:50.167 [Info ]: GlobalProtect service stopped.
+06/08/2022 22:05:56.076 [Info ]: GlobalProtect service started (client version: 5.1.8-15, OS version: Microsoft Windows 10 Pro , 64-bit).
+06/09/2022 01:05:31.345 [Info ]: Portal login completed with address 222.252.30.36 and conect method of on-demand.
+06/09/2022 01:05:31.354 [Info ]: Network discovery started.
+06/09/2022 01:05:31.742 [Info ]: Auto Gateway login finished with address 222.252.30.36 and user tandd.
+06/09/2022 01:05:35.572 [Info ]: SSL tunnel creation finished with Gateway 222.252.30.36.
+06/09/2022 01:05:44.372 [Info ]: Completed HIP Report check with Gateway 222.252.30.36.
+06/09/2022 01:05:50.865 [Info ]: Completed HIP Report check with Gateway 222.252.30.36.
+06/09/2022 01:52:59.523 [Info ]: Tunnel is down due to disconnection.
+06/09/2022 01:53:00.003 [Info ]: User was logged out of Gateway 222.252.30.36.
+06/09/2022 01:53:01.317 [Info ]: GlobalProtect service stopped.
+06/09/2022 18:19:06.166 [Info ]: GlobalProtect service started (client version: 5.1.8-15, OS version: Microsoft Windows 10 Pro , 64-bit).
+06/11/2022 00:04:06.015 [Info ]: GlobalProtect service started (client version: 5.1.8-15, OS version: Microsoft Windows 10 Pro , 64-bit).
+06/11/2022 00:09:08.204 [Info ]: GlobalProtect service started (client version: 5.1.8-15, OS version: Microsoft Windows 10 Pro , 64-bit).
+06/11/2022 02:25:41.189 [Info ]: GlobalProtect service stopped.
+06/11/2022 06:27:23.372 [Info ]: GlobalProtect service started (client version: 5.1.8-15, OS version: Microsoft Windows 10 Pro , 64-bit).

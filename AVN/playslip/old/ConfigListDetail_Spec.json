@@ -1,0 +1,5907 @@
+﻿{
+   "SalaryPayrollViewDetail": [
+      {
+         "TypeView": "E_COMMON",
+         "Name": "MonthPayslip_VND",
+         "DisplayKey": "MonthPayslip_DonViTienTe",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "MonthPayslip_ThongTinThanhToan",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_GrossIncome",
+         "DisplayKey": "MonthPayslip_TongLuongThang",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_AdvancePay",
+         "DisplayKey": "MonthPayslip_DaTamUng",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_NetIncome",
+         "DisplayKey": "MonthPayslip_TienLuongConLai",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "MonthPayslip_Group_ThuNhap",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_LuongThuong_SUM",
+         "IsBold": true,
+         "DisplayKey": "MonthPayslip_ChiTietTongThuNhap",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_TONGLUONGNGAYCONG",
+         "DisplayKey": "MonthPayslip_TienLuong",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_NCTL",
+         "DisplayKey": "MonthPayslip_TienLuong_Detail",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_TONGLUONGNGAYCONG_DETAIL2",
+         "IsItalic": true,
+         "IsHideBorder": true,
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_PCTheoLuong_SUM",
+         "DisplayKey": "MonthPayslip_PhuCap",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_PCTheoLuong_SUM_DETAIL2",
+         "IsItalic": true,
+         "IsHideBorder": true,
+         "DisplayKey": "",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_OT_SUM",
+         "DisplayKey": "MonthPayslip_OT",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_OT_SUM_DETAIL2",
+         "IsHideBorder": true,
+         "IsItalic": true,
+         "DisplayKey": "",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_NS_SUM",
+         "DisplayKey": "MonthPayslip_NS",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_NS_SUM_DETAIL2",
+         "IsHideBorder": true,
+         "IsItalic": true,
+         "DisplayKey": "",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_ThuNhapKhac_TrongThang",
+         "DisplayKey": "MonthPayslip_ThuNhapKhac",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_ThuNhapKhac_TrongThang_DETAIL2",
+         "IsHideBorder": true,
+         "IsItalic": true,
+         "DisplayKey": "",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_TongThuong_TrongThang",
+         "DisplayKey": "MonthPayslip_CacKhoanThuong",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_TongThuong_TrongThang_DETAIL2",
+         "IsHideBorder": true,
+         "IsItalic": true,
+         "DisplayKey": "",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_TruyLinh",
+         "DisplayKey": "MonthPayslip_TruyLinh",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_TruyLinh_DETAIL2",
+         "IsHideBorder": true,
+         "IsItalic": true,
+         "DisplayKey": "",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "MonthPayslip_Group_KhauTru",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_Deduction_SUM_Payslip",
+         "IsBold": true,
+         "DisplayKey": "MonthPayslip_ChiTietTongKhauTru",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_BHXH_E",
+         "DisplayKey": "MonthPayslip_BHXH",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_BHYT_E",
+         "DisplayKey": "MonthPayslip_BHYT",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_BHTN_E",
+         "DisplayKey": "MonthPayslip_BHTN",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_TT_BHYT_E",
+         "DisplayKey": "MonthPayslip_TheBHYT",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_Deduction_SUM",
+         "DisplayKey": "MonthPayslip_KhauTruKhac",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_Deduction_SUM_DETAIL2",
+         "IsHideBorder": true,
+         "IsItalic": true,
+         "DisplayKey": "",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_TruyThu",
+         "DisplayKey": "MonthPayslip_TruyThu",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_TruyThu_DETAIL2",
+         "IsHideBorder": true,
+         "IsItalic": true,
+         "DisplayKey": "",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_ThuePIT",
+         "DisplayKey": "MonthPayslip_PIT",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_GiamTruBanThan",
+         "DisplayKey": "MonthPayslip_PersonalPITDeduction",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_GiamTruPhuThuoc",
+         "DisplayKey": "MonthPayslip_DependantPITDeductionAmount",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_SoNguoiPhuThuoc",
+         "DisplayKey": "MonthPayslip_DependantPITDeduction",
+         "DataType": "string"
+      }
+   ],
+   "SalaryTempViewDetail": [
+      {
+         "TypeView": "E_COMMON",
+         "Name": "UnusualPay_Amount",
+         "DisplayKey": "MonthPayslip_LuongTamUng",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "AVN_ATTI_SUM_BYUNUSUALPAY",
+         "DisplayKey": "MonthPayslip_TongSoNgayCongTinhTamUng",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "COUNT_DAY_BEFORE_JOIN",
+         "DisplayKey": "MonthPayslip_TongSoNgayNghiTrongKy",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "UnusualPay_ReasonNotPayAdvance",
+         "DisplayKey": "MonthPayslip_LyDoKhongTamUng",
+         "DataType": "string"
+      }
+   ],
+   "SalaryBonusViewDetail": [],
+   "WorkDayMasterViewDetail": [
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Att_Workday_Master_SalWorkDay",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TotalRealWorkdays",
+         "DisplayKey": "HRM_Att_Workday_Master_ActualTotal",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TotalPaidLeaveDays",
+         "DisplayKey": "HRM_Att_Workday_Master_PaidLeave",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TotalBusinessDayLeaveDays",
+         "DisplayKey": "HRM_Att_Workday_Master_Total_BussinessLeave",
+         "DataType": "string"
+      },
+	  {
+         "TypeView": "E_COMMON",
+         "Name": "TotalHoliday",
+         "DisplayKey": "HolidayType__E_HOLIDAY_HLD",
+         "DataType": "string"
+      },
+	  {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Att_Workday_Master_ForgeLeaveDays",
+         "DataType": "string"
+      },
+	  {
+         "TypeView": "E_COMMON",
+         "Name": "TotalForgeLeaveDays",
+         "DisplayKey": "HRM_Att_Workday_Master_ForgeLeaveDays",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Att_Workday_Master_Not_SalWorkDay",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TotalUnPaidLeaveDays",
+         "DisplayKey": "HRM_Att_Workday_Master_Total_UnPaidLeaveDays",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Att_Workday_Master_TotalOTPayroll",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TotalOvertimeHoursWorkday",
+         "DisplayKey": "HRM_Att_Workday_Master_TotalOvertimeHoursWorkday",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TotalOvertimeHoursWeekend",
+         "DisplayKey": "HRM_Att_Workday_Master_TotalOvertimeHoursWeekend",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TotalOvertimeHoursHoliday",
+         "DisplayKey": "HRM_Att_Workday_Master_TotalOvertimeHoursHoliday",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Att_Workday_Master_TotalNightHoursAndNightOvertime",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TotalNightHours",
+         "DisplayKey": "HRM_Att_Workday_Master_TotalNightHours",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TotalOvertimeHoursNightWorkday",
+         "DisplayKey": "HRM_Att_Workday_Master_TotalOvertimeHoursNightWorkday",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TotalOvertimeHoursNightWeekend",
+         "DisplayKey": "HRM_Att_Workday_Master_TotalOvertimeHoursNightWeekend",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TotalOvertimeHoursNightHoliday",
+         "DisplayKey": "HRM_Att_Workday_Master_TotalOvertimeHoursNightHoliday",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Att_Workday_Master_Total_LateEarlyDuration",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TotalLateEarlyDuration3",
+         "DisplayKey": "HRM_Attendance_LateEarlyActual",
+         "DataType": "string"
+      }
+   ],
+   "DependantConfirmed": [
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_HR_GeneralInformation",
+         "DataType": "string"
+      },
+      {
+         "Name": "DependantName",
+         "DisplayKey": "HRM_HR_Dependant_DependantName",
+         "DataType": "string"
+      },
+      {
+         "Name": "RelativeTypeName",
+         "DisplayKey": "HRM_HR_Dependant_RelationID",
+         "DataType": "string"
+      },
+      {
+         "Name": "GenderView",
+         "DisplayKey": "HRM_HR_Dependant_Gender",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateOfBirth",
+         "DisplayKey": "HRM_HR_Dependant_DateOfBirth",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "CodeTax",
+         "DisplayKey": "HRM_HR_Dependant_CodeTax",
+         "DataType": "string"
+      },
+      {
+         "Name": "NationalityName",
+         "DisplayKey": "HRM_HR_Dependant_NationlatyID",
+         "DataType": "string"
+      },
+      {
+         "Name": "Career",
+         "DisplayKey": "HRM_Hre_HouseholdInfo_Career",
+         "DataType": "string"
+      },
+      {
+         "Name": "DependentsAddress",
+         "DisplayKey": "HRM_Hre_Dependant_DependentsAddress",
+         "DataType": "string"
+      },
+      {
+         "Name": "PhoneNumber",
+         "DisplayKey": "HRM_Hre_HouseholdInfo_PhoneNumber",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Hre_InformationToInput",
+         "DataType": "string"
+      },
+      {
+         "Name": "IDNo",
+         "DisplayKey": "HRM_HR_Dependant_IDNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "DependantIDDateOfIssue",
+         "DisplayKey": "HRM_HR_Dependent_IDDateOfIssue",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DependantIDPlaceOfIssue",
+         "DisplayKey": "DependantIDPlaceOfIssue",
+         "DataType": "string"
+      },
+      {
+         "Name": "IdentificationNo",
+         "DisplayKey": "IdentificationNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateOfIssuanceOfIdentityCard",
+         "DisplayKey": "DateOfIssuanceOfIdentityCard",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "PlaceOfIssuanceOfIdentityCard",
+         "DisplayKey": "PlaceOfIssuanceOfIdentityCard",
+         "DataType": "string"
+      },
+      {
+         "Name": "PassportNo",
+         "DisplayKey": "HRM_HR_Profile_PassportNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "DependantPassportDateOfIssue",
+         "DisplayKey": "HRM_HR_DependantPassportDateOfIssue",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DependantPassportPlaceOfIssue",
+         "DisplayKey": "HRM_HR_DependantPassportPlaceOfIssue",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_HR_Relatives_PlaceRegister",
+         "DataType": "string"
+      },
+      {
+         "Name": "NoDocument",
+         "DisplayKey": "HRM_HR_Relatives_NoDocument",
+         "DataType": "string"
+      },
+      {
+         "Name": "VolDocument",
+         "DisplayKey": "HRM_HR_Relatives_VolDocument",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProvinceName",
+         "DisplayKey": "HRM_HR_Profile_TAProvince",
+         "DataType": "string"
+      },
+      {
+         "Name": "DistrictName",
+         "DisplayKey": "HRM_HR_Profile_TADistrict",
+         "DataType": "string"
+      },
+      {
+         "Name": "VillageName",
+         "DisplayKey": "HRM_HR_Profile_Village",
+         "DataType": "string"
+      },
+      {
+         "Name": "AddressRegister",
+         "DisplayKey": "HRM_HR_Dependant_Address",
+         "DataType": "string"
+      }
+   ],
+   "DependantWaitConfirm": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Tra_Trainee_ProfileID",
+         "DataType": "string"
+      },
+      {
+         "Name": "DependantName",
+         "DisplayKey": "HRM_HR_Dependant_DependantName",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateOfBirth",
+         "DisplayKey": "HRM_HR_Dependant_DateOfBirth",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "IDNo",
+         "DisplayKey": "HRM_HR_Dependant_IDNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "PassportNo",
+         "DisplayKey": "HRM_HR_Profile_PassportNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "CodeTax",
+         "DisplayKey": "HRM_HR_Dependant_CodeTax",
+         "DataType": "string"
+      },
+      {
+         "Name": "NationalityName",
+         "DisplayKey": "HRM_HR_Dependant_NationlatyID",
+         "DataType": "string"
+      },
+      {
+         "Name": "GenderView",
+         "DisplayKey": "HRM_HR_Dependant_Gender",
+         "DataType": "string"
+      },
+      {
+         "Name": "RelativeTypeName",
+         "DisplayKey": "HRM_HR_Dependant_RelationID",
+         "DataType": "string"
+      }
+   ],
+   "DependantEdit": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Tra_Trainee_ProfileID",
+         "DataType": "string"
+      },
+      {
+         "Name": "DependantName",
+         "DisplayKey": "HRM_HR_Dependant_DependantName",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateOfBirth",
+         "DisplayKey": "HRM_HR_Dependant_DateOfBirth",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "IDNo",
+         "DisplayKey": "HRM_HR_Dependant_IDNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "PassportNo",
+         "DisplayKey": "HRM_HR_Profile_PassportNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "CodeTax",
+         "DisplayKey": "HRM_HR_Dependant_CodeTax",
+         "DataType": "string"
+      },
+      {
+         "Name": "NationalityName",
+         "DisplayKey": "HRM_HR_Dependant_NationlatyID",
+         "DataType": "string"
+      },
+      {
+         "Name": "GenderView",
+         "DisplayKey": "HRM_HR_Dependant_Gender",
+         "DataType": "string"
+      },
+      {
+         "Name": "RelativeTypeName",
+         "DisplayKey": "HRM_HR_Dependant_RelationID",
+         "DataType": "string"
+      }
+   ],
+   "BankAccountConfirmed": [
+      {
+         "Name": "BankName",
+         "DisplayKey": "HRM_Payroll_Sal_SalaryInformation_Bank1",
+         "DataType": "string"
+      },
+      {
+         "Name": "BankBrandName",
+         "DisplayKey": "HRM_Payroll_Sal_SalaryInformation_BankBrandName",
+         "DataType": "string"
+      },
+      {
+         "Name": "AccountName",
+         "DisplayKey": "HRM_Payroll_Sal_SalaryInformation_AccountName",
+         "DataType": "string"
+      },
+      {
+         "Name": "AccountNo",
+         "DisplayKey": "HRM_Payroll_Sal_SalaryInformation_AccountNo",
+         "DataType": "string"
+      }
+   ],
+   "BankAccountWaitConfirm": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Tra_Trainee_ProfileID",
+         "DataType": "string"
+      },
+      {
+         "Name": "AccountNo",
+         "DisplayKey": "HRM_Payroll_Sal_SalaryInformation_AccountNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "AccountName",
+         "DisplayKey": "HRM_Payroll_Sal_SalaryInformation_AccountName",
+         "DataType": "string"
+      },
+      {
+         "Name": "SortCode",
+         "DisplayKey": "HRM_Payroll_Sal_SalaryInformation_SortCode",
+         "DataType": "string"
+      },
+      {
+         "Name": "SwiftCode",
+         "DisplayKey": "HRM_Payroll_Sal_SalaryInformation_SwiftCode",
+         "DataType": "string"
+      },
+      {
+         "Name": "AccountName2",
+         "DisplayKey": "HRM_Payroll_Sal_SalaryInformation_AccountName2",
+         "DataType": "string"
+      },
+      {
+         "Name": "AmountTransferView",
+         "DisplayKey": "HRM_Payroll_Sal_SalaryInformation_MaximumAmount",
+         "DataType": "string"
+      },
+      {
+         "Name": "GroupBank",
+         "DisplayKey": "HRM_Payroll_Sal_SalaryInformation_GroupBank",
+         "DataType": "string"
+      },
+      {
+         "Name": "AmountTransferView2",
+         "DisplayKey": "HRM_Payroll_Sal_SalaryInformation_MaximumAmount2",
+         "DataType": "string"
+      },
+      {
+         "Name": "AccountNo2",
+         "DisplayKey": "HRM_Payroll_Sal_SalaryInformation_AccountNo2",
+         "DataType": "string"
+      }
+   ],
+   "BankAccountEdit": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Tra_Trainee_ProfileID",
+         "DataType": "string"
+      },
+      {
+         "Name": "DependantName",
+         "DisplayKey": "HRM_HR_Dependant_DependantName",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateOfBirth",
+         "DisplayKey": "HRM_HR_Dependant_DateOfBirth",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "IDNo",
+         "DisplayKey": "HRM_HR_Dependant_IDNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "PassportNo",
+         "DisplayKey": "HRM_HR_Profile_PassportNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "CodeTax",
+         "DisplayKey": "HRM_HR_Dependant_CodeTax",
+         "DataType": "string"
+      },
+      {
+         "Name": "NationalityName",
+         "DisplayKey": "HRM_HR_Dependant_NationlatyID",
+         "DataType": "string"
+      },
+      {
+         "Name": "GenderView",
+         "DisplayKey": "HRM_HR_Dependant_Gender",
+         "DataType": "string"
+      },
+      {
+         "Name": "RelativeTypeName",
+         "DisplayKey": "HRM_HR_Dependant_RelationID",
+         "DataType": "string"
+      }
+   ],
+   "AttSubmitPlanOvertime": [
+      {
+         "TypeView": "E_LIMIT",
+         "Name": "WarningViolation",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_HR_Profile_Info",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_Eva_Performance_OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "SalaryClassName",
+         "DisplayKey": "HRM_Payroll_BasicSalary_SalaryClassName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PositionName",
+         "DisplayKey": "HRM_HR_Profile_PositionName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Process_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "WorkDate",
+         "DisplayKey": "HRM_Attendance_AttendanceTable_WorkDate",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DayType",
+         "DisplayKey": "HRM_Category_ShiftItem_DayType",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "RegisterHours",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_RegisterHours",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "HoursFrom",
+         "NameSecond": "HoursTo",
+         "DisplayKey": "HRM_Sys_TimeRange",
+         "DataType": "DateToFrom",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DurationTypeView",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_OvertimeTypeName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "IsUnitAssistant",
+         "DisplayKey": "HRM_Attendance_IsUnitAssistant",
+         "DataType": "bool"
+      },
+      {
+         "TypeView": "E_REASON",
+         "Name": "ReasonOT",
+         "NameCancel": "CancelReason",
+         "NameReject": "DeclineReason",
+         "DisplayKey": "HRM_Attendance_Overtime_ReasonOT",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_SHOW_MORE_INFO",
+         "DisplayKey": "HRM_Common_Showmore",
+         "ConfigListDetail": [
+            {
+               "TypeView": "E_COMMON",
+               "Name": "OvertimeArea",
+               "DisplayKey": "HRM_OTWorkingArea",
+               "DataType": "string"
+            },
+            {
+               "TypeView": "E_COMMON",
+               "Name": "IsSignUpToEat",
+               "DisplayKey": "HRM_RequestOTMeal",
+               "DataType": "bool"
+            },
+            {
+               "TypeView": "E_COMMON",
+               "Name": "SendToView",
+               "DisplayKey": "HRM_Sys_TemplateSendMail_DefaultEmail",
+               "DataType": "string"
+            },
+            {
+               "TypeView": "E_COMMON",
+               "Name": "JobTypeView",
+               "DisplayKey": "HRM_HR_HDTJob_Type",
+               "DataType": "string"
+            },
+            {
+               "TypeView": "E_COMMON",
+               "Name": "RequestParking",
+               "DisplayKey": "HRM_Att_OvertimePlan_RequestParking",
+               "DataType": "string"
+            },
+            {
+               "TypeView": "E_COMMON",
+               "Name": "Place",
+               "DisplayKey": "HRM_PlaceTypeOT",
+               "DataType": "string"
+            }
+         ]
+      },
+      {
+         "TypeView": "E_FILEATTACH",
+         "Name": "lstFileAttach",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_FileAttach",
+         "DataType": "FileAttach"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Approve_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "UserApproveName1",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "UserApproveName2",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID2",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_STATUS",
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_Status",
+         "DataType": "string"
+      }
+   ],
+   "AttApprovePlanOvertime": [
+      {
+         "TypeView": "E_LIMIT",
+         "Name": "WarningViolation",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_HR_Profile_Info",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_Eva_Performance_OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "SalaryClassName",
+         "DisplayKey": "HRM_Payroll_BasicSalary_SalaryClassName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PositionName",
+         "DisplayKey": "HRM_HR_Profile_PositionName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Process_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "WorkDate",
+         "DisplayKey": "HRM_Attendance_AttendanceTable_WorkDate",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DayType",
+         "DisplayKey": "HRM_Category_ShiftItem_DayType",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "RegisterHours",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_RegisterHours",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "HoursFrom",
+         "NameSecond": "HoursTo",
+         "DisplayKey": "HRM_Sys_TimeRange",
+         "DataType": "DateToFrom",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DurationTypeView",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_OvertimeTypeName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "IsUnitAssistant",
+         "DisplayKey": "HRM_Attendance_IsUnitAssistant",
+         "DataType": "bool"
+      },
+      {
+         "TypeView": "E_REASON",
+         "Name": "ReasonOT",
+         "NameCancel": "CommentCancel",
+         "NameReject": "DeclineReason",
+         "DisplayKey": "HRM_Attendance_Overtime_ReasonOT",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_SHOW_MORE_INFO",
+         "DisplayKey": "HRM_Common_Showmore",
+         "ConfigListDetail": [
+            {
+               "TypeView": "E_COMMON",
+               "Name": "OvertimeArea",
+               "DisplayKey": "HRM_OTWorkingArea",
+               "DataType": "string"
+            },
+            {
+               "TypeView": "E_COMMON",
+               "Name": "IsSignUpToEat",
+               "DisplayKey": "HRM_RequestOTMeal",
+               "DataType": "bool"
+            },
+            {
+               "TypeView": "E_COMMON",
+               "Name": "SendToView",
+               "DisplayKey": "HRM_Sys_TemplateSendMail_DefaultEmail",
+               "DataType": "string"
+            },
+            {
+               "TypeView": "E_COMMON",
+               "Name": "JobTypeView",
+               "DisplayKey": "HRM_HR_HDTJob_Type",
+               "DataType": "string"
+            },
+            {
+               "TypeView": "E_COMMON",
+               "Name": "RequestParking",
+               "DisplayKey": "HRM_Att_OvertimePlan_RequestParking",
+               "DataType": "string"
+            },
+            {
+               "TypeView": "E_COMMON",
+               "Name": "Place",
+               "DisplayKey": "HRM_PlaceTypeOT",
+               "DataType": "string"
+            }
+         ]
+      },
+      {
+         "TypeView": "E_FILEATTACH",
+         "Name": "lstFileAttach",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_FileAttach",
+         "DataType": "FileAttach"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Approve_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "UserApproveName1",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "UserApproveName2",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID2",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_STATUS",
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_Status",
+         "DataType": "string"
+      }
+   ],
+   "AttApprovedPlanOvertime": [
+      {
+         "TypeView": "E_LIMIT",
+         "Name": "WarningViolation",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_HR_Profile_Info",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_Eva_Performance_OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "SalaryClassName",
+         "DisplayKey": "HRM_Payroll_BasicSalary_SalaryClassName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PositionName",
+         "DisplayKey": "HRM_HR_Profile_PositionName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Process_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "WorkDate",
+         "DisplayKey": "HRM_Attendance_AttendanceTable_WorkDate",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DayType",
+         "DisplayKey": "HRM_Category_ShiftItem_DayType",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "RegisterHours",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_RegisterHours",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "HoursFrom",
+         "NameSecond": "HoursTo",
+         "DisplayKey": "HRM_Sys_TimeRange",
+         "DataType": "DateToFrom",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DurationTypeView",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_OvertimeTypeName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "IsUnitAssistant",
+         "DisplayKey": "HRM_Attendance_IsUnitAssistant",
+         "DataType": "bool"
+      },
+      {
+         "TypeView": "E_REASON",
+         "Name": "ReasonOT",
+         "NameCancel": "CommentCancel",
+         "NameReject": "DeclineReason",
+         "DisplayKey": "HRM_Attendance_Overtime_ReasonOT",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_SHOW_MORE_INFO",
+         "DisplayKey": "HRM_Common_Showmore",
+         "ConfigListDetail": [
+            {
+               "TypeView": "E_COMMON",
+               "Name": "OvertimeArea",
+               "DisplayKey": "HRM_OTWorkingArea",
+               "DataType": "string"
+            },
+            {
+               "TypeView": "E_COMMON",
+               "Name": "IsSignUpToEat",
+               "DisplayKey": "HRM_RequestOTMeal",
+               "DataType": "bool"
+            },
+            {
+               "TypeView": "E_COMMON",
+               "Name": "SendToView",
+               "DisplayKey": "HRM_Sys_TemplateSendMail_DefaultEmail",
+               "DataType": "string"
+            },
+            {
+               "TypeView": "E_COMMON",
+               "Name": "JobTypeView",
+               "DisplayKey": "HRM_HR_HDTJob_Type",
+               "DataType": "string"
+            },
+            {
+               "TypeView": "E_COMMON",
+               "Name": "RequestParking",
+               "DisplayKey": "HRM_Att_OvertimePlan_RequestParking",
+               "DataType": "string"
+            },
+            {
+               "TypeView": "E_COMMON",
+               "Name": "Place",
+               "DisplayKey": "HRM_PlaceTypeOT",
+               "DataType": "string"
+            }
+         ]
+      },
+      {
+         "TypeView": "E_FILEATTACH",
+         "Name": "lstFileAttach",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_FileAttach",
+         "DataType": "FileAttach"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Approve_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "UserApproveName1",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "UserApproveName2",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID2",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_STATUS",
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_Status",
+         "DataType": "string"
+      }
+   ],
+   "AppendixContract": [
+      {
+         "Name": "AppendixContractTypeName",
+         "DisplayKey": "AppendixContractTypeName",
+         "DataType": "string"
+      },
+      {
+         "Name": "AnnexCode",
+         "DisplayKey": "HRM_Hre_ContractExtend_AnnexCode",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateStart",
+         "DisplayKey": "HRM_Hre_ContractExtend_DateStart",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DateEnd",
+         "DisplayKey": "HRM_Hre_ContractExtend_DateEnd",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "TypeAppendixView",
+         "DisplayKey": "HRM_HR_AppendixContract_TypeAppendix",
+         "DataType": "string"
+      }
+   ],
+   "AttSubmitBusinessTravelTransfer": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "OrgStructureName",
+         "DisplayKey": "OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "Name": "PositionName",
+         "DisplayKey": "HRM_Attendance_PositionName",
+         "DataType": "string"
+      },
+      {
+         "Name": "JobTitleName",
+         "DisplayKey": "HRM_Attendance_JobTitleName",
+         "DataType": "string"
+      },
+      {
+         "Name": "BusinessTrip",
+         "DisplayKey": "HRM_Att_BusinessTrip",
+         "DataType": "string"
+      },
+      {
+         "Name": "BusinessTravelTypeView",
+         "DisplayKey": "HRM_Attendance_BusinessTravelType",
+         "DataType": "string"
+      },
+      {
+         "Name": "TransferDate",
+         "DisplayKey": "HRM_Att_TransferDate",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "MovementTypeView",
+         "DisplayKey": "HRM_Att_MovementType",
+         "DataType": "string"
+      },
+      {
+         "Name": "HourFrom",
+         "DisplayKey": "HRM_Att_BusinessTravelTransfer_HourFrom",
+         "DataType": "DateTime",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "Name": "HourTo",
+         "DisplayKey": "HRM_Att_BusinessTravelTransfer_HourTo",
+         "DataType": "DateTime",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "Name": "HourTotal",
+         "DisplayKey": "HRM_Att_BusinessTravelTransfer_TotalHour",
+         "DataType": "string"
+      },
+      {
+         "Name": "TransferRoute",
+         "DisplayKey": "HRM_Att_BusinessTravelTransfer_TransferRoute",
+         "DataType": "string"
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Leaveday_Status",
+         "DataType": "string"
+      },
+      {
+         "Name": "FirstApproverName",
+         "DisplayKey": "HRM_Attendance_FirstApproverName",
+         "DataType": "string"
+      },
+      {
+         "Name": "MidApproverName",
+         "DisplayKey": "HRM_Attendance_MidApproverName",
+         "DataType": "string"
+      },
+      {
+         "Name": "NextApproverName",
+         "DisplayKey": "HRM_Attendance_NextApproverName",
+         "DataType": "string"
+      },
+      {
+         "Name": "LastApproverName",
+         "DisplayKey": "HRM_Attendance_LastApproverName",
+         "DataType": "string"
+      }
+   ],
+   "AttApproveBusinessTravelTransfer": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "OrgStructureName",
+         "DisplayKey": "OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "Name": "PositionName",
+         "DisplayKey": "HRM_Attendance_PositionName",
+         "DataType": "string"
+      },
+      {
+         "Name": "JobTitleName",
+         "DisplayKey": "HRM_Attendance_JobTitleName",
+         "DataType": "string"
+      },
+      {
+         "Name": "BusinessTrip",
+         "DisplayKey": "HRM_Att_BusinessTrip",
+         "DataType": "string"
+      },
+      {
+         "Name": "BusinessTravelTypeView",
+         "DisplayKey": "HRM_Attendance_BusinessTravelType",
+         "DataType": "string"
+      },
+      {
+         "Name": "TransferDate",
+         "DisplayKey": "HRM_Att_TransferDate",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "MovementTypeView",
+         "DisplayKey": "HRM_Att_MovementType",
+         "DataType": "string"
+      },
+      {
+         "Name": "HourFrom",
+         "DisplayKey": "HRM_Att_BusinessTravelTransfer_HourFrom",
+         "DataType": "DateTime",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "Name": "HourTo",
+         "DisplayKey": "HRM_Att_BusinessTravelTransfer_HourTo",
+         "DataType": "DateTime",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "Name": "HourTotal",
+         "DisplayKey": "HRM_Att_BusinessTravelTransfer_TotalHour",
+         "DataType": "string"
+      },
+      {
+         "Name": "TransferRoute",
+         "DisplayKey": "HRM_Att_BusinessTravelTransfer_TransferRoute",
+         "DataType": "string"
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Leaveday_Status",
+         "DataType": "string"
+      },
+      {
+         "Name": "FirstApproverName",
+         "DisplayKey": "HRM_Attendance_FirstApproverName",
+         "DataType": "string"
+      },
+      {
+         "Name": "MidApproverName",
+         "DisplayKey": "HRM_Attendance_MidApproverName",
+         "DataType": "string"
+      },
+      {
+         "Name": "NextApproverName",
+         "DisplayKey": "HRM_Attendance_NextApproverName",
+         "DataType": "string"
+      },
+      {
+         "Name": "LastApproverName",
+         "DisplayKey": "HRM_Attendance_LastApproverName",
+         "DataType": "string"
+      }
+   ],
+   "AttApprovedBusinessTravelTransfer": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "OrgStructureName",
+         "DisplayKey": "OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "Name": "PositionName",
+         "DisplayKey": "HRM_Attendance_PositionName",
+         "DataType": "string"
+      },
+      {
+         "Name": "JobTitleName",
+         "DisplayKey": "HRM_Attendance_JobTitleName",
+         "DataType": "string"
+      },
+      {
+         "Name": "BusinessTrip",
+         "DisplayKey": "HRM_Att_BusinessTrip",
+         "DataType": "string"
+      },
+      {
+         "Name": "BusinessTravelTypeView",
+         "DisplayKey": "HRM_Attendance_BusinessTravelType",
+         "DataType": "string"
+      },
+      {
+         "Name": "TransferDate",
+         "DisplayKey": "HRM_Att_TransferDate",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "MovementTypeView",
+         "DisplayKey": "HRM_Att_MovementType",
+         "DataType": "string"
+      },
+      {
+         "Name": "HourFrom",
+         "DisplayKey": "HRM_Att_BusinessTravelTransfer_HourFrom",
+         "DataType": "DateTime",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "Name": "HourTo",
+         "DisplayKey": "HRM_Att_BusinessTravelTransfer_HourTo",
+         "DataType": "DateTime",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "Name": "HourTotal",
+         "DisplayKey": "HRM_Att_BusinessTravelTransfer_TotalHour",
+         "DataType": "string"
+      },
+      {
+         "Name": "TransferRoute",
+         "DisplayKey": "HRM_Att_BusinessTravelTransfer_TransferRoute",
+         "DataType": "string"
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Leaveday_Status",
+         "DataType": "string"
+      },
+      {
+         "Name": "FirstApproverName",
+         "DisplayKey": "HRM_Attendance_FirstApproverName",
+         "DataType": "string"
+      },
+      {
+         "Name": "MidApproverName",
+         "DisplayKey": "HRM_Attendance_MidApproverName",
+         "DataType": "string"
+      },
+      {
+         "Name": "NextApproverName",
+         "DisplayKey": "HRM_Attendance_NextApproverName",
+         "DataType": "string"
+      },
+      {
+         "Name": "LastApproverName",
+         "DisplayKey": "HRM_Attendance_LastApproverName",
+         "DataType": "string"
+      }
+   ],
+   "EvaPerformanceWaitInfo": [
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "JobTitleNameOfProfile",
+         "DisplayKey": "HRM_HR_Profile_JobTitleName",
+         "DataType": "string"
+      },
+      {
+         "Name": "OrgStructureNameOfProfile",
+         "DisplayKey": "HRM_HR_Profile_OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "Name": "PerformanceTypeName",
+         "DisplayKey": "PerformanceTypeName",
+         "DataType": "string"
+      },
+      {
+         "Name": "PerformancePlanName",
+         "DisplayKey": "PerformancePlanName",
+         "DataType": "string"
+      },
+      {
+         "Name": "TemplateName",
+         "DisplayKey": "PerformanceTemplateName",
+         "DataType": "string"
+      },
+      {
+         "Name": "DatePerformOfProfile",
+         "DisplayKey": "HRM_Tas_Task_Evaluationdate",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DateCompletedAppraisal",
+         "DisplayKey": "DateCompletedAppraisal",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "PerformancePlanName",
+         "DisplayKey": "PerformancePlanName",
+         "DataType": "string"
+      },
+      {
+         "Name": "TemplateName",
+         "DisplayKey": "PerformanceTemplateName",
+         "DataType": "string"
+      },
+      {
+         "Name": "TotalMark",
+         "DisplayKey": "E_Result",
+         "DataType": "string"
+      }
+   ],
+   "EvaPerformanceWait": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "PerformanceTypeName",
+         "DisplayKey": "PerformanceTypeName",
+         "DataType": "string"
+      },
+      {
+         "Name": "PerformancePlanName",
+         "DisplayKey": "PerformancePlanName",
+         "DataType": "string"
+      },
+      {
+         "Name": "PerformanceTemplateName",
+         "DisplayKey": "PerformanceTemplateName",
+         "DataType": "string"
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Evaluation_Performance_Status",
+         "DataType": "string"
+      },
+      {
+         "Name": "KPIStatusView",
+         "DisplayKey": "HRM_Evaluation_Performance_KPIStatus",
+         "DataType": "string"
+      },
+      {
+         "Name": "TotalMark",
+         "DisplayKey": "TotalMark",
+         "DataType": "string"
+      },
+      {
+         "Name": "LevelName",
+         "DisplayKey": "LevelName",
+         "DataType": "string"
+      }
+   ],
+   "QualificationConfirmed": [
+      {
+         "Name": "EducationLevelName",
+         "DisplayKey": "EducationLevelName",
+         "DataType": "string"
+      },
+      {
+         "Name": "QualificationName",
+         "DisplayKey": "HRM_HR_Qualification_QualificationName",
+         "DataType": "string"
+      },
+      {
+         "Name": "SpecialLevelName",
+         "DisplayKey": "HRM_HR_Qualification_SpecialLevelID",
+         "DataType": "string"
+      },
+      {
+         "Name": "TrainingTypeView",
+         "DisplayKey": "HRM_HR_Qualification_TrainingType",
+         "DataType": "string"
+      },
+      {
+         "Name": "QualificationNameAndCode",
+         "DisplayKey": "HRM_Hre_ProfileQualification_QualificationID",
+         "DataType": "string"
+      },
+      {
+         "Name": "QualificationLevelNameAndCode",
+         "DisplayKey": "HRM_Category_Cat_ListQualificationLevel_Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "FieldOfTraining",
+         "DisplayKey": "HRM_Cat_SubMajor_SubMajorName",
+         "DataType": "string"
+      },
+      {
+         "Name": "TrainingPlace",
+         "DisplayKey": "HRM_HR_Qualification_TrainingPlace",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateOfIssueCertificate",
+         "DisplayKey": "HRM_HR_Qualification_DateOfIssueCertificate",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      }
+   ],
+   "QualificationEdit": [
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "QualificationName",
+         "DisplayKey": "HRM_HR_Qualification_QualificationName",
+         "DataType": "string"
+      },
+      {
+         "Name": "HRM_HR_Common_Level",
+         "DisplayKey": "SpecialLevelName",
+         "DataType": "string"
+      },
+      {
+         "Name": "TrainingTypeView",
+         "DisplayKey": "HRM_HR_Qualification_TrainingType",
+         "DataType": "string"
+      },
+      {
+         "Name": "TypeOfEducationView",
+         "DisplayKey": "HRM_HR_Qualification_TypeOfEducation",
+         "DataType": "string"
+      },
+      {
+         "Name": "FieldOfTraining",
+         "DisplayKey": "HRM_Cat_SubMajor_SubMajorName",
+         "DataType": "string"
+      },
+      {
+         "Name": "TrainingPlace",
+         "DisplayKey": "HRM_HR_Qualification_TrainingPlace",
+         "DataType": "string"
+      },
+      {
+         "Name": "Rank",
+         "DisplayKey": "HRM_Tra_Class_TrainingPlace",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateStart",
+         "DisplayKey": "HRM_Common_FromDate",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DateFinish",
+         "DisplayKey": "HRM_Common_ToDate",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "CertificateName",
+         "DisplayKey": "HRM_Tra_Certificate_CertificateName",
+         "DataType": "string"
+      }
+   ],
+   "QualificationWaitConfirm": [
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "QualificationName",
+         "DisplayKey": "HRM_HR_Qualification_QualificationName",
+         "DataType": "string"
+      },
+      {
+         "Name": "HRM_HR_Common_Level",
+         "DisplayKey": "SpecialLevelName",
+         "DataType": "string"
+      },
+      {
+         "Name": "TrainingTypeView",
+         "DisplayKey": "HRM_HR_Qualification_TrainingType",
+         "DataType": "string"
+      },
+      {
+         "Name": "TypeOfEducationView",
+         "DisplayKey": "HRM_HR_Qualification_TypeOfEducation",
+         "DataType": "string"
+      },
+      {
+         "Name": "FieldOfTraining",
+         "DisplayKey": "HRM_Cat_SubMajor_SubMajorName",
+         "DataType": "string"
+      },
+      {
+         "Name": "TrainingPlace",
+         "DisplayKey": "HRM_HR_Qualification_TrainingPlace",
+         "DataType": "string"
+      },
+      {
+         "Name": "Rank",
+         "DisplayKey": "HRM_Tra_Class_TrainingPlace",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateStart",
+         "DisplayKey": "HRM_Common_FromDate",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DateFinish",
+         "DisplayKey": "HRM_Common_ToDate",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "CertificateName",
+         "DisplayKey": "HRM_Tra_Certificate_CertificateName",
+         "DataType": "string"
+      }
+   ],
+   "RelativeConfirmed": [
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_HR_GeneralInformation",
+         "DataType": "string"
+      },
+      {
+         "Name": "RelativeName",
+         "DisplayKey": "RelativeName",
+         "DataType": "string"
+      },
+      {
+         "Name": "RelativeTypeName",
+         "DisplayKey": "RelativeTypeName",
+         "DataType": "string"
+      },
+      {
+         "Name": "GenderRelativesView",
+         "DisplayKey": "GenderRelativesView",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateYearOfBirth",
+         "DisplayKey": "DateOfBirth",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "NationalityName",
+         "DisplayKey": "NationalityName",
+         "DataType": "string"
+      },
+      {
+         "Name": "EthnicGroupName",
+         "DisplayKey": "EthnicGroupName",
+         "DataType": "string"
+      },
+      {
+         "Name": "HealthInsNo",
+         "DisplayKey": "HRM_HR_Relatives_HealthInsNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "SocialInsNo",
+         "DisplayKey": "HRM_HR_Relatives_SocialInsNo",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Hre_InformationToInput",
+         "DataType": "string"
+      },
+      {
+         "Name": "IDNo",
+         "DisplayKey": "IDNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "IDDateOfIssue",
+         "DisplayKey": "HRM_HR_Relatives_IDDateOfIssue",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "RelativesIDPlaceOfIssue",
+         "DisplayKey": "RelativesIDPlaceOfIssue",
+         "DataType": "string"
+      },
+      {
+         "Name": "IdentificationNo",
+         "DisplayKey": "IdentificationNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateOfIssuanceOfIdentityCard",
+         "DisplayKey": "DateOfIssuanceOfIdentityCard",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "PlaceOfIssuanceOfIdentityCard",
+         "DisplayKey": "PlaceOfIssuanceOfIdentityCard",
+         "DataType": "string"
+      },
+      {
+         "Name": "RelativesPassportNo",
+         "DisplayKey": "HRM_HR_Profile_PassportNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "RelativesPassportDateOfIssue",
+         "DisplayKey": "HRM_HR_Profile_PassportDateOfIssue",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "RelativesPassportPlaceOfIssue",
+         "DisplayKey": "HRM_HR_Profile_PassportPlaceOfIssue",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_HR_Relatives_PlaceRegister",
+         "DataType": "string"
+      },
+      {
+         "Name": "NoDocument",
+         "DisplayKey": "HRM_HR_Relatives_NoDocument",
+         "DataType": "string"
+      },
+      {
+         "Name": "VolDocument",
+         "DisplayKey": "HRM_HR_Relatives_VolDocument",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProvinceName",
+         "DisplayKey": "HRM_HR_Profile_TAProvince",
+         "DataType": "string"
+      },
+      {
+         "Name": "DistrictName",
+         "DisplayKey": "HRM_HR_Profile_TADistrict",
+         "DataType": "string"
+      },
+      {
+         "Name": "VillageName",
+         "DisplayKey": "HRM_HR_Profile_Village",
+         "DataType": "string"
+      },
+      {
+         "Name": "Address",
+         "DisplayKey": "Address",
+         "DataType": "string"
+      }
+   ],
+   "RelativeEdit": [
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "RelativeName",
+         "DisplayKey": "RelativeName",
+         "DataType": "string"
+      },
+      {
+         "Name": "GenderView",
+         "DisplayKey": "GenderView",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateYearOfBirth",
+         "DisplayKey": "DateOfBirth",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "YearOfLose",
+         "DisplayKey": "YearOfLose",
+         "DataType": "string"
+      },
+      {
+         "Name": "IDNo",
+         "DisplayKey": "IDNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "IDDateOfIssue",
+         "DisplayKey": "DateOfIssue",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "IDDateOfExpiry",
+         "DisplayKey": "ExpireDate",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "RelativeTypeName",
+         "DisplayKey": "RelativeTypeName",
+         "DataType": "string"
+      },
+      {
+         "Name": "CountryName",
+         "DisplayKey": "CountryName",
+         "DataType": "string"
+      }
+   ],
+   "RelativeWaitConfirm": [
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "RelativeName",
+         "DisplayKey": "RelativeName",
+         "DataType": "string"
+      },
+      {
+         "Name": "GenderView",
+         "DisplayKey": "GenderView",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateYearOfBirth",
+         "DisplayKey": "DateOfBirth",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "YearOfLose",
+         "DisplayKey": "YearOfLose",
+         "DataType": "string"
+      },
+      {
+         "Name": "IDNo",
+         "DisplayKey": "IDNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "IDDateOfIssue",
+         "DisplayKey": "DateOfIssue",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "IDDateOfExpiry",
+         "DisplayKey": "ExpireDate",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "RelativeTypeName",
+         "DisplayKey": "RelativeTypeName",
+         "DataType": "string"
+      },
+      {
+         "Name": "CountryName",
+         "DisplayKey": "CountryName",
+         "DataType": "string"
+      }
+   ],
+   "TraineeCertificate": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_HR_Profile_OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "Name": "CourseName",
+         "DisplayKey": "SubjectName",
+         "DataType": "string"
+      },
+      {
+         "Name": "ClassName",
+         "DisplayKey": "ClassName",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateCertificate",
+         "DisplayKey": "DateCertificate",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DateExpireCertificate",
+         "DisplayKey": "DateExpireCertificate",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "CertificateIDNo",
+         "DisplayKey": "CertificateIDNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "CertificateName",
+         "DisplayKey": "CertificateName",
+         "DataType": "string"
+      },
+      {
+         "Name": "PlaceCertificate",
+         "DisplayKey": "PlaceCertificate",
+         "DataType": "string"
+      },
+      {
+         "Name": "Note",
+         "DisplayKey": "Note",
+         "DataType": "string"
+      },
+      {
+         "Name": "PayersName",
+         "DisplayKey": "PayersName",
+         "DataType": "string"
+      },
+      {
+         "Name": "FileAttach",
+         "DisplayKey": "FileAttach",
+         "DataType": "fileAttach"
+      }
+   ],
+   "TraineePlan": [
+      {
+         "Name": "Code",
+         "DisplayKey": "HRM_Tra_Plan_Code",
+         "DataType": "string"
+      },
+      {
+         "Name": "PlanName",
+         "DisplayKey": "HRM_Tra_Plan_PlanName",
+         "DataType": "string"
+      },
+      {
+         "Name": "Outside",
+         "DisplayKey": "HRM_Tra_Class_IsTrainingOut",
+         "DataType": "bool"
+      },
+      {
+         "Name": "DateFrom",
+         "DisplayKey": "HRM_Common_FromDate",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DateTo",
+         "DisplayKey": "HRM_Common_ToDate",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "Cost",
+         "DisplayKey": "HRM_Tra_Plan_Cost",
+         "DataType": "string"
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "StatusView",
+         "DataType": "string"
+      },
+      {
+         "Name": "TotalClass",
+         "DisplayKey": "HRM_Tra_Plan_TotalClass",
+         "DataType": "string"
+      },
+      {
+         "Name": "SumQuantity",
+         "DisplayKey": "HRM_Tra_Plan_SumQuantity",
+         "DataType": "string"
+      }
+   ],
+   "HreLanguageLevel": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_HR_Profile_OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "Name": "JobTitleName",
+         "DisplayKey": "HRM_HR_Profile_JobTitleName",
+         "DataType": "string"
+      },
+      {
+         "Name": "PositionName",
+         "DisplayKey": "HRM_HR_Profile_PositionName",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateOfIssue",
+         "DisplayKey": "LanguageDateOfIssue",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DateExpired",
+         "DisplayKey": "LanguageDateEnd",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DateExpired",
+         "DisplayKey": "DateExpire",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "TrainingPlace",
+         "DisplayKey": "TrainingPlaceName",
+         "DataType": "string"
+      },
+      {
+         "Name": "Speaking",
+         "DisplayKey": "HRM_Tra_Certificate_CertificateName",
+         "DataType": "string"
+      },
+      {
+         "Name": "Writing",
+         "DisplayKey": "HRM_Hre_ProfileLanguageLevel",
+         "DataType": "string"
+      },
+      {
+         "Name": "Reading",
+         "DisplayKey": "Reading",
+         "DataType": "string"
+      },
+      {
+         "Name": "Listening",
+         "DisplayKey": "Listening",
+         "DataType": "string"
+      },
+      {
+         "Name": "TrainingAddress",
+         "DisplayKey": "TrainingAddress",
+         "DataType": "string"
+      },
+      {
+         "Name": "RatingOrScore",
+         "DisplayKey": "RatingOrScore",
+         "DataType": "string"
+      }
+   ],
+   "EvaPerformanceResult": [
+      {
+         "Name": "PerformancePlanName",
+         "DisplayKey": "Eva_Performance_Eva_PerformancePlan_Code",
+         "DataType": "string"
+      },
+      {
+         "Name": "JobTitleName",
+         "DisplayKey": "HRM_HR_Profile_JobTitleName",
+         "DataType": "string"
+      },
+      {
+         "Name": "PositionName",
+         "DisplayKey": "PositionName",
+         "DataType": "string"
+      },
+      {
+         "Name": "WorkPlaceName",
+         "DisplayKey": "HRM_HR_Profile_WorkingPlace",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateEffect",
+         "DisplayKey": "HRM_HR_Profile_DateOfEffect",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "PeriodFromDate",
+         "DisplayKey": "PeriodFromDate",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "PerformanceTemplateName",
+         "DisplayKey": "PerformanceTemplateName",
+         "DataType": "string"
+      },
+      {
+         "Name": "TotalMark",
+         "DisplayKey": "TotalMark",
+         "DataType": "string"
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "StatusView",
+         "DataType": "string"
+      },
+      {
+         "Name": "LevelName",
+         "DisplayKey": "ResultInterview",
+         "DataType": "string"
+      }
+   ],
+   "PerformanceTemplateProfile": [
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "PerformancePlanName",
+         "DisplayKey": "Eva_PerformancePlan",
+         "DataType": "string"
+      },
+      {
+         "Name": "PerformanceTypeName",
+         "DisplayKey": "HRM_HR_Contract_ContractEvaType",
+         "DataType": "string"
+      },
+      {
+         "Name": "TemplateName",
+         "DisplayKey": "TemplateName",
+         "DataType": "string"
+      },
+      {
+         "Name": "EvaluatorName1",
+         "DisplayKey": "Eva_Evaluator1",
+         "DataType": "string"
+      },
+      {
+         "Name": "EvaluatorName2",
+         "DisplayKey": "Eva_Evaluator2",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "EvaluatorName3",
+         "DisplayKey": "Eva_Evaluator3",
+         "DataType": "string"
+      },
+      {
+         "Name": "EvaluatorName4",
+         "DisplayKey": "Eva_Evaluator4",
+         "DataType": "string"
+      },
+      {
+         "Name": "PeriodFromDate",
+         "DisplayKey": "HRM_Evaluation_Performance_PeriodFromDate",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "PeriodToDate",
+         "DisplayKey": "HRM_Evaluation_PerformancePlan_DateCompletedAppraisal",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DateEffect",
+         "DisplayKey": "HRM_Hre_DateOfEffective",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "TotalMark",
+         "DisplayKey": "TotalMark",
+         "DataType": "string"
+      }
+   ],
+   "EvaPerformanceTargetViewDetail": [
+      {
+         "Name": "KPIName",
+         "DisplayKey": "HRM_Evaluation_KPIName",
+         "DataType": "string"
+      },
+      {
+         "Name": "DescriptionKPIFix",
+         "DisplayKey": "DescriptionKPIFix",
+         "DataType": "string"
+      },
+      {
+         "Name": "Rate",
+         "DisplayKey": "HRM_Evaluation_Performance_Rate",
+         "DataType": "string"
+      },
+      {
+         "Name": "MinimumRating",
+         "DisplayKey": "HRM_Evaluation_MinimumRating",
+         "DataType": "string"
+      },
+      {
+         "Name": "MaximumRating",
+         "DisplayKey": "HRM_Evaluation_MaximumRating",
+         "DataType": "string"
+      },
+      {
+         "Name": "ActualByEvaluator1",
+         "DisplayKey": "ActualByEvaluator1",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "ActualByEvaluator2",
+         "DisplayKey": "ActualByEvaluator2",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "ActualByEvaluator3",
+         "DisplayKey": "ActualByEvaluator3",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "ActualByEvaluator4",
+         "DisplayKey": "ActualByEvaluator4",
+         "DataType": "datetime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "MarkByEvaluator1",
+         "DisplayKey": "MarkByEvaluator1",
+         "DataType": "string"
+      },
+      {
+         "Name": "MarkByEvaluator2",
+         "DisplayKey": "MarkByEvaluator2",
+         "DataType": "string"
+      },
+      {
+         "Name": "MarkByEvaluator3",
+         "DisplayKey": "MarkByEvaluator3",
+         "DataType": "string"
+      },
+      {
+         "Name": "MarkByEvaluator4",
+         "DisplayKey": "MarkByEvaluator4",
+         "DataType": "string"
+      },
+      {
+         "Name": "Evaluation",
+         "DisplayKey": "HRM_Hre_Task_Evaluation",
+         "DataType": "string"
+      },
+      {
+         "Name": "PerformanceForDetailValue",
+         "DisplayKey": "HRM_Evaluation_PerformanceDetail_Value",
+         "DataType": "string"
+      },
+      {
+         "Name": "DescriptionKP",
+         "DisplayKey": "HRM_Evaluation_PerformanceForDetail_DescriptionKP",
+         "DataType": "string"
+      },
+      {
+         "Name": "KPIGroupName",
+         "DisplayKey": "HRM_Tra_KPIGroup_Tittle",
+         "DataType": "string"
+      }
+   ],
+   "EvaPerformanceGroupTargetViewDetail": [
+      {
+         "Name": "KPIGroupName",
+         "DisplayKey": "HRM_Tra_KPIGroup_Tittle",
+         "DataType": "string"
+      },
+      {
+         "Name": "Description",
+         "DisplayKey": "Descriptions",
+         "DataType": "string"
+      },
+      {
+         "Name": "Rate",
+         "DisplayKey": "HRM_Evaluation_Performance_Rate",
+         "DataType": "string"
+      },
+      {
+         "Name": "MarkByEvaluator1",
+         "DisplayKey": "MarkByEvaluator1",
+         "DataType": "string"
+      },
+      {
+         "Name": "MarkByEvaluator2",
+         "DisplayKey": "MarkByEvaluator2",
+         "DataType": "string"
+      },
+      {
+         "Name": "MarkByEvaluator3",
+         "DisplayKey": "MarkByEvaluator3",
+         "DataType": "string"
+      },
+      {
+         "Name": "MarkByEvaluator4",
+         "DisplayKey": "MarkByEvaluator4",
+         "DataType": "string"
+      }
+   ],
+   "HreSubmitStopWorking": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "PositionName",
+         "DisplayKey": "HRM_Category_Company_PositionNameSing",
+         "DataType": "string"
+      },
+      {
+         "Name": "JobTitleName",
+         "DisplayKey": "HRM_Category_Company_JobTitleNameSing",
+         "DataType": "string"
+      },
+      {
+         "Name": "E_UNIT",
+         "DisplayKey": "HRM_HR_ReportProfileWaitingStopWorking_UnitName",
+         "DataType": "string"
+      },
+      {
+         "Name": "E_DIVISION",
+         "DisplayKey": "HRM_HR_ReportProfileWaitingStopWorking_DepartmentName",
+         "DataType": "string"
+      },
+      {
+         "Name": "E_DEPARTMENT",
+         "DisplayKey": "HRM_HR_ReportProfileWaitingStopWorking_SectionName",
+         "DataType": "string"
+      },
+      {
+         "Name": "E_TEAM",
+         "DisplayKey": "E_TEAM",
+         "DataType": "string",
+         "DataFormat": ""
+      },
+      {
+         "Name": "E_SECTION",
+         "DisplayKey": "E_SECTION",
+         "DataType": "string"
+      },
+      {
+         "Name": "StopWorkTypeView",
+         "DisplayKey": "HRM_HR_Profile_StopWorkType",
+         "DataType": "string"
+      },
+      {
+         "Name": "TypeOfStopName",
+         "DisplayKey": "HRM_HR_StopWorking_TypeOfStop",
+         "DataType": "string"
+      },
+      {
+         "Name": "ResignReasonName",
+         "DisplayKey": "lblform_StopWorkingInfo_ResignReasonID",
+         "DataType": "string"
+      },
+      {
+         "Name": "OtherReason",
+         "DisplayKey": "HRM_HR_StopWorking_OtherReason",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateStop",
+         "DisplayKey": "DateStop",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DecisionNo",
+         "DisplayKey": "ResignNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "StatusView",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveName",
+         "DisplayKey": "HRM_Rec_JobVacancy_UserApproveName",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveID2Name",
+         "DisplayKey": "HRM_Rec_JobVacancy_UserApproveID2",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveID3Name",
+         "DisplayKey": "HRM_Rec_JobVacancy_UserApproveID3",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveID4Name",
+         "DisplayKey": "HRM_Rec_JobVacancy_UserApproveID4",
+         "DataType": "string",
+         "ClassStyle": ""
+      }
+   ],
+   "HreApproveStopWorking": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "PositionName",
+         "DisplayKey": "HRM_Category_Company_PositionNameSing",
+         "DataType": "string"
+      },
+      {
+         "Name": "JobTitleName",
+         "DisplayKey": "HRM_Category_Company_JobTitleNameSing",
+         "DataType": "string"
+      },
+      {
+         "Name": "E_UNIT",
+         "DisplayKey": "HRM_HR_ReportProfileWaitingStopWorking_UnitName",
+         "DataType": "string"
+      },
+      {
+         "Name": "E_DIVISION",
+         "DisplayKey": "HRM_HR_ReportProfileWaitingStopWorking_DepartmentName",
+         "DataType": "string"
+      },
+      {
+         "Name": "E_DEPARTMENT",
+         "DisplayKey": "HRM_HR_ReportProfileWaitingStopWorking_SectionName",
+         "DataType": "string"
+      },
+      {
+         "Name": "E_TEAM",
+         "DisplayKey": "E_TEAM",
+         "DataType": "string",
+         "DataFormat": ""
+      },
+      {
+         "Name": "E_SECTION",
+         "DisplayKey": "E_SECTION",
+         "DataType": "string"
+      },
+      {
+         "Name": "StopWorkTypeView",
+         "DisplayKey": "HRM_HR_Profile_StopWorkType",
+         "DataType": "string"
+      },
+      {
+         "Name": "TypeOfStopName",
+         "DisplayKey": "HRM_HR_StopWorking_TypeOfStop",
+         "DataType": "string"
+      },
+      {
+         "Name": "ResignReasonName",
+         "DisplayKey": "lblform_StopWorkingInfo_ResignReasonID",
+         "DataType": "string"
+      },
+      {
+         "Name": "OtherReason",
+         "DisplayKey": "HRM_HR_StopWorking_OtherReason",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateStop",
+         "DisplayKey": "DateStop",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DecisionNo",
+         "DisplayKey": "ResignNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "StatusView",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveName",
+         "DisplayKey": "HRM_Rec_JobVacancy_UserApproveName",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveID2Name",
+         "DisplayKey": "HRM_Rec_JobVacancy_UserApproveID2",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveID3Name",
+         "DisplayKey": "HRM_Rec_JobVacancy_UserApproveID3",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveID4Name",
+         "DisplayKey": "HRM_Rec_JobVacancy_UserApproveID4",
+         "DataType": "string",
+         "ClassStyle": ""
+      }
+   ],
+   "HreApprovedStopWorking": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "PositionName",
+         "DisplayKey": "HRM_Category_Company_PositionNameSing",
+         "DataType": "string"
+      },
+      {
+         "Name": "JobTitleName",
+         "DisplayKey": "HRM_Category_Company_JobTitleNameSing",
+         "DataType": "string"
+      },
+      {
+         "Name": "E_UNIT",
+         "DisplayKey": "HRM_HR_ReportProfileWaitingStopWorking_UnitName",
+         "DataType": "string"
+      },
+      {
+         "Name": "E_DIVISION",
+         "DisplayKey": "HRM_HR_ReportProfileWaitingStopWorking_DepartmentName",
+         "DataType": "string"
+      },
+      {
+         "Name": "E_DEPARTMENT",
+         "DisplayKey": "HRM_HR_ReportProfileWaitingStopWorking_SectionName",
+         "DataType": "string"
+      },
+      {
+         "Name": "E_TEAM",
+         "DisplayKey": "E_TEAM",
+         "DataType": "string",
+         "DataFormat": ""
+      },
+      {
+         "Name": "E_SECTION",
+         "DisplayKey": "E_SECTION",
+         "DataType": "string"
+      },
+      {
+         "Name": "StopWorkTypeView",
+         "DisplayKey": "HRM_HR_Profile_StopWorkType",
+         "DataType": "string"
+      },
+      {
+         "Name": "TypeOfStopName",
+         "DisplayKey": "HRM_HR_StopWorking_TypeOfStop",
+         "DataType": "string"
+      },
+      {
+         "Name": "ResignReasonName",
+         "DisplayKey": "lblform_StopWorkingInfo_ResignReasonID",
+         "DataType": "string"
+      },
+      {
+         "Name": "OtherReason",
+         "DisplayKey": "HRM_HR_StopWorking_OtherReason",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateStop",
+         "DisplayKey": "DateStop",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DecisionNo",
+         "DisplayKey": "ResignNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "StatusView",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveName",
+         "DisplayKey": "HRM_Rec_JobVacancy_UserApproveName",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveID2Name",
+         "DisplayKey": "HRM_Rec_JobVacancy_UserApproveID2",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveID3Name",
+         "DisplayKey": "HRM_Rec_JobVacancy_UserApproveID3",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveID4Name",
+         "DisplayKey": "HRM_Rec_JobVacancy_UserApproveID4",
+         "DataType": "string",
+         "ClassStyle": ""
+      }
+   ],
+   "AttSubmitTSLRegister": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "CardCode",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_CardCode",
+         "DataType": "string",
+         "DataFormat": "",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_Eva_Performance_OrgStructureName",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "TypeView",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_Type",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "TimeLog",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_DateFrom",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY HH:mm",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_Status",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "TAMScanReasonMissName",
+         "DisplayKey": "HRM_Attendance_WorkDay_MissInOutReason",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "Comment",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_Comment",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "RejectReason",
+         "DisplayKey": "HRM_Attendance_WorkDay_RejectReason",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveName",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_UserApproveID",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveName3",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_UserApproveID3",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveName4",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_UserApproveID4",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveName2",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_UserApproveID2",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "MachineNo",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_MachineNo",
+         "DataType": "string",
+         "ClassStyle": ""
+      }
+   ],
+   "AttApproveTSLRegister": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "CardCode",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_CardCode",
+         "DataType": "string",
+         "DataFormat": "",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_Eva_Performance_OrgStructureName",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "TypeView",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_Type",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "TimeLog",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_DateFrom",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY HH:mm",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_Status",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "TAMScanReasonMissName",
+         "DisplayKey": "HRM_Attendance_WorkDay_MissInOutReason",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "Comment",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_Comment",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "RejectReason",
+         "DisplayKey": "HRM_Attendance_WorkDay_RejectReason",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveName",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_UserApproveID",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveName3",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_UserApproveID3",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveName4",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_UserApproveID4",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveName2",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_UserApproveID2",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "MachineNo",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_MachineNo",
+         "DataType": "string",
+         "ClassStyle": ""
+      }
+   ],
+   "AttApprovedTSLRegister": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "CardCode",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_CardCode",
+         "DataType": "string",
+         "DataFormat": "",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_Eva_Performance_OrgStructureName",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "TypeView",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_Type",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "TimeLog",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_DateFrom",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY HH:mm",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_Status",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "TAMScanReasonMissName",
+         "DisplayKey": "HRM_Attendance_WorkDay_MissInOutReason",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "Comment",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_Comment",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "RejectReason",
+         "DisplayKey": "HRM_Attendance_WorkDay_RejectReason",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveName",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_UserApproveID",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveName3",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_UserApproveID3",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveName4",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_UserApproveID4",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "UserApproveName2",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_UserApproveID2",
+         "DataType": "string",
+         "ClassStyle": ""
+      },
+      {
+         "Name": "MachineNo",
+         "DisplayKey": "HRM_Attendance_TAMScanLog_MachineNo",
+         "DataType": "string",
+         "ClassStyle": ""
+      }
+   ],
+   "AttSubmitRoster": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Attendance_Roster_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "TypeView",
+         "DisplayKey": "HRM_Attendance_Roster_Type",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateStart",
+         "DisplayKey": "HRM_Attendance_Roster_DateStart",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DateEnd",
+         "DisplayKey": "HRM_Attendance_Roster_DateEnd",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Roster_Status",
+         "DataType": "string"
+      },
+      {
+         "Name": "Comment",
+         "DisplayKey": "HRM_Attendance_Roster_Comment",
+         "DataType": "string"
+      },
+      {
+         "Name": "MonShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_MonShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "TueShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_TueShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "WedShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_WedShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "ThuShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_ThuShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "FriShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_FriShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "SatShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_SatShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "SunShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_SunShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "MonShift2Name",
+         "DisplayKey": "MonShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "TueShift2Name",
+         "DisplayKey": "TueShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "WedShift2Name",
+         "DisplayKey": "WedShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "ThuShift2Name",
+         "DisplayKey": "ThuShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "FriShift2Name",
+         "DisplayKey": "FriShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "SatShift2Name",
+         "DisplayKey": "SatShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "SunShift2Name",
+         "DisplayKey": "SunShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveIDName",
+         "DisplayKey": "HRM_Attendance_Roster_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApprove3IDName",
+         "DisplayKey": "HRM_Attendance_Roster_UserApproveID3",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApprove4IDName",
+         "DisplayKey": "HRM_Attendance_Roster_UserApproveID4",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApprove2IDName",
+         "DisplayKey": "HRM_Attendance_Roster_UserApproveID2",
+         "DataType": "string"
+      }
+   ],
+   "AttApproveRoster": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Attendance_Roster_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "TypeView",
+         "DisplayKey": "HRM_Attendance_Roster_Type",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateStart",
+         "DisplayKey": "HRM_Attendance_Roster_DateStart",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DateEnd",
+         "DisplayKey": "HRM_Attendance_Roster_DateEnd",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Roster_Status",
+         "DataType": "string"
+      },
+      {
+         "Name": "Comment",
+         "DisplayKey": "HRM_Attendance_Roster_Comment",
+         "DataType": "string"
+      },
+      {
+         "Name": "MonShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_MonShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "TueShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_TueShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "WedShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_WedShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "ThuShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_ThuShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "FriShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_FriShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "SatShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_SatShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "SunShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_SunShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "MonShift2Name",
+         "DisplayKey": "MonShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "TueShift2Name",
+         "DisplayKey": "TueShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "WedShift2Name",
+         "DisplayKey": "WedShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "ThuShift2Name",
+         "DisplayKey": "ThuShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "FriShift2Name",
+         "DisplayKey": "FriShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "SatShift2Name",
+         "DisplayKey": "SatShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "SunShift2Name",
+         "DisplayKey": "SunShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveIDName",
+         "DisplayKey": "HRM_Attendance_Roster_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApprove3IDName",
+         "DisplayKey": "HRM_Attendance_Roster_UserApproveID3",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApprove4IDName",
+         "DisplayKey": "HRM_Attendance_Roster_UserApproveID4",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApprove2IDName",
+         "DisplayKey": "HRM_Attendance_Roster_UserApproveID2",
+         "DataType": "string"
+      }
+   ],
+   "AttApprovedRoster": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Attendance_Roster_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "TypeView",
+         "DisplayKey": "HRM_Attendance_Roster_Type",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateStart",
+         "DisplayKey": "HRM_Attendance_Roster_DateStart",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DateEnd",
+         "DisplayKey": "HRM_Attendance_Roster_DateEnd",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Roster_Status",
+         "DataType": "string"
+      },
+      {
+         "Name": "Comment",
+         "DisplayKey": "HRM_Attendance_Roster_Comment",
+         "DataType": "string"
+      },
+      {
+         "Name": "MonShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_MonShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "TueShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_TueShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "WedShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_WedShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "ThuShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_ThuShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "FriShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_FriShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "SatShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_SatShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "SunShiftName",
+         "DisplayKey": "HRM_Attendance_Roster_SunShiftID",
+         "DataType": "string"
+      },
+      {
+         "Name": "MonShift2Name",
+         "DisplayKey": "MonShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "TueShift2Name",
+         "DisplayKey": "TueShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "WedShift2Name",
+         "DisplayKey": "WedShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "ThuShift2Name",
+         "DisplayKey": "ThuShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "FriShift2Name",
+         "DisplayKey": "FriShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "SatShift2Name",
+         "DisplayKey": "SatShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "SunShift2Name",
+         "DisplayKey": "SunShift2Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveIDName",
+         "DisplayKey": "HRM_Attendance_Roster_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApprove3IDName",
+         "DisplayKey": "HRM_Attendance_Roster_UserApproveID3",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApprove4IDName",
+         "DisplayKey": "HRM_Attendance_Roster_UserApproveID4",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApprove2IDName",
+         "DisplayKey": "HRM_Attendance_Roster_UserApproveID2",
+         "DataType": "string"
+      }
+   ],
+   "AttSubmitLeaveDay": [
+      {
+         "TypeView": "E_LIMIT",
+         "Name": "WarningViolation",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_HR_Profile_Info",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_Eva_Performance_OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "SalaryClassName",
+         "DisplayKey": "HRM_Payroll_BasicSalary_SalaryClassName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PositionName",
+         "DisplayKey": "HRM_HR_Profile_PositionName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Process_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "LeaveDayTypeName",
+         "DisplayKey": "HRM_Category_LeaveDayType_LeaveDayTypeName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "Remain",
+         "DisplayKey": "HRM_Dashboard_Balance",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateStart",
+         "DisplayKey": "HRM_Attendance_Leaveday_DateStart",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateEnd",
+         "DisplayKey": "HRM_Attendance_Leaveday_DateEnd",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "LeaveDays",
+         "DisplayKey": "HRM_Attendance_Leaveday_TotalLeave",
+         "DataType": "string",
+         "DataFormat": ""
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "HoursFrom",
+         "NameSecond": "HoursTo",
+         "DisplayKey": "HRM_Sys_TimeRange",
+         "DataType": "DateToFrom",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "LeaveHours",
+         "DisplayKey": "HRM_Attendance_Leaveday_Duration",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "IsUnitAssistant",
+         "DisplayKey": "HRM_Attendance_IsUnitAssistant",
+         "DataType": "bool"
+      },
+      {
+         "TypeView": "E_REASON",
+         "Name": "Comment",
+         "NameCancel": "CommentCancel",
+         "NameReject": "DeclineReason",
+         "DisplayKey": "HRM_Attendance_Leaveday_CommentReson",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_FILEATTACH",
+         "Name": "lstFileAttach",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_FileAttach",
+         "DataType": "FileAttach"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Approve_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "UserApproveName",
+         "DisplayKey": "HRM_Attendance_Leaveday_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "UserApproveName2",
+         "DisplayKey": "HRM_Attendance_Leaveday_UserApproveID2",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_STATUS",
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_Status",
+         "DataType": "string"
+      }
+   ],
+   "AttApproveLeaveDay": [
+      {
+         "TypeView": "E_LIMIT",
+         "Name": "WarningViolation",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_HR_Profile_Info",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_Eva_Performance_OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "SalaryClassName",
+         "DisplayKey": "HRM_Payroll_BasicSalary_SalaryClassName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PositionName",
+         "DisplayKey": "HRM_HR_Profile_PositionName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Process_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "LeaveDayTypeName",
+         "DisplayKey": "HRM_Category_LeaveDayType_LeaveDayTypeName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "Remain",
+         "DisplayKey": "HRM_Dashboard_Balance",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateStart",
+         "DisplayKey": "HRM_Attendance_Leaveday_DateStart",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateEnd",
+         "DisplayKey": "HRM_Attendance_Leaveday_DateEnd",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "LeaveDays",
+         "DisplayKey": "HRM_Attendance_Leaveday_TotalLeave",
+         "DataType": "string",
+         "DataFormat": ""
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "HoursFrom",
+         "NameSecond": "HoursTo",
+         "DisplayKey": "HRM_Sys_TimeRange",
+         "DataType": "DateToFrom",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "LeaveHours",
+         "DisplayKey": "HRM_Attendance_Leaveday_Duration",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "IsUnitAssistant",
+         "DisplayKey": "HRM_Attendance_IsUnitAssistant",
+         "DataType": "bool"
+      },
+      {
+         "TypeView": "E_REASON",
+         "Name": "Comment",
+         "NameCancel": "CommentCancel",
+         "NameReject": "DeclineReason",
+         "DisplayKey": "HRM_Attendance_Leaveday_CommentReson",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_FILEATTACH",
+         "Name": "lstFileAttach",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_FileAttach",
+         "DataType": "FileAttach"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Approve_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "UserApproveName",
+         "DisplayKey": "HRM_Attendance_Leaveday_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "UserApproveName2",
+         "DisplayKey": "HRM_Attendance_Leaveday_UserApproveID2",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_STATUS",
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_Status",
+         "DataType": "string"
+      }
+   ],
+   "AttApprovedLeaveDay": [
+      {
+         "TypeView": "E_LIMIT",
+         "Name": "WarningViolation",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_HR_Profile_Info",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_Eva_Performance_OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "SalaryClassName",
+         "DisplayKey": "HRM_Payroll_BasicSalary_SalaryClassName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PositionName",
+         "DisplayKey": "HRM_HR_Profile_PositionName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Process_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "LeaveDayTypeName",
+         "DisplayKey": "HRM_Category_LeaveDayType_LeaveDayTypeName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "Remain",
+         "DisplayKey": "HRM_Dashboard_Balance",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateStart",
+         "DisplayKey": "HRM_Attendance_Leaveday_DateStart",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateEnd",
+         "DisplayKey": "HRM_Attendance_Leaveday_DateEnd",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "LeaveDays",
+         "DisplayKey": "HRM_Attendance_Leaveday_TotalLeave",
+         "DataType": "string",
+         "DataFormat": ""
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "HoursFrom",
+         "NameSecond": "HoursTo",
+         "DisplayKey": "HRM_Sys_TimeRange",
+         "DataType": "DateToFrom",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "LeaveHours",
+         "DisplayKey": "HRM_Attendance_Leaveday_Duration",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "IsUnitAssistant",
+         "DisplayKey": "HRM_Attendance_IsUnitAssistant",
+         "DataType": "bool"
+      },
+      {
+         "TypeView": "E_REASON",
+         "Name": "Comment",
+         "NameCancel": "CommentCancel",
+         "NameReject": "DeclineReason",
+         "DisplayKey": "HRM_Attendance_Leaveday_CommentReson",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_FILEATTACH",
+         "Name": "lstFileAttach",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_FileAttach",
+         "DataType": "FileAttach"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Approve_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "UserApproveName",
+         "DisplayKey": "HRM_Attendance_Leaveday_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "UserApproveName2",
+         "DisplayKey": "HRM_Attendance_Leaveday_UserApproveID2",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_STATUS",
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_Status",
+         "DataType": "string"
+      }
+   ],
+   "AttSubmitOvertime": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "WorkDate",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_WorkDate",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "MethodPaymentView",
+         "DisplayKey": "MethodPaymentView",
+         "DataType": "string"
+      },
+      {
+         "Name": "ExpiryPeriod",
+         "DisplayKey": "ExpiryPeriod",
+         "DataType": "string"
+      },
+      {
+         "Name": "ExpiryDate",
+         "DisplayKey": "ExpiryDate",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "StatusView",
+         "DataType": "string"
+      },
+      {
+         "Name": "RegisterHours",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_RegisterHours",
+         "DataType": "string",
+         "DataFormat": ""
+      },
+      {
+         "Name": "DurationTypeView",
+         "DisplayKey": "HRM_Attendance_Overtime_DurationType",
+         "DataType": "string"
+      },
+      {
+         "Name": "OvertimeTypeName",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_OvertimeTypeID",
+         "DataType": "string"
+      },
+      {
+         "Name": "InTime",
+         "DisplayKey": "InTimeView",
+         "DataType": "DateTime",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "Name": "OutTime",
+         "DisplayKey": "OutTimeView",
+         "DataType": "DateTime",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "Name": "ReasonOT",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_ReasonOT",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveName1",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveName3",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID3",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveName4",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID4",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveName2",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID2",
+         "DataType": "string"
+      }
+   ],
+   "AttApproveOvertime": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "WorkDate",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_WorkDate",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "MethodPaymentView",
+         "DisplayKey": "MethodPaymentView",
+         "DataType": "string"
+      },
+      {
+         "Name": "ExpiryPeriod",
+         "DisplayKey": "ExpiryPeriod",
+         "DataType": "string"
+      },
+      {
+         "Name": "ExpiryDate",
+         "DisplayKey": "ExpiryDate",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "StatusView",
+         "DataType": "string"
+      },
+      {
+         "Name": "RegisterHours",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_RegisterHours",
+         "DataType": "string",
+         "DataFormat": ""
+      },
+      {
+         "Name": "DurationTypeView",
+         "DisplayKey": "HRM_Attendance_Overtime_DurationType",
+         "DataType": "string"
+      },
+      {
+         "Name": "OvertimeTypeName",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_OvertimeTypeID",
+         "DataType": "string"
+      },
+      {
+         "Name": "InTime",
+         "DisplayKey": "InTimeView",
+         "DataType": "DateTime",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "Name": "OutTime",
+         "DisplayKey": "OutTimeView",
+         "DataType": "DateTime",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "Name": "ReasonOT",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_ReasonOT",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveName1",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveName3",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID3",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveName4",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID4",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveName2",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID2",
+         "DataType": "string"
+      }
+   ],
+   "AttApprovedOvertime": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "WorkDate",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_WorkDate",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "MethodPaymentView",
+         "DisplayKey": "MethodPaymentView",
+         "DataType": "string"
+      },
+      {
+         "Name": "ExpiryPeriod",
+         "DisplayKey": "ExpiryPeriod",
+         "DataType": "string"
+      },
+      {
+         "Name": "ExpiryDate",
+         "DisplayKey": "ExpiryDate",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "StatusView",
+         "DataType": "string"
+      },
+      {
+         "Name": "RegisterHours",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_RegisterHours",
+         "DataType": "string",
+         "DataFormat": ""
+      },
+      {
+         "Name": "DurationTypeView",
+         "DisplayKey": "HRM_Attendance_Overtime_DurationType",
+         "DataType": "string"
+      },
+      {
+         "Name": "OvertimeTypeName",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_OvertimeTypeID",
+         "DataType": "string"
+      },
+      {
+         "Name": "InTime",
+         "DisplayKey": "InTimeView",
+         "DataType": "DateTime",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "Name": "OutTime",
+         "DisplayKey": "OutTimeView",
+         "DataType": "DateTime",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "Name": "ReasonOT",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_ReasonOT",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveName1",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveName3",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID3",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveName4",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID4",
+         "DataType": "string"
+      },
+      {
+         "Name": "UserApproveName2",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID2",
+         "DataType": "string"
+      }
+   ],
+   "GeneralInfoSalSalary": [
+      {
+         "Name": "OrderNo",
+         "DisplayKey": "HRM_INS_RptD02TS_STT",
+         "DataType": "string"
+      },
+      {
+         "Name": "Name",
+         "DisplayKey": "HRM_Payroll_TableItem_Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "Value",
+         "DisplayKey": "HRM_Payroll_TableItem_Value",
+         "DataType": "string"
+      },
+      {
+         "Name": "Description1",
+         "DisplayKey": "HRM_Tra_RequirementTrain_Notes",
+         "DataType": "string"
+      }
+   ],
+   "GeneralInfoSalBasicSalaryDetail": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_Att_Leaveday_LeavedayList_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Att_Leaveday_LeavedayList_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_Category_Cat_Import_OrgStructureID",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateOfEffect",
+         "DisplayKey": "HRM_Payroll_BasicSalary_DateOfEffect",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YY HH:mm"
+      },
+      {
+         "Name": "GrossAmount",
+         "DisplayKey": "HRM_Payroll_BasicSalary_BasicSalary",
+         "DataType": "Double",
+         "DataFormat": "#,###.#"
+      },
+      {
+         "Name": "CurrencyCode",
+         "DisplayKey": "CurrencyCode",
+         "DataType": "string"
+      },
+      {
+         "Name": "AllowanceAmount1",
+         "DisplayKey": "AllowanceAmount1",
+         "DataType": "Double",
+         "DataFormat": "#,###.#"
+      },
+      {
+         "Name": "AllowanceAmount2",
+         "DisplayKey": "AllowanceAmount2",
+         "DataType": "Double",
+         "DataFormat": "#,###.#"
+      },
+      {
+         "Name": "AllowanceAmount3",
+         "DisplayKey": "AllowanceAmount3",
+         "DataType": "Double",
+         "DataFormat": "#,###.#"
+      },
+      {
+         "Name": "AllowanceAmount4",
+         "DisplayKey": "AllowanceAmount4",
+         "DataType": "Double",
+         "DataFormat": "#,###.#"
+      },
+      {
+         "Name": "AllowanceAmount5",
+         "DisplayKey": "AllowanceAmount5",
+         "DataType": "Double",
+         "DataFormat": "#,###.#"
+      },
+      {
+         "Name": "AllowanceAmount6",
+         "DisplayKey": "AllowanceAmount6",
+         "DataType": "Double",
+         "DataFormat": "#,###.#"
+      },
+      {
+         "Name": "AllowanceAmount7",
+         "DisplayKey": "AllowanceAmount7",
+         "DataType": "Double",
+         "DataFormat": "#,###.#"
+      },
+      {
+         "Name": "AllowanceAmount8",
+         "DisplayKey": "AllowanceAmount8",
+         "DataType": "Double",
+         "DataFormat": "#,###.#"
+      },
+      {
+         "Name": "AllowanceAmount9",
+         "DisplayKey": "AllowanceAmount9",
+         "DataType": "Double",
+         "DataFormat": "#,###.#"
+      },
+      {
+         "Name": "AllowanceAmount10",
+         "DisplayKey": "AllowanceAmount10",
+         "DataType": "Double",
+         "DataFormat": "#,###.#"
+      },
+      {
+         "Name": "AllowanceAmount11",
+         "DisplayKey": "AllowanceAmount11",
+         "DataType": "Double",
+         "DataFormat": "#,###.#"
+      },
+      {
+         "Name": "AllowanceAmount12",
+         "DisplayKey": "AllowanceAmount12",
+         "DataType": "Double",
+         "DataFormat": "#,###.#"
+      },
+      {
+         "Name": "AllowanceAmount13",
+         "DisplayKey": "AllowanceAmount13",
+         "DataType": "Double",
+         "DataFormat": "#,###.#"
+      },
+      {
+         "Name": "AllowanceAmount14",
+         "DisplayKey": "AllowanceAmount14",
+         "DataType": "Double",
+         "DataFormat": "#,###.#"
+      }
+   ],
+   "AttSubmitOvertimeAddOrEdit": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "OvertimeTypeID",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_OvertimeTypeID",
+         "DataType": "string"
+      },
+      {
+         "Name": "WorkDate",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_WorkDate",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YY HH:mm"
+      },
+      {
+         "Name": "RegisterHours",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_RegisterHours",
+         "DataType": "string"
+      },
+      {
+         "Name": "DurationType",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_TypeTemp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ReasonOT",
+         "DisplayKey": "HRM_Attendance_Att_Overtime_Submit_ReasonOT",
+         "DataType": "string"
+      }
+   ],
+   "GeneralInfoAttAnnualDetail": [
+      {
+         "Name": "MonthYear",
+         "DisplayKey": "HRM_Attendance_AttendanceTable_MonthYear",
+         "DataType": "DateTime",
+         "DataFormat": "MM/YYYY"
+      },
+      {
+         "Name": "AvailableTotal",
+         "DisplayKey": "HRM_Attendance_AnnualDetailView_AvailableTotal",
+         "DataType": "string"
+      },
+      {
+         "Name": "LeaveBefTotal",
+         "DisplayKey": "HRM_Attendance_AnnualDetailView_LeaveBefTotal",
+         "DataType": "string"
+      },
+      {
+         "Name": "LeaveInMonthTotal",
+         "DisplayKey": "HRM_Attendance_AnnualDetailView_LeaveInMonthTotal",
+         "DataType": "string"
+      },
+      {
+         "Name": "Remain",
+         "DisplayKey": "HRM_Attendance_AnnualDetailView_Remain",
+         "DataType": "string"
+      },
+      {
+         "Name": "SeniorBonus",
+         "DisplayKey": "Hrm_AnnualLeave_SeniorBonus",
+         "DataType": "string"
+      }
+   ],
+   "GeneralInfoAttAnnualRemainDetail": [
+      {
+         "Name": "MonthInYear",
+         "DisplayKey": "HRM_Attendance_AnnualDetailView_MonthInYear",
+         "DataType": "string"
+      },
+      {
+         "Name": "AvailableTotal",
+         "DisplayKey": "HRM_Attendance_AnnualDetailView_AvailableTotalReamining",
+         "DataType": "string"
+      },
+      {
+         "Name": "LeaveBefTotal",
+         "DisplayKey": "HRM_Attendance_AnnualDetailView_LeaveBefTotalReamining",
+         "DataType": "string"
+      },
+      {
+         "Name": "LeaveInMonthTotal",
+         "DisplayKey": "HRM_Attendance_AnnualDetailView_LeaveInMonthTotalReamining",
+         "DataType": "string"
+      },
+      {
+         "Name": "Remain",
+         "DisplayKey": "HRM_Attendance_AnnualDetailView_RemainReamining",
+         "DataType": "string"
+      },
+      {
+         "Name": "TotalAllowedInMonth",
+         "DisplayKey": "HRM_Total_Allowed_InMonth",
+         "DataType": "string"
+      }
+   ],
+   "GeneralInfoAttAttendanceDetail": [
+      {
+         "Name": "WorkDate",
+         "DisplayKey": "HRM_Attendance_Overtime_WorkDate",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "FirstInTime",
+         "DisplayKey": "HRM_Attendance_WorkDay_FirstInTime",
+         "DataType": "DateTime",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "Name": "LastOutTime",
+         "DisplayKey": "HRM_Attendance_AttendanceTableItem_LastOutTime",
+         "DataType": "DateTime",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "Name": "WorkHours",
+         "DisplayKey": "HRM_Attendance_AttendanceTable_ShiftName",
+         "DataType": "string"
+      },
+      {
+         "Name": "ShiftName",
+         "DisplayKey": "HRM_Attendance_AttendanceTable_WorkHours",
+         "DataType": "string"
+      },
+      {
+         "Name": "LateEarlyMinutes",
+         "DisplayKey": "HRM_Attendance_AttendanceTableItem_LateEarlyMinutes",
+         "DataType": "string"
+      },
+      {
+         "Name": "UnpaidLeaveHoursView",
+         "DisplayKey": "HRM_Attendance_AttendanceTableItem_UnpaidLeaveHours",
+         "DataType": "string"
+      },
+      {
+         "Name": "PaidLeaveHoursView",
+         "DisplayKey": "HRM_Attendance_AttendanceTableItem_PaidLeaveHours",
+         "DataType": "string"
+      },
+      {
+         "Name": "WorkPaidHours",
+         "DisplayKey": "HRM_Attendance_AttendanceTableItem_WorkPaidHours",
+         "DataType": "string"
+      },
+      {
+         "Name": "NightShiftHours",
+         "DisplayKey": "HRM_Attendance_AttendanceTableItem_NightShiftHours",
+         "DataType": "string"
+      },
+      {
+         "Name": "OvertimeHours",
+         "DisplayKey": "HRM_Attendance_AttendanceTableItem_OvertimeHours",
+         "DataType": "string"
+      },
+      {
+         "Name": "OvertimeTypeName",
+         "DisplayKey": "HRM_Attendance_AttendanceTableItem_OvertimeTypeName",
+         "DataType": "string"
+      }
+   ],
+   "GeneralInfoListWorkHistory": [
+      {
+         "Name": "DateEffective",
+         "DisplayKey": "HRM_HR_WorkHistory_DateEffective",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "TypeOfTransferName",
+         "DisplayKey": "HRM_Category_TypeOfTransfer_Name",
+         "DataType": "string"
+      },
+      {
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_HR_WorkHistory_OrgStructureID",
+         "DataType": "string"
+      },
+      {
+         "Name": "PositionName",
+         "DisplayKey": "HRM_HR_WorkHistory_PositionID",
+         "DataType": "string"
+      },
+      {
+         "Name": "JobTitleName",
+         "DisplayKey": "HRM_HR_WorkHistory_JobTitleID",
+         "DataType": "string"
+      },
+      {
+         "Name": "SalaryClassName",
+         "DisplayKey": "SalaryClassName",
+         "DataType": "string"
+      },
+      {
+         "Name": "WorkPlaceName",
+         "DisplayKey": "HRM_HR_WorkHistory_WorkLocation",
+         "DataType": "string"
+      },
+      {
+         "Name": "EmploymentTypeView",
+         "DisplayKey": "HRM_Rec_RecruimentInternal_EmploymentTypeView",
+         "DataType": "string"
+      },
+      {
+         "Name": "LaborTypeView",
+         "DisplayKey": "HRM_Attendance_AttDataConfig_LaborType",
+         "DataType": "string"
+      },
+      {
+         "Name": "EmployeeTypeName",
+         "DisplayKey": "EmployeeTypeName",
+         "DataType": "string"
+      },
+      {
+         "Name": "EmployeeGroupName",
+         "DisplayKey": "EmployeeGroupName",
+         "DataType": "string"
+      }
+   ],
+   "GeneralInfoInsuranceGrade": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "InsuranceGradeName",
+         "DisplayKey": "Ins_InsuranceGradeDetail_Title",
+         "DataType": "string"
+      },
+      {
+         "Name": "MonthOfEffect",
+         "DisplayKey": "HRM_Insurance_InsuranceGrade_MonthOfEffect",
+         "DataFormat": "DD/MM/YYYY",
+         "DataType": "DateTime"
+      }
+   ],
+   "GeneralInfoSalaryGrade": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "GradeCfgName",
+         "DisplayKey": "HRM_Sal_Grade_GradeCfgName",
+         "DataType": "string"
+      },
+      {
+         "Name": "MonthStart",
+         "DisplayKey": "HRM_Sal_Grade_MonthStart",
+         "DataFormat": "DD/MM/YYYY",
+         "DataType": "DateTime"
+      },
+      {
+         "Name": "MonthEnd",
+         "DisplayKey": "HRM_Sal_Grade_MonthEnd",
+         "DataFormat": "DD/MM/YYYY",
+         "DataType": "DateTime"
+      },
+      {
+         "Name": "GradeOldName",
+         "DisplayKey": "HRM_Sal_Grade_GradeoldID",
+         "DataType": "string"
+      }
+   ],
+   "GeneralInfoAttendanceGrade": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "GradeAttendanceName",
+         "DisplayKey": "HRM_Category_GradeAttendance_Title",
+         "DataType": "string"
+      },
+      {
+         "Name": "MonthStart",
+         "DisplayKey": "HRM_Category_ElementMaptoAccount_DateStart",
+         "DataFormat": "DD/MM/YYYY",
+         "DataType": "DateTime"
+      },
+      {
+         "Name": "MonthEnd",
+         "DisplayKey": "HRM_Att_Leaveday_LeavedayList_DateEnd",
+         "DataFormat": "DD/MM/YYYY",
+         "DataType": "DateTime"
+      }
+   ],
+   "GeneralInfoTrainee": [
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Tra_Trainee_ProfileID",
+         "DataType": "string"
+      },
+      {
+         "Name": "ClassName",
+         "DisplayKey": "HRM_Tra_Class_ClassName",
+         "DataType": "string"
+      },
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "CourseName",
+         "DisplayKey": "HRM_Tra_Class_CourseName",
+         "DataType": "string"
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Tra_Trainee_Status",
+         "DataType": "string"
+      },
+      {
+         "Name": "StartDate",
+         "DisplayKey": "HRM_HR_Profile_DateFrom",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "EndDate",
+         "DisplayKey": "HRM_HR_Profile_DateTo",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "CertificateName",
+         "DisplayKey": "HRM_HR_Certificate_CertificateName",
+         "DataType": "string"
+      }
+   ],
+   "GeneralInfoDependant": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Tra_Trainee_ProfileID",
+         "DataType": "string"
+      },
+      {
+         "Name": "DependantName",
+         "DisplayKey": "HRM_HR_Dependant_DependantName",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateOfBirth",
+         "DisplayKey": "HRM_HR_Dependant_DateOfBirth",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "IDNo",
+         "DisplayKey": "HRM_HR_Dependant_IDNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "PassportNo",
+         "DisplayKey": "HRM_HR_Profile_PassportNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "CodeTax",
+         "DisplayKey": "HRM_HR_Dependant_CodeTax",
+         "DataType": "string"
+      },
+      {
+         "Name": "NationalityName",
+         "DisplayKey": "HRM_HR_Dependant_NationlatyID",
+         "DataType": "string"
+      },
+      {
+         "Name": "GenderView",
+         "DisplayKey": "HRM_HR_Dependant_Gender",
+         "DataType": "string"
+      },
+      {
+         "Name": "RelativeTypeName",
+         "DisplayKey": "HRM_HR_Dependant_RelationID",
+         "DataType": "string"
+      }
+   ],
+   "GeneralInfoReward": [
+      {
+         "Name": "RewardedTypeName",
+         "DisplayKey": "HRM_HR_Reward_RewardedTypeID1",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateOfIssuance",
+         "DisplayKey": "HRM_HR_Reward_DateOfIssuance",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DateOfEffective",
+         "DisplayKey": "HRM_HR_Discipline_DateOfEffective",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "NoOfReward",
+         "DisplayKey": "HRM_HR_Reward_NoOfReward",
+         "DataType": "string"
+      },
+      {
+         "Name": "RewardedTimeName",
+         "DisplayKey": "HRM_Hre_Reward_RewardedTime",
+         "DataType": "string"
+      },
+      {
+         "Name": "RewardedTitlesName",
+         "DisplayKey": "HRM_Hre_Reward_RewardedTitleName",
+         "DataType": "Hrm_AnnualLeave_SeniorBonus"
+      },
+      {
+         "Name": "RewardValue",
+         "DisplayKey": "HRM_HR_Reward_RewardValue",
+         "DataType": "Hrm_AnnualLeave_SeniorBonus"
+      },
+      {
+         "Name": "CurrencyName",
+         "DisplayKey": "HRM_Sal_InsuranceSalry_CurrencyID",
+         "DataType": "Hrm_AnnualLeave_SeniorBonus"
+      },
+      {
+         "Name": "Description",
+         "DisplayKey": "HRM_Hre_Reward_Notes",
+         "DataType": "Hrm_AnnualLeave_SeniorBonus"
+      }
+   ],
+   "GeneralInfoDiscipline": [
+      {
+         "Name": "DateOfViolation",
+         "DisplayKey": "HRM_HR_Discipline_DateOfViolation",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DateEndOfViolation",
+         "DisplayKey": "HRM_HR_Discipline_DateEndOfViolation",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DateOfEffective",
+         "DisplayKey": "HRM_HR_Discipline_DateOfEffective",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "DisciplinedTypesName",
+         "DisplayKey": "HRM_HR_Discipline_DisciplineTypeID",
+         "DataType": "string"
+      },
+      {
+         "Name": "Notes",
+         "DisplayKey": "HRM_HR_Discipline_Notes",
+         "DataType": "string"
+      }
+   ],
+   "LookupProfile": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_HR_Profile_OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "Name": "JobTitleName",
+         "DisplayKey": "HRM_HR_Profile_JobTitleName",
+         "DataType": "string"
+      },
+      {
+         "Name": "PositionName",
+         "DisplayKey": "HRM_HR_Profile_PositionName",
+         "DataType": "string"
+      },
+      {
+         "Name": "StatusSynView",
+         "DisplayKey": "HRM_HR_Profile_StatusSyn",
+         "DataType": "string"
+      },
+      {
+         "Name": "Cellphone",
+         "DisplayKey": "HRM_HR_Profile_CellPhone",
+         "DataType": "string"
+      },
+      {
+         "Name": "Email",
+         "DisplayKey": "HRM_HR_Profile_Email",
+         "DataType": "string"
+      }
+   ],
+   "Contract": [
+      {
+         "Name": "ContractNo",
+         "DisplayKey": "ContractNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "ContractTypeName",
+         "DisplayKey": "HRM_HR_Contract_ContractTypeID",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateSigned",
+         "DisplayKey": "HRM_HR_Contract_DateSigned",
+         "DataFormat": "DD/MM/YYYY",
+         "DataType": "DateTime"
+      },
+      {
+         "Name": "DateStart",
+         "DisplayKey": "HRM_HR_Contract_DateStart",
+         "DataFormat": "DD/MM/YYYY",
+         "DataType": "DateTime"
+      },
+      {
+         "Name": "DateEnd",
+         "DisplayKey": "HRM_HR_Contract_DateEnd",
+         "DataFormat": "DD/MM/YYYY",
+         "DataType": "DateTime"
+      }
+   ],
+   "AttApproveBusinessTravel": [
+      {
+         "TypeView": "E_LIMIT",
+         "Name": "WarningViolation",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_HR_Profile_Info",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_Eva_Performance_OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "SalaryClassName",
+         "DisplayKey": "HRM_Payroll_BasicSalary_SalaryClassName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PositionName",
+         "DisplayKey": "HRM_HR_Profile_PositionName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Process_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "BusinessTravelTypeView",
+         "DisplayKey": "HRM_Attendance_BusinessTravelType",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateFrom",
+         "DisplayKey": "HRM_Attendance_DateFromTrip",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateTo",
+         "DisplayKey": "HRM_Attendance_DateToTrip",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "HourFrom",
+         "NameSecond": "HourTo",
+         "DisplayKey": "HRM_Travel_Working_Time",
+         "DataType": "DateToFrom",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PlaceFromAllView",
+         "DisplayKey": "HRM_Attendance_PlaceInFrom",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PlaceToAllView",
+         "DisplayKey": "HRM_Attendance_PlaceInTo",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "IsUnitAssistant",
+         "DisplayKey": "HRM_Attendance_IsUnitAssistant",
+         "DataType": "bool"
+      },
+      {
+         "TypeView": "E_REASON",
+         "Name": "Note",
+         "NameCancel": "CommentCancel",
+         "NameReject": "DeclineReason",
+         "DisplayKey": "HRM_AttendanceProfileTimeSheet_Note",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_FILEATTACH",
+         "Name": "lstFileAttach",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_FileAttach",
+         "DataType": "FileAttach"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Approve_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "FirstApproverName",
+         "DisplayKey": "HRM_Attendance_BusinessTravel_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "MidApproverName",
+         "DisplayKey": "HRM_Attendance_BusinessTravel_UserApproveID2",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "NextApproverName",
+         "DisplayKey": "HRM_Attendance_BusinessTravel_UserApproveID3",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "LastApproverName",
+         "DisplayKey": "HRM_Attendance_BusinessTravel_UserApproveID4",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_STATUS",
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_Status",
+         "DataType": "string"
+      }
+   ],
+   "AttApprovedBusinessTravel": [
+      {
+         "TypeView": "E_LIMIT",
+         "Name": "WarningViolation",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_HR_Profile_Info",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_Eva_Performance_OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "SalaryClassName",
+         "DisplayKey": "HRM_Payroll_BasicSalary_SalaryClassName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PositionName",
+         "DisplayKey": "HRM_HR_Profile_PositionName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Process_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "BusinessTravelTypeView",
+         "DisplayKey": "HRM_Attendance_BusinessTravelType",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateFrom",
+         "DisplayKey": "HRM_Attendance_DateFromTrip",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateTo",
+         "DisplayKey": "HRM_Attendance_DateToTrip",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "HourFrom",
+         "NameSecond": "HourTo",
+         "DisplayKey": "HRM_Travel_Working_Time",
+         "DataType": "DateToFrom",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PlaceFromAllView",
+         "DisplayKey": "HRM_Attendance_PlaceInFrom",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PlaceToAllView",
+         "DisplayKey": "HRM_Attendance_PlaceInTo",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "IsUnitAssistant",
+         "DisplayKey": "HRM_Attendance_IsUnitAssistant",
+         "DataType": "bool"
+      },
+      {
+         "TypeView": "E_REASON",
+         "Name": "Note",
+         "NameCancel": "CommentCancel",
+         "NameReject": "DeclineReason",
+         "DisplayKey": "HRM_AttendanceProfileTimeSheet_Note",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_FILEATTACH",
+         "Name": "lstFileAttach",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_FileAttach",
+         "DataType": "FileAttach"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Approve_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "FirstApproverName",
+         "DisplayKey": "HRM_Attendance_BusinessTravel_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "MidApproverName",
+         "DisplayKey": "HRM_Attendance_BusinessTravel_UserApproveID2",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "NextApproverName",
+         "DisplayKey": "HRM_Attendance_BusinessTravel_UserApproveID3",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "LastApproverName",
+         "DisplayKey": "HRM_Attendance_BusinessTravel_UserApproveID4",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_STATUS",
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_Status",
+         "DataType": "string"
+      }
+   ],
+   "AttSubmitBusinessTravel": [
+      {
+         "TypeView": "E_LIMIT",
+         "Name": "WarningViolation",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_HR_Profile_Info",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_Eva_Performance_OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "SalaryClassName",
+         "DisplayKey": "HRM_Payroll_BasicSalary_SalaryClassName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PositionName",
+         "DisplayKey": "HRM_HR_Profile_PositionName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Process_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "BusinessTravelTypeView",
+         "DisplayKey": "HRM_Attendance_BusinessTravelType",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateFrom",
+         "DisplayKey": "HRM_Attendance_DateFromTrip",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateTo",
+         "DisplayKey": "HRM_Attendance_DateToTrip",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "HourFrom",
+         "NameSecond": "HourTo",
+         "DisplayKey": "HRM_Travel_Working_Time",
+         "DataType": "DateToFrom",
+         "DataFormat": "HH:mm"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PlaceFromAllView",
+         "DisplayKey": "HRM_Attendance_PlaceInFrom",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PlaceToAllView",
+         "DisplayKey": "HRM_Attendance_PlaceInTo",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "IsUnitAssistant",
+         "DisplayKey": "HRM_Attendance_IsUnitAssistant",
+         "DataType": "bool"
+      },
+      {
+         "TypeView": "E_REASON",
+         "Name": "Note",
+         "NameCancel": "CommentCancel",
+         "NameReject": "DeclineReason",
+         "DisplayKey": "HRM_AttendanceProfileTimeSheet_Note",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_FILEATTACH",
+         "Name": "lstFileAttach",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_FileAttach",
+         "DataType": "FileAttach"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Approve_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "FirstApproverName",
+         "DisplayKey": "HRM_Attendance_BusinessTravel_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "MidApproverName",
+         "DisplayKey": "HRM_Attendance_BusinessTravel_UserApproveID2",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "NextApproverName",
+         "DisplayKey": "HRM_Attendance_BusinessTravel_UserApproveID3",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "LastApproverName",
+         "DisplayKey": "HRM_Attendance_BusinessTravel_UserApproveID4",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_STATUS",
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_Status",
+         "DataType": "string"
+      }
+   ],
+   "AttSubmitPregnancy": [
+      {
+         "TypeView": "E_LIMIT",
+         "Name": "WarningViolation",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_HR_Profile_Info",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_Eva_Performance_OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "SalaryClassName",
+         "DisplayKey": "HRM_Payroll_BasicSalary_SalaryClassName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PositionName",
+         "DisplayKey": "HRM_HR_Profile_PositionName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Process_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TypeView",
+         "DisplayKey": "HRM_Attendance_Pregnancy_Type",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TypePregnancyEarlyView",
+         "DisplayKey": "HRM_Attendance_Pregnancy_TypePregnancyEarlyView",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateStart",
+         "DisplayKey": "HRM_Attendance_Pregnancy_DateStart",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateEnd",
+         "DisplayKey": "HRM_Attendance_Pregnancy_DateEnd",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_REASON",
+         "Name": "Comment",
+         "NameCancel": "CommentCancel",
+         "NameReject": "DeclineReason",
+         "DisplayKey": "HRM_AttendanceProfileTimeSheet_Note",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_FILEATTACH",
+         "Name": "lstFileAttach",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_FileAttach",
+         "DataType": "FileAttach"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Approve_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "FirstApproverName",
+         "DisplayKey": "HRM_Attendance_Leaveday_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "LastApproverName",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID2",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_STATUS",
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_Status",
+         "DataType": "string"
+      }
+   ],
+   "AttApprovedPregnancy": [
+      {
+         "TypeView": "E_LIMIT",
+         "Name": "WarningViolation",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_HR_Profile_Info",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_Eva_Performance_OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "SalaryClassName",
+         "DisplayKey": "HRM_Payroll_BasicSalary_SalaryClassName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PositionName",
+         "DisplayKey": "HRM_HR_Profile_PositionName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Process_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TypeView",
+         "DisplayKey": "HRM_Attendance_Pregnancy_Type",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TypePregnancyEarlyView",
+         "DisplayKey": "HRM_Attendance_Pregnancy_TypePregnancyEarlyView",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateStart",
+         "DisplayKey": "HRM_Attendance_Pregnancy_DateStart",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateEnd",
+         "DisplayKey": "HRM_Attendance_Pregnancy_DateEnd",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_REASON",
+         "Name": "Comment",
+         "NameCancel": "CommentCancel",
+         "NameReject": "DeclineReason",
+         "DisplayKey": "HRM_AttendanceProfileTimeSheet_Note",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_FILEATTACH",
+         "Name": "lstFileAttach",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_FileAttach",
+         "DataType": "FileAttach"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Approve_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "FirstApproverName",
+         "DisplayKey": "HRM_Attendance_Leaveday_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "LastApproverName",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID2",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_STATUS",
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_Status",
+         "DataType": "string"
+      }
+   ],
+   "AttApprovePregnancy": [
+      {
+         "TypeView": "E_LIMIT",
+         "Name": "WarningViolation",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_HR_Profile_Info",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_HR_Profile_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_Eva_Performance_OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "SalaryClassName",
+         "DisplayKey": "HRM_Payroll_BasicSalary_SalaryClassName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "PositionName",
+         "DisplayKey": "HRM_HR_Profile_PositionName",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Process_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TypeView",
+         "DisplayKey": "HRM_Attendance_Pregnancy_Type",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "TypePregnancyEarlyView",
+         "DisplayKey": "HRM_Attendance_Pregnancy_TypePregnancyEarlyView",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateStart",
+         "DisplayKey": "HRM_Attendance_Pregnancy_DateStart",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "DateEnd",
+         "DisplayKey": "HRM_Attendance_Pregnancy_DateEnd",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "TypeView": "E_REASON",
+         "Name": "Comment",
+         "NameCancel": "CommentCancel",
+         "NameReject": "DeclineReason",
+         "DisplayKey": "HRM_AttendanceProfileTimeSheet_Note",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_FILEATTACH",
+         "Name": "lstFileAttach",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_FileAttach",
+         "DataType": "FileAttach"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Detail_Approve_Info_Common",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "FirstApproverName",
+         "DisplayKey": "HRM_Attendance_Leaveday_UserApproveID",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_COMMON",
+         "Name": "LastApproverName",
+         "DisplayKey": "HRM_Attendance_Overtime_UserApproveID2",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_STATUS",
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Attendance_Overtime_OvertimeList_Status",
+         "DataType": "string"
+      }
+   ],
+   "HouseholdWaitConfirm": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Tra_Trainee_ProfileID",
+         "DataType": "string"
+      },
+      {
+         "Name": "RelativeName",
+         "DisplayKey": "HRM_Hre_HouseholdInfo_RelativeName",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateOfBirth",
+         "DisplayKey": "HRM_HR_Dependant_DateOfBirth",
+         "DataType": "string"
+      },
+      {
+         "Name": "SocialInsNo",
+         "DisplayKey": "HRM_Hre_HouseholdInfo_SocialInsNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "HouseholdIssuePlace",
+         "DisplayKey": "HRM_Hre_HouseholdInfo_HouseholdIssuePlace",
+         "DataType": "string"
+      },
+      {
+         "Name": "BookNo",
+         "DisplayKey": "HRM_HR_Relatives_VolDocument",
+         "DataType": "string"
+      },
+      {
+         "Name": "HouseholdInfoNo",
+         "DisplayKey": "HRM_Hre_HouseholdInfo_No",
+         "DataType": "string"
+      }
+   ],
+   "HouseholdConfirmed": [
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_HR_GeneralInformation",
+         "DataType": "string"
+      },
+      {
+         "Name": "RelativeName",
+         "DisplayKey": "HRM_Hre_HouseholdInfo_RelativeName",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateOfBirth",
+         "DisplayKey": "HRM_HR_Dependant_DateOfBirth",
+         "DataType": "string"
+      },
+      {
+         "Name": "HouseholdTypeName",
+         "DisplayKey": "HouseholdTypeName",
+         "DataType": "string"
+      },
+      {
+         "Name": "HouseholdInfoNo",
+         "DisplayKey": "HRM_Hre_HouseholdInfo_No",
+         "DataType": "string"
+      },
+      {
+         "Name": "BookNo",
+         "DisplayKey": "HRM_Hre_HouseholdInfo_BookNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "SocialInsNo",
+         "DisplayKey": "HRM_Hre_HouseholdInfo_SocialInsNo",
+         "DataType": "string"
+      },
+      {
+         "TypeView": "E_GROUP",
+         "DisplayKey": "HRM_Hre_HouseholdInfo_HouseholdIssuePlace",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProvinceBirthCertificateName",
+         "DisplayKey": "HRM_HR_Profile_TAProvince",
+         "DataType": "string"
+      },
+      {
+         "Name": "DistrictBirthCertificateName",
+         "DisplayKey": "HRM_HR_Profile_TADistrict",
+         "DataType": "string"
+      },
+      {
+         "Name": "VillageBirthCertificateName",
+         "DisplayKey": "HRM_HR_Profile_Village",
+         "DataType": "string"
+      },
+      {
+         "Name": "HouseholdIssuePlace",
+         "DisplayKey": "HRM_Hre_HouseholdInfo_HouseholdIssuePlace",
+         "DataType": "string"
+      }
+   ],
+   "HouseholdEdit": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_HR_Profile_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Tra_Trainee_ProfileID",
+         "DataType": "string"
+      },
+      {
+         "Name": "RelativeName",
+         "DisplayKey": "HRM_Hre_HouseholdInfo_RelativeName",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateOfBirth",
+         "DisplayKey": "HRM_HR_Dependant_DateOfBirth",
+         "DataType": "string"
+      },
+      {
+         "Name": "SocialInsNo",
+         "DisplayKey": "HRM_Hre_HouseholdInfo_SocialInsNo",
+         "DataType": "string"
+      },
+      {
+         "Name": "HouseholdIssuePlace",
+         "DisplayKey": "HRM_Hre_HouseholdInfo_HouseholdIssuePlace",
+         "DataType": "string"
+      },
+      {
+         "Name": "BookNo",
+         "DisplayKey": "HRM_HR_Relatives_VolDocument",
+         "DataType": "string"
+      },
+      {
+         "Name": "HouseholdInfoNo",
+         "DisplayKey": "HRM_Hre_HouseholdInfo_No",
+         "DataType": "string"
+      }
+   ],
+   "TaxInfo": [
+      {
+         "Name": "CodeEmp",
+         "DisplayKey": "HRM_Att_Leaveday_LeavedayList_CodeEmp",
+         "DataType": "string"
+      },
+      {
+         "Name": "ProfileName",
+         "DisplayKey": "HRM_Att_Leaveday_LeavedayList_ProfileName",
+         "DataType": "string"
+      },
+      {
+         "Name": "PositionName",
+         "DisplayKey": "HRM_Attendance_PositionName",
+         "DataType": "string"
+      },
+      {
+         "Name": "JobTitleName",
+         "DisplayKey": "HRM_Attendance_JobTitleName",
+         "DataType": "string"
+      },
+      {
+         "Name": "OrgStructureName",
+         "DisplayKey": "HRM_Canteen_TamScanLog_OrgStructureName",
+         "DataType": "string"
+      },
+      {
+         "Name": "CompanyName",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_strCompanyIDs",
+         "DataType": "string"
+      },
+      {
+         "Name": "WorkPlaceName",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_strWorkPlaceIDs",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateSubmit",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_DateSubmit",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "CodeTax",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_CodeTax",
+         "DataType": "string"
+      },
+      {
+         "Name": "DateOfIssuedTaxCode",
+         "DisplayKey": "DateOfIssuedTaxCode",
+         "DataType": "DateTime",
+         "DataFormat": "DD/MM/YYYY"
+      },
+      {
+         "Name": "TaxDepartment",
+         "DisplayKey": "HRM_Rec_Candidate_TaxDepartment",
+         "DataType": "string"
+      },
+      {
+         "Name": "TypeView",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_strType",
+         "DataType": "string"
+      },
+      {
+         "Name": "AdjustmentCategorieView",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_AdjustmentCategorie",
+         "DataType": "string"
+      },
+      {
+         "Name": "AdditionalCategorieView",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_AdditionalCategorie",
+         "DataType": "string"
+      },
+      {
+         "Name": "lstFileAttach",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_FileAttach",
+         "DataType": "FileAttach"
+      },
+      {
+         "Name": "StatusView",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_Status",
+         "DataType": "string"
+      },
+      {
+         "Name": "Note",
+         "DisplayKey": "HRM_Payroll_Sal_TaxInformationRegister_Note",
+         "DataType": "string"
+      }
+   ]
+}

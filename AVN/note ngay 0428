@@ -1,0 +1,17 @@
+HRE_PROFILE_ISTRADEUNIONIST hỏi lại SE BA chỗ này
+
+--- Update lại trợ cấp công đoàn 
+update dbo.Hre_Profile set isTradeUnionist = 1 where id in (
+select ProfileID from Hre_ProfilePartyUnion where IsDelete is null and IsYouthUnionist = 1 ) and isTradeUnionist is null
+and IsDelete is null
+
+
+
+
+--update dbo.Hre_Profile set isTradeUnionist = null where id in (
+--select ProfileID from Hre_ProfilePartyUnion where IsDelete is null and IsYouthUnionist is null ) and isTradeUnionist = 1
+--and IsDelete is null
+
+
+
+--- Duyệt cho khoản tiền

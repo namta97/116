@@ -1,0 +1,618 @@
+06/04/22 01:09:01:693[Debug  745]: No oem .inf existing.
+06/04/22 01:09:02:036[Debug  307]: Driver inf file is installed successfully.
+06/04/22 01:09:03:048[Debug  360]: Driver gets installed successfully.
+06/04/22 01:09:03:103[Debug  417]: Set debug level as 4
+06/04/22 01:09:03:628[Debug 1202]: Driver status is: 4.
+06/04/22 01:09:03:631[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/04/22 01:09:03:631[Debug  569]: Search only.
+06/04/22 01:09:03:633[Debug 1202]: Driver status is: 4.
+06/04/22 01:09:03:637[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/04/22 01:09:03:637[Debug  569]: Search only.
+06/04/22 01:09:03:640[Debug  770]: Searching valid GP adapter.
+06/04/22 01:09:03:644[Debug  836]: Searching: find device ROOT\PANGPD\0000.
+06/04/22 01:09:03:644[Debug  854]: Searching: DevNode Status 0x180200b, Problem 0x0, count 0.
+06/04/22 01:09:03:646[Debug  904]: Searching: Valid device id is ROOT\PANGPD\0000.
+06/04/22 01:09:03:648[Debug  906]: Searching: Valid MTU is 1400.
+06/04/22 01:09:03:650[Debug  907]: Searching: Valid instance id is {45DDEE68-EB44-4D8F-83D6-01444CBECC31}.
+06/04/22 01:09:03:693[Debug  909]: Searching: Valid inf file is C:\Windows\INF\oem25.inf.
+06/04/22 01:09:03:693[Debug   89]: Init get valid adapter info: 1400-C:\Windows\INF\oem25.inf-{45DDEE68-EB44-4D8F-83D6-01444CBECC31}-ROOT\PANGPD\0000.
+06/04/22 01:09:03:696[Debug 1311]: Disable adapter be called.
+06/04/22 01:09:03:699[Debug 1100]: enum devevice ROOT\PANGPD\0000.
+06/04/22 01:09:03:700[Debug 1119]: DevNode Status 0x180200b, Problem 0x0.
+06/04/22 01:09:03:707[Debug 1188]: Disable Adapter success.
+06/04/22 01:09:03:708[Debug 1320]: Disable adapter end.
+06/04/22 01:09:04:347[Info   417]: Set debug level as 4
+06/04/22 01:09:58:897[Info   417]: Set debug level as 4
+06/04/22 01:09:58:897[Info   417]: Set debug level as 4
+06/04/22 01:10:15:104[Info   417]: Set debug level as 4
+06/04/22 01:10:15:944[Info   417]: Set debug level as 4
+06/04/22 01:10:15:944[Info   417]: Set debug level as 4
+06/04/22 01:10:16:080[Info   949]: Register returns MAC 02:50:41:00:00:01.
+06/04/22 01:10:16:104[Info   305]: Move binding order to the top
+06/04/22 01:10:16:105[Debug  400]: Binding order is modified
+06/04/22 01:10:16:106[Debug  431]: Found vif, index 40
+06/04/22 01:10:16:107[Debug  502]: Enable IPv4 weak host send mode for interface 10
+06/04/22 01:10:16:107[Debug  502]: Enable IPv6 weak host send mode for interface 10
+06/04/22 01:10:16:107[Info   246]: Register ends.
+06/04/22 01:10:16:129[Debug 1311]: Disable adapter be called.
+06/04/22 01:10:16:134[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/04/22 01:10:16:134[Info  1119]: DevNode Status 0x1802401, Problem 0x16.
+06/04/22 01:10:16:134[Debug 1320]: Disable adapter end.
+06/04/22 01:10:16:141[Debug 1326]: Enable adapter be called.
+06/04/22 01:10:16:146[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/04/22 01:10:16:146[Info  1119]: DevNode Status 0x1802401, Problem 0x16.
+06/04/22 01:10:16:155[Debug 1202]: Enable Adapter success.
+06/04/22 01:10:16:159[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/04/22 01:10:16:159[Info  1119]: DevNode Status 0x180200b, Problem 0x0.
+06/04/22 01:10:16:159[Debug 1358]: Enable adapter end.
+06/04/22 01:10:16:162[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/04/22 01:10:16:162[Info  1119]: DevNode Status 0x180200b, Problem 0x0.
+06/04/22 01:10:16:162[Info   189]: Adapter device started. 0x0180200b
+06/04/22 01:10:16:162[Info   193]: ----Driver Control is being started
+06/04/22 01:10:16:162[Info   311]: Driver file version is 5.0.0.26.
+06/04/22 01:10:16:162[Info   480]: Access driver events.
+06/04/22 01:10:16:162[Info   491]: Device control set driver events.
+06/04/22 01:10:16:162[Info   514]: Device control set debug level as 3.
+06/04/22 01:10:16:162[Info   344]: Load driver control parameter 0x1.
+06/04/22 01:10:16:162[Info   561]: Device control set control parameter as 0x1.
+06/04/22 01:10:16:162[Info   537]: Device control set medium status as 1.
+06/04/22 01:10:16:162[Debug  753]: Device control get mac 02:50:41:00:00:01, size 6.
+06/04/22 01:10:16:162[Debug  905]: Device control get stat ends.
+06/04/22 01:10:16:162[Info   368]: Driver version: 0x600, MTU: 1400, Flags: 0x3, others: 1024-0-1.
+06/04/22 01:10:16:162[Info   382]: Start send thread.
+06/04/22 01:10:16:162[Info   219]: Service callback table gets set.
+06/04/22 03:22:23:945[Debug  546]: Restore IPv4 strong host model for interface 10
+06/04/22 03:22:23:945[Debug  546]: Restore IPv6 strong host model for interface 10
+06/04/22 03:22:23:945[Info   258]: Unregister ends.
+06/04/22 03:22:23:945[Info   227]: ----Driver Control is being stopped
+06/04/22 03:22:23:945[Info   537]: Device control set medium status as 2.
+06/04/22 03:22:24:160[Info   408]: Send thread stops.
+06/04/22 13:24:33:870[Debug  417]: Set debug level as 4
+06/04/22 13:24:34:414[Debug 1202]: Driver status is: 1.
+06/04/22 13:24:34:414[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/04/22 13:24:34:414[Debug  569]: Search only.
+06/04/22 13:24:34:414[Debug 1202]: Driver status is: 1.
+06/04/22 13:24:34:414[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/04/22 13:24:34:414[Debug  569]: Search only.
+06/04/22 13:24:34:414[Debug  770]: Searching valid GP adapter.
+06/04/22 13:24:34:414[Debug  836]: Searching: find device ROOT\PANGPD\0000.
+06/04/22 13:24:34:414[Debug  854]: Searching: DevNode Status 0x1802401, Problem 0x16, count 0.
+06/04/22 13:24:34:429[Debug  891]: Searching: Enable Adapter success, count 0.
+06/04/22 13:24:34:429[Debug  854]: Searching: DevNode Status 0x180200b, Problem 0x0, count 1.
+06/04/22 13:24:34:429[Debug  904]: Searching: Valid device id is ROOT\PANGPD\0000.
+06/04/22 13:24:34:429[Debug  906]: Searching: Valid MTU is 1400.
+06/04/22 13:24:34:429[Debug  907]: Searching: Valid instance id is {45DDEE68-EB44-4D8F-83D6-01444CBECC31}.
+06/04/22 13:24:34:523[Debug  909]: Searching: Valid inf file is C:\Windows\INF\oem25.inf.
+06/04/22 13:24:34:523[Debug   89]: Init get valid adapter info: 1400-C:\Windows\INF\oem25.inf-{45DDEE68-EB44-4D8F-83D6-01444CBECC31}-ROOT\PANGPD\0000.
+06/04/22 13:24:34:523[Debug 1311]: Disable adapter be called.
+06/04/22 13:24:34:523[Debug 1100]: enum devevice ROOT\PANGPD\0000.
+06/04/22 13:24:34:523[Debug 1119]: DevNode Status 0x180200b, Problem 0x0.
+06/04/22 13:24:34:523[Debug 1188]: Disable Adapter success.
+06/04/22 13:24:34:523[Debug 1320]: Disable adapter end.
+06/04/22 16:45:17:779[Info   949]: Register returns MAC 02:50:41:00:00:01.
+06/04/22 16:45:17:874[Info   305]: Move binding order to the top
+06/04/22 16:45:17:876[Debug  384]: No need to adjust binding order
+06/04/22 16:45:17:878[Debug  431]: Found vif, index 9
+06/04/22 16:45:17:878[Debug  502]: Enable IPv4 weak host send mode for interface 11
+06/04/22 16:45:17:878[Debug  502]: Enable IPv6 weak host send mode for interface 11
+06/04/22 16:45:17:878[Info   246]: Register ends.
+06/04/22 16:45:17:902[Debug 1311]: Disable adapter be called.
+06/04/22 16:45:17:907[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/04/22 16:45:17:907[Info  1119]: DevNode Status 0x1802401, Problem 0x16.
+06/04/22 16:45:17:907[Debug 1320]: Disable adapter end.
+06/04/22 16:45:17:912[Debug 1326]: Enable adapter be called.
+06/04/22 16:45:17:914[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/04/22 16:45:17:914[Info  1119]: DevNode Status 0x1802401, Problem 0x16.
+06/04/22 16:45:17:920[Debug 1202]: Enable Adapter success.
+06/04/22 16:45:17:927[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/04/22 16:45:17:927[Info  1119]: DevNode Status 0x180200b, Problem 0x0.
+06/04/22 16:45:17:927[Debug 1358]: Enable adapter end.
+06/04/22 16:45:17:935[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/04/22 16:45:17:935[Info  1119]: DevNode Status 0x180200b, Problem 0x0.
+06/04/22 16:45:17:935[Info   189]: Adapter device started. 0x0180200b
+06/04/22 16:45:17:935[Info   193]: ----Driver Control is being started
+06/04/22 16:45:17:936[Info   311]: Driver file version is 5.0.0.26.
+06/04/22 16:45:17:936[Info   480]: Access driver events.
+06/04/22 16:45:17:936[Info   491]: Device control set driver events.
+06/04/22 16:45:17:936[Info   514]: Device control set debug level as 3.
+06/04/22 16:45:17:936[Info   344]: Load driver control parameter 0x1.
+06/04/22 16:45:17:936[Info   561]: Device control set control parameter as 0x1.
+06/04/22 16:45:17:936[Info   537]: Device control set medium status as 1.
+06/04/22 16:45:17:936[Debug  753]: Device control get mac 02:50:41:00:00:01, size 6.
+06/04/22 16:45:17:936[Debug  905]: Device control get stat ends.
+06/04/22 16:45:17:936[Info   368]: Driver version: 0x600, MTU: 1400, Flags: 0x3, others: 1024-0-1.
+06/04/22 16:45:17:936[Info   382]: Start send thread.
+06/04/22 16:45:17:936[Info   219]: Service callback table gets set.
+06/04/22 17:15:20:469[Debug  546]: Restore IPv4 strong host model for interface 11
+06/04/22 17:15:20:469[Debug  546]: Restore IPv6 strong host model for interface 11
+06/04/22 17:15:20:469[Info   258]: Unregister ends.
+06/04/22 17:15:20:470[Info   227]: ----Driver Control is being stopped
+06/04/22 17:15:20:470[Info   537]: Device control set medium status as 2.
+06/04/22 17:15:20:605[Debug 1006]: DrvCtl receives a packet after stop.
+06/04/22 17:15:20:616[Debug 1006]: DrvCtl receives a packet after stop.
+06/04/22 17:15:20:823[Info   408]: Send thread stops.
+06/04/22 17:15:20:823[Info   430]: 2 packets left on stop.
+06/04/22 17:24:44:622[Debug  417]: Set debug level as 4
+06/04/22 17:24:45:153[Debug 1202]: Driver status is: 1.
+06/04/22 17:24:45:153[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/04/22 17:24:45:153[Debug  569]: Search only.
+06/04/22 17:24:45:153[Debug 1202]: Driver status is: 1.
+06/04/22 17:24:45:169[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/04/22 17:24:45:169[Debug  569]: Search only.
+06/04/22 17:24:45:169[Debug  770]: Searching valid GP adapter.
+06/04/22 17:24:45:169[Debug  836]: Searching: find device ROOT\PANGPD\0000.
+06/04/22 17:24:45:169[Debug  854]: Searching: DevNode Status 0x1802401, Problem 0x16, count 0.
+06/04/22 17:24:45:169[Debug  891]: Searching: Enable Adapter success, count 0.
+06/04/22 17:24:45:169[Debug  854]: Searching: DevNode Status 0x180200b, Problem 0x0, count 1.
+06/04/22 17:24:45:169[Debug  904]: Searching: Valid device id is ROOT\PANGPD\0000.
+06/04/22 17:24:45:185[Debug  906]: Searching: Valid MTU is 1400.
+06/04/22 17:24:45:185[Debug  907]: Searching: Valid instance id is {45DDEE68-EB44-4D8F-83D6-01444CBECC31}.
+06/04/22 17:24:45:263[Debug  909]: Searching: Valid inf file is C:\Windows\INF\oem25.inf.
+06/04/22 17:24:45:263[Debug   89]: Init get valid adapter info: 1400-C:\Windows\INF\oem25.inf-{45DDEE68-EB44-4D8F-83D6-01444CBECC31}-ROOT\PANGPD\0000.
+06/04/22 17:24:45:263[Debug 1311]: Disable adapter be called.
+06/04/22 17:24:45:263[Debug 1100]: enum devevice ROOT\PANGPD\0000.
+06/04/22 17:24:45:263[Debug 1119]: DevNode Status 0x180200b, Problem 0x0.
+06/04/22 17:24:45:263[Debug 1188]: Disable Adapter success.
+06/04/22 17:24:45:278[Debug 1320]: Disable adapter end.
+06/04/22 21:59:04:481[Debug  417]: Set debug level as 4
+06/04/22 21:59:05:029[Debug 1202]: Driver status is: 1.
+06/04/22 21:59:05:029[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/04/22 21:59:05:029[Debug  569]: Search only.
+06/04/22 21:59:05:029[Debug 1202]: Driver status is: 1.
+06/04/22 21:59:05:029[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/04/22 21:59:05:029[Debug  569]: Search only.
+06/04/22 21:59:05:029[Debug  770]: Searching valid GP adapter.
+06/04/22 21:59:05:045[Debug  836]: Searching: find device ROOT\PANGPD\0000.
+06/04/22 21:59:05:045[Debug  854]: Searching: DevNode Status 0x1802401, Problem 0x16, count 0.
+06/04/22 21:59:05:045[Debug  891]: Searching: Enable Adapter success, count 0.
+06/04/22 21:59:05:045[Debug  854]: Searching: DevNode Status 0x180200b, Problem 0x0, count 1.
+06/04/22 21:59:05:045[Debug  904]: Searching: Valid device id is ROOT\PANGPD\0000.
+06/04/22 21:59:05:045[Debug  906]: Searching: Valid MTU is 1400.
+06/04/22 21:59:05:045[Debug  907]: Searching: Valid instance id is {45DDEE68-EB44-4D8F-83D6-01444CBECC31}.
+06/04/22 21:59:05:185[Debug  909]: Searching: Valid inf file is C:\Windows\INF\oem25.inf.
+06/04/22 21:59:05:185[Debug   89]: Init get valid adapter info: 1400-C:\Windows\INF\oem25.inf-{45DDEE68-EB44-4D8F-83D6-01444CBECC31}-ROOT\PANGPD\0000.
+06/04/22 21:59:05:185[Debug 1311]: Disable adapter be called.
+06/04/22 21:59:05:185[Debug 1100]: enum devevice ROOT\PANGPD\0000.
+06/04/22 21:59:05:185[Debug 1119]: DevNode Status 0x180200b, Problem 0x0.
+06/04/22 21:59:05:201[Debug 1188]: Disable Adapter success.
+06/04/22 21:59:05:201[Debug 1320]: Disable adapter end.
+06/04/22 22:00:46:113[Info   949]: Register returns MAC 02:50:41:00:00:01.
+06/04/22 22:00:46:198[Info   305]: Move binding order to the top
+06/04/22 22:00:46:200[Debug  384]: No need to adjust binding order
+06/04/22 22:00:46:202[Debug  431]: Found vif, index 9
+06/04/22 22:00:46:202[Debug  502]: Enable IPv4 weak host send mode for interface 11
+06/04/22 22:00:46:202[Debug  502]: Enable IPv6 weak host send mode for interface 11
+06/04/22 22:00:46:202[Info   246]: Register ends.
+06/04/22 22:00:46:220[Info   417]: Set debug level as 4
+06/04/22 22:00:46:224[Debug 1311]: Disable adapter be called.
+06/04/22 22:00:46:226[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/04/22 22:00:46:226[Info  1119]: DevNode Status 0x1802401, Problem 0x16.
+06/04/22 22:00:46:226[Debug 1320]: Disable adapter end.
+06/04/22 22:00:46:231[Debug 1326]: Enable adapter be called.
+06/04/22 22:00:46:233[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/04/22 22:00:46:233[Info  1119]: DevNode Status 0x1802401, Problem 0x16.
+06/04/22 22:00:46:238[Debug 1202]: Enable Adapter success.
+06/04/22 22:00:46:242[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/04/22 22:00:46:242[Info  1119]: DevNode Status 0x180200b, Problem 0x0.
+06/04/22 22:00:46:242[Debug 1358]: Enable adapter end.
+06/04/22 22:00:46:251[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/04/22 22:00:46:251[Info  1119]: DevNode Status 0x180200b, Problem 0x0.
+06/04/22 22:00:46:251[Info   189]: Adapter device started. 0x0180200b
+06/04/22 22:00:46:251[Info   193]: ----Driver Control is being started
+06/04/22 22:00:46:251[Info   311]: Driver file version is 5.0.0.26.
+06/04/22 22:00:46:251[Info   480]: Access driver events.
+06/04/22 22:00:46:251[Info   491]: Device control set driver events.
+06/04/22 22:00:46:251[Info   514]: Device control set debug level as 3.
+06/04/22 22:00:46:251[Info   344]: Load driver control parameter 0x1.
+06/04/22 22:00:46:251[Info   561]: Device control set control parameter as 0x1.
+06/04/22 22:00:46:251[Info   537]: Device control set medium status as 1.
+06/04/22 22:00:46:251[Debug  753]: Device control get mac 02:50:41:00:00:01, size 6.
+06/04/22 22:00:46:251[Debug  905]: Device control get stat ends.
+06/04/22 22:00:46:251[Info   368]: Driver version: 0x600, MTU: 1400, Flags: 0x3, others: 1024-0-1.
+06/04/22 22:00:46:251[Info   382]: Start send thread.
+06/04/22 22:00:46:251[Info   219]: Service callback table gets set.
+06/05/22 01:36:52:495[Debug  546]: Restore IPv4 strong host model for interface 11
+06/05/22 01:36:52:495[Debug  546]: Restore IPv6 strong host model for interface 11
+06/05/22 01:36:52:495[Info   258]: Unregister ends.
+06/05/22 01:36:52:496[Info   227]: ----Driver Control is being stopped
+06/05/22 01:36:52:496[Info   537]: Device control set medium status as 2.
+06/05/22 01:36:52:575[Debug 1006]: DrvCtl receives a packet after stop.
+06/05/22 01:36:52:575[Debug 1006]: DrvCtl receives a packet after stop.
+06/05/22 01:36:52:588[Debug 1006]: DrvCtl receives a packet after stop.
+06/05/22 01:36:52:788[Info   408]: Send thread stops.
+06/05/22 01:36:52:788[Info   430]: 3 packets left on stop.
+06/05/22 08:38:03:260[Debug  417]: Set debug level as 4
+06/05/22 08:38:03:789[Debug 1202]: Driver status is: 1.
+06/05/22 08:38:03:789[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/05/22 08:38:03:789[Debug  569]: Search only.
+06/05/22 08:38:03:789[Debug 1202]: Driver status is: 1.
+06/05/22 08:38:03:789[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/05/22 08:38:03:789[Debug  569]: Search only.
+06/05/22 08:38:03:789[Debug  770]: Searching valid GP adapter.
+06/05/22 08:38:03:789[Debug  836]: Searching: find device ROOT\PANGPD\0000.
+06/05/22 08:38:03:789[Debug  854]: Searching: DevNode Status 0x1802401, Problem 0x16, count 0.
+06/05/22 08:38:03:805[Debug  891]: Searching: Enable Adapter success, count 0.
+06/05/22 08:38:03:805[Debug  854]: Searching: DevNode Status 0x180200b, Problem 0x0, count 1.
+06/05/22 08:38:03:805[Debug  904]: Searching: Valid device id is ROOT\PANGPD\0000.
+06/05/22 08:38:03:805[Debug  906]: Searching: Valid MTU is 1400.
+06/05/22 08:38:03:805[Debug  907]: Searching: Valid instance id is {45DDEE68-EB44-4D8F-83D6-01444CBECC31}.
+06/05/22 08:38:03:898[Debug  909]: Searching: Valid inf file is C:\Windows\INF\oem25.inf.
+06/05/22 08:38:03:898[Debug   89]: Init get valid adapter info: 1400-C:\Windows\INF\oem25.inf-{45DDEE68-EB44-4D8F-83D6-01444CBECC31}-ROOT\PANGPD\0000.
+06/05/22 08:38:03:898[Debug 1311]: Disable adapter be called.
+06/05/22 08:38:03:898[Debug 1100]: enum devevice ROOT\PANGPD\0000.
+06/05/22 08:38:03:898[Debug 1119]: DevNode Status 0x180200b, Problem 0x0.
+06/05/22 08:38:03:898[Debug 1188]: Disable Adapter success.
+06/05/22 08:38:03:898[Debug 1320]: Disable adapter end.
+06/05/22 08:46:29:727[Info   949]: Register returns MAC 02:50:41:00:00:01.
+06/05/22 08:46:29:823[Info   305]: Move binding order to the top
+06/05/22 08:46:29:825[Debug  384]: No need to adjust binding order
+06/05/22 08:46:29:826[Debug  431]: Found vif, index 9
+06/05/22 08:46:29:826[Debug  502]: Enable IPv4 weak host send mode for interface 11
+06/05/22 08:46:29:826[Debug  502]: Enable IPv6 weak host send mode for interface 11
+06/05/22 08:46:29:826[Info   246]: Register ends.
+06/05/22 08:46:29:844[Info   417]: Set debug level as 4
+06/05/22 08:46:29:850[Debug 1311]: Disable adapter be called.
+06/05/22 08:46:29:852[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/05/22 08:46:29:852[Info  1119]: DevNode Status 0x1802401, Problem 0x16.
+06/05/22 08:46:29:852[Debug 1320]: Disable adapter end.
+06/05/22 08:46:29:857[Debug 1326]: Enable adapter be called.
+06/05/22 08:46:29:858[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/05/22 08:46:29:858[Info  1119]: DevNode Status 0x1802401, Problem 0x16.
+06/05/22 08:46:29:864[Debug 1202]: Enable Adapter success.
+06/05/22 08:46:29:867[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/05/22 08:46:29:867[Info  1119]: DevNode Status 0x180200b, Problem 0x0.
+06/05/22 08:46:29:867[Debug 1358]: Enable adapter end.
+06/05/22 08:46:29:869[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/05/22 08:46:29:869[Info  1119]: DevNode Status 0x180200b, Problem 0x0.
+06/05/22 08:46:29:869[Info   189]: Adapter device started. 0x0180200b
+06/05/22 08:46:29:869[Info   193]: ----Driver Control is being started
+06/05/22 08:46:29:870[Info   311]: Driver file version is 5.0.0.26.
+06/05/22 08:46:29:870[Info   480]: Access driver events.
+06/05/22 08:46:29:870[Info   491]: Device control set driver events.
+06/05/22 08:46:29:870[Info   514]: Device control set debug level as 3.
+06/05/22 08:46:29:870[Info   344]: Load driver control parameter 0x1.
+06/05/22 08:46:29:870[Info   561]: Device control set control parameter as 0x1.
+06/05/22 08:46:29:870[Info   537]: Device control set medium status as 1.
+06/05/22 08:46:29:870[Debug  753]: Device control get mac 02:50:41:00:00:01, size 6.
+06/05/22 08:46:29:870[Debug  905]: Device control get stat ends.
+06/05/22 08:46:29:870[Info   368]: Driver version: 0x600, MTU: 1400, Flags: 0x3, others: 1024-0-1.
+06/05/22 08:46:29:870[Info   382]: Start send thread.
+06/05/22 08:46:29:870[Info   219]: Service callback table gets set.
+06/05/22 09:02:29:055[Debug  546]: Restore IPv4 strong host model for interface 11
+06/05/22 09:02:29:055[Debug  546]: Restore IPv6 strong host model for interface 11
+06/05/22 09:02:29:055[Info   258]: Unregister ends.
+06/05/22 09:02:29:055[Info   227]: ----Driver Control is being stopped
+06/05/22 09:02:29:055[Info   537]: Device control set medium status as 2.
+06/05/22 09:02:29:258[Info   408]: Send thread stops.
+06/05/22 09:02:29:261[Info   157]: Log thread stops.
+06/05/22 09:02:29:261[Debug 1311]: Disable adapter be called.
+06/05/22 09:02:29:265[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/05/22 09:02:29:265[Info  1119]: DevNode Status 0x180200b, Problem 0x0.
+06/05/22 09:02:29:270[Debug 1188]: Disable Adapter success.
+06/05/22 09:02:29:270[Debug 1320]: Disable adapter end.
+06/05/22 09:02:29:285[Info   417]: Set debug level as 4
+06/05/22 12:14:10:437[Info   949]: Register returns MAC 02:50:41:00:00:01.
+06/05/22 12:14:10:510[Info   305]: Move binding order to the top
+06/05/22 12:14:10:512[Debug  384]: No need to adjust binding order
+06/05/22 12:14:10:513[Debug  431]: Found vif, index 9
+06/05/22 12:14:10:513[Debug  502]: Enable IPv4 weak host send mode for interface 11
+06/05/22 12:14:10:513[Debug  502]: Enable IPv6 weak host send mode for interface 11
+06/05/22 12:14:10:513[Info   246]: Register ends.
+06/05/22 12:14:10:531[Info   417]: Set debug level as 4
+06/05/22 12:14:10:535[Debug 1311]: Disable adapter be called.
+06/05/22 12:14:10:537[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/05/22 12:14:10:537[Info  1119]: DevNode Status 0x1802401, Problem 0x16.
+06/05/22 12:14:10:537[Debug 1320]: Disable adapter end.
+06/05/22 12:14:10:542[Debug 1326]: Enable adapter be called.
+06/05/22 12:14:10:544[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/05/22 12:14:10:544[Info  1119]: DevNode Status 0x1802401, Problem 0x16.
+06/05/22 12:14:10:550[Debug 1202]: Enable Adapter success.
+06/05/22 12:14:10:554[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/05/22 12:14:10:554[Info  1119]: DevNode Status 0x180200b, Problem 0x0.
+06/05/22 12:14:10:554[Debug 1358]: Enable adapter end.
+06/05/22 12:14:10:558[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/05/22 12:14:10:558[Info  1119]: DevNode Status 0x180200b, Problem 0x0.
+06/05/22 12:14:10:558[Info   189]: Adapter device started. 0x0180200b
+06/05/22 12:14:10:558[Info   193]: ----Driver Control is being started
+06/05/22 12:14:10:558[Info   311]: Driver file version is 5.0.0.26.
+06/05/22 12:14:10:558[Info   480]: Access driver events.
+06/05/22 12:14:10:558[Info   491]: Device control set driver events.
+06/05/22 12:14:10:558[Info   514]: Device control set debug level as 3.
+06/05/22 12:14:10:558[Info   344]: Load driver control parameter 0x1.
+06/05/22 12:14:10:558[Info   561]: Device control set control parameter as 0x1.
+06/05/22 12:14:10:558[Info   537]: Device control set medium status as 1.
+06/05/22 12:14:10:558[Debug  753]: Device control get mac 02:50:41:00:00:01, size 6.
+06/05/22 12:14:10:558[Debug  905]: Device control get stat ends.
+06/05/22 12:14:10:558[Info   368]: Driver version: 0x600, MTU: 1400, Flags: 0x3, others: 1024-0-1.
+06/05/22 12:14:10:558[Info   382]: Start send thread.
+06/05/22 12:14:10:558[Info   219]: Service callback table gets set.
+06/05/22 15:03:02:945[Debug  546]: Restore IPv4 strong host model for interface 11
+06/05/22 15:03:02:945[Debug  546]: Restore IPv6 strong host model for interface 11
+06/05/22 15:03:02:945[Info   258]: Unregister ends.
+06/05/22 15:03:02:945[Info   227]: ----Driver Control is being stopped
+06/05/22 15:03:02:945[Info   537]: Device control set medium status as 2.
+06/05/22 15:03:02:952[Info   417]: Set debug level as 4
+06/05/22 15:03:03:153[Info   408]: Send thread stops.
+06/06/22 20:07:11:072[Debug  417]: Set debug level as 4
+06/06/22 20:07:11:602[Debug 1202]: Driver status is: 1.
+06/06/22 20:07:11:602[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/06/22 20:07:11:602[Debug  569]: Search only.
+06/06/22 20:07:11:602[Debug 1202]: Driver status is: 1.
+06/06/22 20:07:11:618[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/06/22 20:07:11:618[Debug  569]: Search only.
+06/06/22 20:07:11:618[Debug  770]: Searching valid GP adapter.
+06/06/22 20:07:11:618[Debug  836]: Searching: find device ROOT\PANGPD\0000.
+06/06/22 20:07:11:618[Debug  854]: Searching: DevNode Status 0x1802401, Problem 0x16, count 0.
+06/06/22 20:07:11:634[Debug  891]: Searching: Enable Adapter success, count 0.
+06/06/22 20:07:11:634[Debug  854]: Searching: DevNode Status 0x180200b, Problem 0x0, count 1.
+06/06/22 20:07:11:634[Debug  904]: Searching: Valid device id is ROOT\PANGPD\0000.
+06/06/22 20:07:11:634[Debug  906]: Searching: Valid MTU is 1400.
+06/06/22 20:07:11:634[Debug  907]: Searching: Valid instance id is {45DDEE68-EB44-4D8F-83D6-01444CBECC31}.
+06/06/22 20:07:11:758[Debug  909]: Searching: Valid inf file is C:\Windows\INF\oem25.inf.
+06/06/22 20:07:11:758[Debug   89]: Init get valid adapter info: 1400-C:\Windows\INF\oem25.inf-{45DDEE68-EB44-4D8F-83D6-01444CBECC31}-ROOT\PANGPD\0000.
+06/06/22 20:07:11:758[Debug 1311]: Disable adapter be called.
+06/06/22 20:07:11:758[Debug 1100]: enum devevice ROOT\PANGPD\0000.
+06/06/22 20:07:11:758[Debug 1119]: DevNode Status 0x180200b, Problem 0x0.
+06/06/22 20:07:11:758[Debug 1188]: Disable Adapter success.
+06/06/22 20:07:11:758[Debug 1320]: Disable adapter end.
+06/06/22 20:10:53:606[Debug  417]: Set debug level as 4
+06/06/22 20:10:54:124[Debug 1202]: Driver status is: 1.
+06/06/22 20:10:54:139[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/06/22 20:10:54:139[Debug  569]: Search only.
+06/06/22 20:10:54:139[Debug 1202]: Driver status is: 1.
+06/06/22 20:10:54:139[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/06/22 20:10:54:139[Debug  569]: Search only.
+06/06/22 20:10:54:139[Debug  770]: Searching valid GP adapter.
+06/06/22 20:10:54:139[Debug  836]: Searching: find device ROOT\PANGPD\0000.
+06/06/22 20:10:54:139[Debug  854]: Searching: DevNode Status 0x1802401, Problem 0x16, count 0.
+06/06/22 20:10:54:155[Debug  891]: Searching: Enable Adapter success, count 0.
+06/06/22 20:10:54:155[Debug  854]: Searching: DevNode Status 0x180200b, Problem 0x0, count 1.
+06/06/22 20:10:54:155[Debug  904]: Searching: Valid device id is ROOT\PANGPD\0000.
+06/06/22 20:10:54:155[Debug  906]: Searching: Valid MTU is 1400.
+06/06/22 20:10:54:155[Debug  907]: Searching: Valid instance id is {45DDEE68-EB44-4D8F-83D6-01444CBECC31}.
+06/06/22 20:10:54:233[Debug  909]: Searching: Valid inf file is C:\Windows\INF\oem25.inf.
+06/06/22 20:10:54:233[Debug   89]: Init get valid adapter info: 1400-C:\Windows\INF\oem25.inf-{45DDEE68-EB44-4D8F-83D6-01444CBECC31}-ROOT\PANGPD\0000.
+06/06/22 20:10:54:233[Debug 1311]: Disable adapter be called.
+06/06/22 20:10:54:233[Debug 1100]: enum devevice ROOT\PANGPD\0000.
+06/06/22 20:10:54:233[Debug 1119]: DevNode Status 0x180200b, Problem 0x0.
+06/06/22 20:10:54:249[Debug 1188]: Disable Adapter success.
+06/06/22 20:10:54:249[Debug 1320]: Disable adapter end.
+06/06/22 20:20:56:664[Debug  417]: Set debug level as 4
+06/06/22 20:20:57:182[Debug 1202]: Driver status is: 1.
+06/06/22 20:20:57:198[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/06/22 20:20:57:198[Debug  569]: Search only.
+06/06/22 20:20:57:198[Debug 1202]: Driver status is: 1.
+06/06/22 20:20:57:198[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/06/22 20:20:57:198[Debug  569]: Search only.
+06/06/22 20:20:57:198[Debug  770]: Searching valid GP adapter.
+06/06/22 20:20:57:198[Debug  836]: Searching: find device ROOT\PANGPD\0000.
+06/06/22 20:20:57:198[Debug  854]: Searching: DevNode Status 0x1802401, Problem 0x16, count 0.
+06/06/22 20:20:57:213[Debug  891]: Searching: Enable Adapter success, count 0.
+06/06/22 20:20:57:213[Debug  854]: Searching: DevNode Status 0x180200b, Problem 0x0, count 1.
+06/06/22 20:20:57:213[Debug  904]: Searching: Valid device id is ROOT\PANGPD\0000.
+06/06/22 20:20:57:213[Debug  906]: Searching: Valid MTU is 1400.
+06/06/22 20:20:57:213[Debug  907]: Searching: Valid instance id is {45DDEE68-EB44-4D8F-83D6-01444CBECC31}.
+06/06/22 20:20:57:307[Debug  909]: Searching: Valid inf file is C:\Windows\INF\oem25.inf.
+06/06/22 20:20:57:307[Debug   89]: Init get valid adapter info: 1400-C:\Windows\INF\oem25.inf-{45DDEE68-EB44-4D8F-83D6-01444CBECC31}-ROOT\PANGPD\0000.
+06/06/22 20:20:57:307[Debug 1311]: Disable adapter be called.
+06/06/22 20:20:57:307[Debug 1100]: enum devevice ROOT\PANGPD\0000.
+06/06/22 20:20:57:307[Debug 1119]: DevNode Status 0x180200b, Problem 0x0.
+06/06/22 20:20:57:323[Debug 1188]: Disable Adapter success.
+06/06/22 20:20:57:323[Debug 1320]: Disable adapter end.
+06/07/22 19:13:03:460[Debug  417]: Set debug level as 4
+06/07/22 19:13:03:979[Debug 1202]: Driver status is: 1.
+06/07/22 19:13:03:995[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/07/22 19:13:03:995[Debug  569]: Search only.
+06/07/22 19:13:03:995[Debug 1202]: Driver status is: 1.
+06/07/22 19:13:03:995[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/07/22 19:13:03:995[Debug  569]: Search only.
+06/07/22 19:13:03:995[Debug  770]: Searching valid GP adapter.
+06/07/22 19:13:03:995[Debug  836]: Searching: find device ROOT\PANGPD\0000.
+06/07/22 19:13:03:995[Debug  854]: Searching: DevNode Status 0x1802401, Problem 0x16, count 0.
+06/07/22 19:13:04:010[Debug  891]: Searching: Enable Adapter success, count 0.
+06/07/22 19:13:04:010[Debug  854]: Searching: DevNode Status 0x180200b, Problem 0x0, count 1.
+06/07/22 19:13:04:010[Debug  904]: Searching: Valid device id is ROOT\PANGPD\0000.
+06/07/22 19:13:04:010[Debug  906]: Searching: Valid MTU is 1400.
+06/07/22 19:13:04:010[Debug  907]: Searching: Valid instance id is {45DDEE68-EB44-4D8F-83D6-01444CBECC31}.
+06/07/22 19:13:04:073[Debug  909]: Searching: Valid inf file is C:\Windows\INF\oem25.inf.
+06/07/22 19:13:04:073[Debug   89]: Init get valid adapter info: 1400-C:\Windows\INF\oem25.inf-{45DDEE68-EB44-4D8F-83D6-01444CBECC31}-ROOT\PANGPD\0000.
+06/07/22 19:13:04:073[Debug 1311]: Disable adapter be called.
+06/07/22 19:13:04:088[Debug 1100]: enum devevice ROOT\PANGPD\0000.
+06/07/22 19:13:04:088[Debug 1119]: DevNode Status 0x180200b, Problem 0x0.
+06/07/22 19:13:04:088[Debug 1188]: Disable Adapter success.
+06/07/22 19:13:04:088[Debug 1320]: Disable adapter end.
+06/07/22 22:02:06:348[Debug  417]: Set debug level as 4
+06/07/22 22:02:06:864[Debug 1202]: Driver status is: 1.
+06/07/22 22:02:06:879[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/07/22 22:02:06:879[Debug  569]: Search only.
+06/07/22 22:02:06:879[Debug 1202]: Driver status is: 1.
+06/07/22 22:02:06:879[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/07/22 22:02:06:879[Debug  569]: Search only.
+06/07/22 22:02:06:879[Debug  770]: Searching valid GP adapter.
+06/07/22 22:02:06:879[Debug  836]: Searching: find device ROOT\PANGPD\0000.
+06/07/22 22:02:06:879[Debug  854]: Searching: DevNode Status 0x1802401, Problem 0x16, count 0.
+06/07/22 22:02:06:895[Debug  891]: Searching: Enable Adapter success, count 0.
+06/07/22 22:02:06:895[Debug  854]: Searching: DevNode Status 0x180200b, Problem 0x0, count 1.
+06/07/22 22:02:06:895[Debug  904]: Searching: Valid device id is ROOT\PANGPD\0000.
+06/07/22 22:02:06:895[Debug  906]: Searching: Valid MTU is 1400.
+06/07/22 22:02:06:895[Debug  907]: Searching: Valid instance id is {45DDEE68-EB44-4D8F-83D6-01444CBECC31}.
+06/07/22 22:02:06:989[Debug  909]: Searching: Valid inf file is C:\Windows\INF\oem25.inf.
+06/07/22 22:02:06:989[Debug   89]: Init get valid adapter info: 1400-C:\Windows\INF\oem25.inf-{45DDEE68-EB44-4D8F-83D6-01444CBECC31}-ROOT\PANGPD\0000.
+06/07/22 22:02:06:989[Debug 1311]: Disable adapter be called.
+06/07/22 22:02:06:989[Debug 1100]: enum devevice ROOT\PANGPD\0000.
+06/07/22 22:02:06:989[Debug 1119]: DevNode Status 0x180200b, Problem 0x0.
+06/07/22 22:02:06:989[Debug 1188]: Disable Adapter success.
+06/07/22 22:02:06:989[Debug 1320]: Disable adapter end.
+06/07/22 23:34:43:661[Debug  417]: Set debug level as 4
+06/07/22 23:34:44:187[Debug 1202]: Driver status is: 1.
+06/07/22 23:34:44:187[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/07/22 23:34:44:187[Debug  569]: Search only.
+06/07/22 23:34:44:187[Debug 1202]: Driver status is: 1.
+06/07/22 23:34:44:187[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/07/22 23:34:44:187[Debug  569]: Search only.
+06/07/22 23:34:44:187[Debug  770]: Searching valid GP adapter.
+06/07/22 23:34:44:187[Debug  836]: Searching: find device ROOT\PANGPD\0000.
+06/07/22 23:34:44:187[Debug  854]: Searching: DevNode Status 0x1802401, Problem 0x16, count 0.
+06/07/22 23:34:44:202[Debug  891]: Searching: Enable Adapter success, count 0.
+06/07/22 23:34:44:202[Debug  854]: Searching: DevNode Status 0x180200b, Problem 0x0, count 1.
+06/07/22 23:34:44:202[Debug  904]: Searching: Valid device id is ROOT\PANGPD\0000.
+06/07/22 23:34:44:202[Debug  906]: Searching: Valid MTU is 1400.
+06/07/22 23:34:44:202[Debug  907]: Searching: Valid instance id is {45DDEE68-EB44-4D8F-83D6-01444CBECC31}.
+06/07/22 23:34:44:280[Debug  909]: Searching: Valid inf file is C:\Windows\INF\oem25.inf.
+06/07/22 23:34:44:280[Debug   89]: Init get valid adapter info: 1400-C:\Windows\INF\oem25.inf-{45DDEE68-EB44-4D8F-83D6-01444CBECC31}-ROOT\PANGPD\0000.
+06/07/22 23:34:44:280[Debug 1311]: Disable adapter be called.
+06/07/22 23:34:44:296[Debug 1100]: enum devevice ROOT\PANGPD\0000.
+06/07/22 23:34:44:296[Debug 1119]: DevNode Status 0x180200b, Problem 0x0.
+06/07/22 23:34:44:296[Debug 1188]: Disable Adapter success.
+06/07/22 23:34:44:296[Debug 1320]: Disable adapter end.
+06/08/22 22:05:55:419[Debug  417]: Set debug level as 4
+06/08/22 22:05:55:935[Debug 1202]: Driver status is: 1.
+06/08/22 22:05:55:935[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/08/22 22:05:55:935[Debug  569]: Search only.
+06/08/22 22:05:55:935[Debug 1202]: Driver status is: 1.
+06/08/22 22:05:55:951[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/08/22 22:05:55:951[Debug  569]: Search only.
+06/08/22 22:05:55:951[Debug  770]: Searching valid GP adapter.
+06/08/22 22:05:55:951[Debug  836]: Searching: find device ROOT\PANGPD\0000.
+06/08/22 22:05:55:951[Debug  854]: Searching: DevNode Status 0x1802401, Problem 0x16, count 0.
+06/08/22 22:05:55:951[Debug  891]: Searching: Enable Adapter success, count 0.
+06/08/22 22:05:55:951[Debug  854]: Searching: DevNode Status 0x180200b, Problem 0x0, count 1.
+06/08/22 22:05:55:951[Debug  904]: Searching: Valid device id is ROOT\PANGPD\0000.
+06/08/22 22:05:55:966[Debug  906]: Searching: Valid MTU is 1400.
+06/08/22 22:05:55:966[Debug  907]: Searching: Valid instance id is {45DDEE68-EB44-4D8F-83D6-01444CBECC31}.
+06/08/22 22:05:56:044[Debug  909]: Searching: Valid inf file is C:\Windows\INF\oem25.inf.
+06/08/22 22:05:56:044[Debug   89]: Init get valid adapter info: 1400-C:\Windows\INF\oem25.inf-{45DDEE68-EB44-4D8F-83D6-01444CBECC31}-ROOT\PANGPD\0000.
+06/08/22 22:05:56:044[Debug 1311]: Disable adapter be called.
+06/08/22 22:05:56:044[Debug 1100]: enum devevice ROOT\PANGPD\0000.
+06/08/22 22:05:56:044[Debug 1119]: DevNode Status 0x180200b, Problem 0x0.
+06/08/22 22:05:56:060[Debug 1188]: Disable Adapter success.
+06/08/22 22:05:56:060[Debug 1320]: Disable adapter end.
+06/09/22 01:05:32:028[Info   949]: Register returns MAC 02:50:41:00:00:01.
+06/09/22 01:05:32:102[Info   305]: Move binding order to the top
+06/09/22 01:05:32:103[Debug  384]: No need to adjust binding order
+06/09/22 01:05:32:105[Debug  431]: Found vif, index 9
+06/09/22 01:05:32:105[Debug  502]: Enable IPv4 weak host send mode for interface 11
+06/09/22 01:05:32:105[Debug  502]: Enable IPv6 weak host send mode for interface 11
+06/09/22 01:05:32:105[Info   246]: Register ends.
+06/09/22 01:05:32:122[Info   417]: Set debug level as 4
+06/09/22 01:05:32:128[Debug 1311]: Disable adapter be called.
+06/09/22 01:05:32:130[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/09/22 01:05:32:130[Info  1119]: DevNode Status 0x1802401, Problem 0x16.
+06/09/22 01:05:32:130[Debug 1320]: Disable adapter end.
+06/09/22 01:05:32:136[Debug 1326]: Enable adapter be called.
+06/09/22 01:05:32:137[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/09/22 01:05:32:137[Info  1119]: DevNode Status 0x1802401, Problem 0x16.
+06/09/22 01:05:32:144[Debug 1202]: Enable Adapter success.
+06/09/22 01:05:32:147[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/09/22 01:05:32:147[Info  1119]: DevNode Status 0x180200b, Problem 0x0.
+06/09/22 01:05:32:147[Debug 1358]: Enable adapter end.
+06/09/22 01:05:32:150[Info  1100]: enum devevice ROOT\PANGPD\0000.
+06/09/22 01:05:32:150[Info  1119]: DevNode Status 0x180200b, Problem 0x0.
+06/09/22 01:05:32:150[Info   189]: Adapter device started. 0x0180200b
+06/09/22 01:05:32:150[Info   193]: ----Driver Control is being started
+06/09/22 01:05:32:150[Info   311]: Driver file version is 5.0.0.26.
+06/09/22 01:05:32:150[Info   480]: Access driver events.
+06/09/22 01:05:32:150[Info   491]: Device control set driver events.
+06/09/22 01:05:32:150[Info   514]: Device control set debug level as 3.
+06/09/22 01:05:32:150[Info   344]: Load driver control parameter 0x1.
+06/09/22 01:05:32:150[Info   561]: Device control set control parameter as 0x1.
+06/09/22 01:05:32:150[Info   537]: Device control set medium status as 1.
+06/09/22 01:05:32:150[Debug  753]: Device control get mac 02:50:41:00:00:01, size 6.
+06/09/22 01:05:32:150[Debug  905]: Device control get stat ends.
+06/09/22 01:05:32:150[Info   368]: Driver version: 0x600, MTU: 1400, Flags: 0x3, others: 1024-0-1.
+06/09/22 01:05:32:150[Info   382]: Start send thread.
+06/09/22 01:05:32:150[Info   219]: Service callback table gets set.
+06/09/22 01:52:59:624[Debug  546]: Restore IPv4 strong host model for interface 11
+06/09/22 01:52:59:624[Debug  546]: Restore IPv6 strong host model for interface 11
+06/09/22 01:52:59:624[Info   258]: Unregister ends.
+06/09/22 01:52:59:625[Info   227]: ----Driver Control is being stopped
+06/09/22 01:52:59:625[Info   537]: Device control set medium status as 2.
+06/09/22 01:52:59:840[Info   408]: Send thread stops.
+06/09/22 18:19:05:550[Debug  417]: Set debug level as 4
+06/09/22 18:19:06:057[Debug 1202]: Driver status is: 1.
+06/09/22 18:19:06:057[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/09/22 18:19:06:057[Debug  569]: Search only.
+06/09/22 18:19:06:057[Debug 1202]: Driver status is: 1.
+06/09/22 18:19:06:072[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/09/22 18:19:06:072[Debug  569]: Search only.
+06/09/22 18:19:06:072[Debug  770]: Searching valid GP adapter.
+06/09/22 18:19:06:072[Debug  836]: Searching: find device ROOT\PANGPD\0000.
+06/09/22 18:19:06:072[Debug  854]: Searching: DevNode Status 0x1802401, Problem 0x16, count 0.
+06/09/22 18:19:06:072[Debug  891]: Searching: Enable Adapter success, count 0.
+06/09/22 18:19:06:072[Debug  854]: Searching: DevNode Status 0x180200b, Problem 0x0, count 1.
+06/09/22 18:19:06:072[Debug  904]: Searching: Valid device id is ROOT\PANGPD\0000.
+06/09/22 18:19:06:072[Debug  906]: Searching: Valid MTU is 1400.
+06/09/22 18:19:06:072[Debug  907]: Searching: Valid instance id is {45DDEE68-EB44-4D8F-83D6-01444CBECC31}.
+06/09/22 18:19:06:150[Debug  909]: Searching: Valid inf file is C:\Windows\INF\oem25.inf.
+06/09/22 18:19:06:150[Debug   89]: Init get valid adapter info: 1400-C:\Windows\INF\oem25.inf-{45DDEE68-EB44-4D8F-83D6-01444CBECC31}-ROOT\PANGPD\0000.
+06/09/22 18:19:06:150[Debug 1311]: Disable adapter be called.
+06/09/22 18:19:06:150[Debug 1100]: enum devevice ROOT\PANGPD\0000.
+06/09/22 18:19:06:150[Debug 1119]: DevNode Status 0x180200b, Problem 0x0.
+06/09/22 18:19:06:166[Debug 1188]: Disable Adapter success.
+06/09/22 18:19:06:166[Debug 1320]: Disable adapter end.
+06/11/22 00:04:05:375[Debug  417]: Set debug level as 4
+06/11/22 00:04:05:891[Debug 1202]: Driver status is: 1.
+06/11/22 00:04:05:906[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/11/22 00:04:05:906[Debug  569]: Search only.
+06/11/22 00:04:05:906[Debug 1202]: Driver status is: 1.
+06/11/22 00:04:05:906[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/11/22 00:04:05:906[Debug  569]: Search only.
+06/11/22 00:04:05:906[Debug  770]: Searching valid GP adapter.
+06/11/22 00:04:05:906[Debug  836]: Searching: find device ROOT\PANGPD\0000.
+06/11/22 00:04:05:906[Debug  854]: Searching: DevNode Status 0x1802401, Problem 0x16, count 0.
+06/11/22 00:04:05:922[Debug  891]: Searching: Enable Adapter success, count 0.
+06/11/22 00:04:05:922[Debug  854]: Searching: DevNode Status 0x180200b, Problem 0x0, count 1.
+06/11/22 00:04:05:922[Debug  904]: Searching: Valid device id is ROOT\PANGPD\0000.
+06/11/22 00:04:05:922[Debug  906]: Searching: Valid MTU is 1400.
+06/11/22 00:04:05:922[Debug  907]: Searching: Valid instance id is {45DDEE68-EB44-4D8F-83D6-01444CBECC31}.
+06/11/22 00:04:06:000[Debug  909]: Searching: Valid inf file is C:\Windows\INF\oem25.inf.
+06/11/22 00:04:06:000[Debug   89]: Init get valid adapter info: 1400-C:\Windows\INF\oem25.inf-{45DDEE68-EB44-4D8F-83D6-01444CBECC31}-ROOT\PANGPD\0000.
+06/11/22 00:04:06:000[Debug 1311]: Disable adapter be called.
+06/11/22 00:04:06:000[Debug 1100]: enum devevice ROOT\PANGPD\0000.
+06/11/22 00:04:06:000[Debug 1119]: DevNode Status 0x180200b, Problem 0x0.
+06/11/22 00:04:06:015[Debug 1188]: Disable Adapter success.
+06/11/22 00:04:06:015[Debug 1320]: Disable adapter end.
+06/11/22 00:09:07:578[Debug  417]: Set debug level as 4
+06/11/22 00:09:08:095[Debug 1202]: Driver status is: 1.
+06/11/22 00:09:08:095[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/11/22 00:09:08:095[Debug  569]: Search only.
+06/11/22 00:09:08:095[Debug 1202]: Driver status is: 1.
+06/11/22 00:09:08:095[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/11/22 00:09:08:095[Debug  569]: Search only.
+06/11/22 00:09:08:095[Debug  770]: Searching valid GP adapter.
+06/11/22 00:09:08:110[Debug  836]: Searching: find device ROOT\PANGPD\0000.
+06/11/22 00:09:08:110[Debug  854]: Searching: DevNode Status 0x1802401, Problem 0x16, count 0.
+06/11/22 00:09:08:110[Debug  891]: Searching: Enable Adapter success, count 0.
+06/11/22 00:09:08:110[Debug  854]: Searching: DevNode Status 0x180200b, Problem 0x0, count 1.
+06/11/22 00:09:08:110[Debug  904]: Searching: Valid device id is ROOT\PANGPD\0000.
+06/11/22 00:09:08:110[Debug  906]: Searching: Valid MTU is 1400.
+06/11/22 00:09:08:110[Debug  907]: Searching: Valid instance id is {45DDEE68-EB44-4D8F-83D6-01444CBECC31}.
+06/11/22 00:09:08:188[Debug  909]: Searching: Valid inf file is C:\Windows\INF\oem25.inf.
+06/11/22 00:09:08:188[Debug   89]: Init get valid adapter info: 1400-C:\Windows\INF\oem25.inf-{45DDEE68-EB44-4D8F-83D6-01444CBECC31}-ROOT\PANGPD\0000.
+06/11/22 00:09:08:188[Debug 1311]: Disable adapter be called.
+06/11/22 00:09:08:188[Debug 1100]: enum devevice ROOT\PANGPD\0000.
+06/11/22 00:09:08:188[Debug 1119]: DevNode Status 0x180200b, Problem 0x0.
+06/11/22 00:09:08:188[Debug 1188]: Disable Adapter success.
+06/11/22 00:09:08:188[Debug 1320]: Disable adapter end.
+06/11/22 06:27:22:738[Debug  417]: Set debug level as 4
+06/11/22 06:27:23:247[Debug 1202]: Driver status is: 1.
+06/11/22 06:27:23:247[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/11/22 06:27:23:247[Debug  569]: Search only.
+06/11/22 06:27:23:247[Debug 1202]: Driver status is: 1.
+06/11/22 06:27:23:262[Debug  566]: Found pangpd device ROOT\PANGPD\0000, remove it now.
+06/11/22 06:27:23:262[Debug  569]: Search only.
+06/11/22 06:27:23:262[Debug  770]: Searching valid GP adapter.
+06/11/22 06:27:23:262[Debug  836]: Searching: find device ROOT\PANGPD\0000.
+06/11/22 06:27:23:262[Debug  854]: Searching: DevNode Status 0x1802401, Problem 0x16, count 0.
+06/11/22 06:27:23:262[Debug  891]: Searching: Enable Adapter success, count 0.
+06/11/22 06:27:23:262[Debug  854]: Searching: DevNode Status 0x180200b, Problem 0x0, count 1.
+06/11/22 06:27:23:262[Debug  904]: Searching: Valid device id is ROOT\PANGPD\0000.
+06/11/22 06:27:23:262[Debug  906]: Searching: Valid MTU is 1400.
+06/11/22 06:27:23:262[Debug  907]: Searching: Valid instance id is {45DDEE68-EB44-4D8F-83D6-01444CBECC31}.
+06/11/22 06:27:23:340[Debug  909]: Searching: Valid inf file is C:\Windows\INF\oem25.inf.
+06/11/22 06:27:23:340[Debug   89]: Init get valid adapter info: 1400-C:\Windows\INF\oem25.inf-{45DDEE68-EB44-4D8F-83D6-01444CBECC31}-ROOT\PANGPD\0000.
+06/11/22 06:27:23:340[Debug 1311]: Disable adapter be called.
+06/11/22 06:27:23:356[Debug 1100]: enum devevice ROOT\PANGPD\0000.
+06/11/22 06:27:23:356[Debug 1119]: DevNode Status 0x180200b, Problem 0x0.
+06/11/22 06:27:23:356[Debug 1188]: Disable Adapter success.
+06/11/22 06:27:23:356[Debug 1320]: Disable adapter end.

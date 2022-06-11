@@ -1,0 +1,47 @@
+
+----17/01/2022
+
+Thêm điều kiện lọc cho báo cáo phân bổ chi phí: LỌc nhân viên có phân bổ - thế chỗ ngày nghỉ việc
+
+
+
+
+AVN_D_PCTT: bi loi HR_HISTORY_REGIONDETAIL_MINSALARY: hien tai viet cung thanh 4420000
+
+AVN_PCD: HRE_PROFILE_ISTRADEUNIONIST
+
+
+AVN_NCTL_Truoc, AVN_NCTL_Sau bị sai thiếu công tác, wfh, trừ DL * 0.5
+
+
+
+
+----25/02
+DYN109_HRE_WORKHISTORY_DATEEFFECTIVE_XX  Phần tử lấy ngày hiệu lực mutation theo code
+
+SELECT code FROM dbo.Cat_NameEntity WHERE NameEntityType = 'E_ALTERNATE_ASSIGNMENT'
+
+
+----01/04/2022
+ - OTC đã xóa ở Cat_LeaveDayType, nhưng chưa xóa ở Att_LeaveDay => báo cáo att04 sai, tính công cũng sai -> Hỏi lại ý kiến rồi sửa sau
+	Mong muốn của chị Tú: 	Loại phép OTC Chỉ vô hiệu không cho nlđ đăng ký. 
+				Các ngày phép OTC đã được đăng ký ở hệ thống cũ thì vẫn import vào hệ thống mới (hrms). để tính công
+				exp: tính công vẫn ra ngày nghỉ OTC
+
+
+
+----28/04/2022
+HRE_PROFILE_ISTRADEUNIONIST hỏi lại SE BA chỗ này
+
+--- Update lại trợ cấp công đoàn 
+update dbo.Hre_Profile set isTradeUnionist = 1 where id in (
+select ProfileID from Hre_ProfilePartyUnion where IsDelete is null and IsYouthUnionist = 1 ) and isTradeUnionist is null
+and IsDelete is null
+
+
+-Duyệt cho khoản tiền
+
+
+
+
+

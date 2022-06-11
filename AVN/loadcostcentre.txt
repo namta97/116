@@ -1,0 +1,45 @@
+public JsonResult GetMultiCostCentreByOrgStructure(string text, string OrgStructureIDs)
+        {
+            using (var context = new VnrHrmDataContext())
+            {
+                if (OrgStructureIDs != null && OrgStructureIDs != "")
+                {
+                    var result = new List<Cat_CostCentreMultiEntity>();
+                    var unitOfWork = new UnitOfWork(context);
+                    var lstOrg = unitOfWork.CreateQueryable<Cat_OrgStructure>(s => OrgStructureIDs.Contains(s.ID.ToString())).Select(x => x.GroupCostCentreID).FirstOrDefault();
+                    BaseService _baseService = new BaseService();
+                    string status = string.Empty;
+                    var lstCostCentre = _baseService.GetData<Cat_CostCentreMultiEntity>(text, ConstantSql.hrm_cat_sp_get_CostCentre_ByOrgStructureId, string.Empty, ref status).OrderByDescending(s=>s.ID).ToList();
+                    if (lstOrg != null)
+                    {
+                        var lstCostID = lstOrg.Split(',').ToArray();
+
+                        for (int i = 0; i < lstCostID.Count(); i++)
+                        {
+                            foreach (var item in lstCostCentre)
+                            {
+                                if (item.ID.ToString() == lstCostID[i])
+                                {
+                                    item.AutoChoose = true;
+                                    result.Add(item);
+                                }
+                            }
+                        }
+                    }
+                    else
+                    {
+
+                        foreach (var i in lstCostCentre)
+                        {
+                            i.AutoChoose = false;
+                        }
+                        result = lstCostCentre;
+
+                    }
+                    object listModel = result;
+                    listModel = result.Translate<CatCostCentreMultiModel>();
+                    return new JsonResult() { Data = listModel, MaxJsonLength = Int32.MaxValue, JsonRequestBehavior = JsonRequestBehavior.AllowGet };
+                }
+            }
+            return GetDataForControl<CatCostCentreMultiModel, Cat_CostCentreMultiEntity>(text, ConstantSql.hrm_cat_sp_get_CostCentre_ByOrgStructureId);
+        }

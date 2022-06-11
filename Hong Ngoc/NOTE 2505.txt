@@ -1,0 +1,67 @@
+
+----cot AY
+	= IF(AND(AK4+AN4>0,BQ4="",CX4<>"BV16"),IF(AX4>=0,MIN(MAX(-(BA4-(AR4-(AM4+ AN4+ AO4))),0),AW4+AX4),IF(BA4+AX4 <=0, IF(AR4-(AM4+ AN4+ AO4) >0,MAX(MIN(AW4,-(BA4+AX4)),AW4),MIN(AW4,-(BA4+AX4))), 0)),0)
+
+= IF(AND(AK75+AN75>0,BQ75="",CX75<>"BV16"),IF(AX75>=0,MIN(MAX(AR75-(AM75+AN75+AO75)-BA75,0),AW75+AX75),IF(BA75+AX75 <=0, IF(AR75-(AM75+ AN75+ AO75) >0,MAX(MIN(AW75,-(BA75+AX75)),AW75),MIN(AW75,-(BA75+AX75))), IF(AW75-(AR75-(AM75+AN75+AO75)) >=0,AW75-(AR75-(AM75+AN75+AO75)), AW75))),0)
+
+
+	IF(AX4>=0,
+	MIN(MAX(-(BA4-(AR4-(AM4+ AN4+ AO4))),0),AW4+AX4)
+
+	--IF(AR4-(AM4+AN4+AO4)-BA4<=0,0,IF(AR4-(AM4+AN4+AO4)-BA4 - AW4- AX4>=0,AW4 + AX4,AR4-(AM4+AN4+AO4)-BA4))
+
+	CASE WHEN AR4-(AM4+AN4+AO4)-BA4 > 0 AND AR4-(AM4+AN4+AO4)-BA4 - AW4- AX4 >=0
+		THEN AW4 + AX4
+		WHEN AR4-(AM4+AN4+AO4)-BA4 > 0 THEN AR4-(AM4+AN4+AO4)-BA4
+		ELSE 0
+
+
+	,IF(BA4+AX4 <0, IF(AR4-(AM4+ AN4+ AO4) >0,MAX(MIN(AW4,-(BA4+AX4)),AW4),MIN(AW4,-(BA4+AX4))), 0))
+
+
+
+
+Công : C
+
+Phép tháng này: AW
+Qũy phép tháng trước : AX
+Phép sử dụng: AY
+Phép tháng sau: AZ
+
+Qũy tháng trước: BA
+tháng sau: BB
+
+
+BB_new = IF(AX < 0,IF(C >= 0,MAX(BA + AX,0), MAX(C + MAX(BA + AX,0),0)),IF(C>=0,C+BA,MAX(C+BA,0)))
+=
+BB_new = IF(AX < 0,IF(C >= 0,MAX(BA + AX,0), MAX(C + MAX(BA + AX,0),0)),IF(C+BA>=0,C+BA,0))
+=
+BB_new = IF(AX < 0,IF(BA+C+AX>=0,BA+AX+C,0) ,IF(C+BA>=0,C+BA,0))
+=
+BB_new = CASE WHEN AX < 0 AND C+BA+AX+AW>=0
+			THEN C+BA+AX+AW
+			WHEN WHEN AX >= 0 AND BA+C>=0
+			THEN C+BA
+			ELSE 0	END
+
+BB_new = CASE WHEN AX < 0 AND C <0 AND C + BA + AX >= 0
+			THEN C + BA + AX
+			WHEN AX < 0 AND C >= 0 AND BA + AX > 0 
+			THEN C + BA + AX
+			WHEN AX < 0 AND C >= 0 AND BA + AX + AW <=0 AND C+ BA + AX + AW >0
+			THEN C + BA + AX + AW
+			WHEN AX < 0 AND C >= 0 AND BA + AX + AW > 0
+			THEN C
+			WHEN WHEN AX >= 0 AND BA+C>=0
+			THEN C+BA
+			ELSE 0	END
+
+BB_new = CASE WHEN (AX <0 AND C <0 AND C + BA + AX >= 0 ) OR ( AX <0 AND C >=0 AND BA + AX > 0 )
+			THEN C + BA + AX
+			WHEN AX < 0 AND C >= 0 AND BA + AX + AW <=0 AND C+ BA + AX + AW >0
+			THEN C + BA + AX + AW
+			WHEN AX < 0 AND C >= 0 AND BA + AX + AW > 0
+			THEN C
+			WHEN WHEN AX >= 0 AND BA+C>=0
+			THEN C+BA
+			ELSE 0	END

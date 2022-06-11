@@ -1,0 +1,705 @@
+(T17768)Debug( 118): 06/04/22 01:10:16:824 Found process PanGpHipMp.exe
+(T17768)Debug(  54): 06/04/22 01:10:16:824 PanGpHipMp started...
+(T17768)Debug(1960): 06/04/22 01:10:21:850 Opswat engine version: 4.3.1646.0
+(T17768)Debug(1965): 06/04/22 01:10:21:850 Opswat V3V4 adaper version: 4.3.1157.0
+(T17768)Debug(  77): 06/04/22 01:10:21:850 Opswat is inited.
+(T17768)Debug(2085): 06/04/22 01:10:37:044 Patches count: 2
+(T17768)Debug(1692): 06/04/22 01:10:37:044 Got missing patches. Size 2.
+(T17768)Debug( 115): 06/04/22 01:10:37:044 Get shared translate length 24
+(T17768)Debug( 277): 06/04/22 01:10:38:139 pan_write_text_to_file(): check pre-exist condition code is 2.
+(T17768)Debug(1757): 06/04/22 01:10:38:140 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T17768)Debug(  82): 06/04/22 01:10:38:140 CheckHipMissingPatch(): Missing patches check duration: 22 seconds approximate.
+(T17768)Debug(  84): 06/04/22 01:10:38:140 Deinit Opswat.
+(T17768)Debug( 323): 06/04/22 01:10:39:201 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T17768)Debug(  85): 06/04/22 01:10:39:201 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T17768)Debug( 323): 06/04/22 01:10:39:201 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T17768)Debug(  85): 06/04/22 01:10:39:201 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T17768)Debug(  91): 06/04/22 01:10:39:201 PanGpHipMp quits ...
+(T3164)Debug( 118): 06/04/22 02:09:29:225 Found process PanGpHipMp.exe
+(T3164)Debug(  54): 06/04/22 02:09:29:225 PanGpHipMp started...
+(T3164)Debug(1960): 06/04/22 02:09:33:701 Opswat engine version: 4.3.1646.0
+(T3164)Debug(1965): 06/04/22 02:09:33:701 Opswat V3V4 adaper version: 4.3.1157.0
+(T3164)Debug(  77): 06/04/22 02:09:33:701 Opswat is inited.
+(T3164)Debug(2085): 06/04/22 02:09:44:846 Patches count: 2
+(T3164)Debug(1692): 06/04/22 02:09:44:846 Got missing patches. Size 2.
+(T3164)Debug( 115): 06/04/22 02:09:44:847 Get shared translate length 24
+(T3164)Debug(1757): 06/04/22 02:09:45:924 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T3164)Debug(  82): 06/04/22 02:09:45:924 CheckHipMissingPatch(): Missing patches check duration: 16 seconds approximate.
+(T3164)Debug(  84): 06/04/22 02:09:45:924 Deinit Opswat.
+(T3164)Debug( 323): 06/04/22 02:09:46:980 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T3164)Debug(  85): 06/04/22 02:09:46:980 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T3164)Debug( 323): 06/04/22 02:09:46:980 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T3164)Debug(  85): 06/04/22 02:09:46:980 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T3164)Debug(  91): 06/04/22 02:09:46:980 PanGpHipMp quits ...
+(T16068)Debug( 118): 06/04/22 02:10:27:004 Found process PanGpHipMp.exe
+(T16068)Debug(  54): 06/04/22 02:10:27:004 PanGpHipMp started...
+(T16068)Debug(1960): 06/04/22 02:10:31:474 Opswat engine version: 4.3.1646.0
+(T16068)Debug(1965): 06/04/22 02:10:31:474 Opswat V3V4 adaper version: 4.3.1157.0
+(T16068)Debug(  77): 06/04/22 02:10:31:474 Opswat is inited.
+(T16068)Debug(2085): 06/04/22 02:10:38:666 Patches count: 2
+(T16068)Debug(1692): 06/04/22 02:10:38:666 Got missing patches. Size 2.
+(T16068)Debug( 115): 06/04/22 02:10:38:666 Get shared translate length 24
+(T16068)Debug(1757): 06/04/22 02:10:39:753 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T16068)Debug(  82): 06/04/22 02:10:39:753 CheckHipMissingPatch(): Missing patches check duration: 12 seconds approximate.
+(T16068)Debug(  84): 06/04/22 02:10:39:753 Deinit Opswat.
+(T16068)Debug( 323): 06/04/22 02:10:40:802 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T16068)Debug(  85): 06/04/22 02:10:40:802 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T16068)Debug( 323): 06/04/22 02:10:40:802 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T16068)Debug(  85): 06/04/22 02:10:40:802 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T16068)Debug(  91): 06/04/22 02:10:40:802 PanGpHipMp quits ...
+(T4752)Debug( 118): 06/04/22 03:09:55:830 Found process PanGpHipMp.exe
+(T4752)Debug(  54): 06/04/22 03:09:55:830 PanGpHipMp started...
+(T4752)Debug(1960): 06/04/22 03:10:00:337 Opswat engine version: 4.3.1646.0
+(T4752)Debug(1965): 06/04/22 03:10:00:337 Opswat V3V4 adaper version: 4.3.1157.0
+(T4752)Debug(  77): 06/04/22 03:10:00:337 Opswat is inited.
+(T4752)Debug(2085): 06/04/22 03:10:13:513 Patches count: 2
+(T4752)Debug(1692): 06/04/22 03:10:13:513 Got missing patches. Size 2.
+(T4752)Debug( 115): 06/04/22 03:10:13:513 Get shared translate length 24
+(T4752)Debug(1757): 06/04/22 03:10:14:589 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T4752)Debug(  82): 06/04/22 03:10:14:589 CheckHipMissingPatch(): Missing patches check duration: 19 seconds approximate.
+(T4752)Debug(  84): 06/04/22 03:10:14:589 Deinit Opswat.
+(T4752)Debug( 323): 06/04/22 03:10:15:647 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T4752)Debug(  85): 06/04/22 03:10:15:647 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T4752)Debug( 323): 06/04/22 03:10:15:647 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T4752)Debug(  85): 06/04/22 03:10:15:647 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T4752)Debug(  91): 06/04/22 03:10:15:647 PanGpHipMp quits ...
+(T6232)Debug( 118): 06/04/22 14:24:35:835 Found process PanGpHipMp.exe
+(T6232)Debug(  54): 06/04/22 14:24:35:835 PanGpHipMp started...
+(T6232)Debug(1960): 06/04/22 14:24:40:453 Opswat engine version: 4.3.1646.0
+(T6232)Debug(1965): 06/04/22 14:24:40:453 Opswat V3V4 adaper version: 4.3.1157.0
+(T6232)Debug(  77): 06/04/22 14:24:40:453 Opswat is inited.
+(T6232)Debug(2085): 06/04/22 14:24:52:668 Patches count: 2
+(T6232)Debug(1692): 06/04/22 14:24:52:668 Got missing patches. Size 2.
+(T6232)Debug( 115): 06/04/22 14:24:52:668 Get shared translate length 24
+(T6232)Debug(1757): 06/04/22 14:24:53:747 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T6232)Debug(  82): 06/04/22 14:24:53:747 CheckHipMissingPatch(): Missing patches check duration: 18 seconds approximate.
+(T6232)Debug(  84): 06/04/22 14:24:53:747 Deinit Opswat.
+(T6232)Debug( 323): 06/04/22 14:24:54:803 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T6232)Debug(  85): 06/04/22 14:24:54:803 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T6232)Debug( 323): 06/04/22 14:24:54:803 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T6232)Debug(  85): 06/04/22 14:24:54:803 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T6232)Debug(  91): 06/04/22 14:24:54:803 PanGpHipMp quits ...
+(T20028)Debug( 118): 06/04/22 15:24:12:841 Found process PanGpHipMp.exe
+(T20028)Debug(  54): 06/04/22 15:24:12:841 PanGpHipMp started...
+(T20028)Debug(1960): 06/04/22 15:24:17:378 Opswat engine version: 4.3.1646.0
+(T20028)Debug(1965): 06/04/22 15:24:17:378 Opswat V3V4 adaper version: 4.3.1157.0
+(T20028)Debug(  77): 06/04/22 15:24:17:378 Opswat is inited.
+(T20028)Debug(2085): 06/04/22 15:24:28:541 Patches count: 2
+(T20028)Debug(1692): 06/04/22 15:24:28:541 Got missing patches. Size 2.
+(T20028)Debug( 115): 06/04/22 15:24:28:541 Get shared translate length 24
+(T20028)Debug(1757): 06/04/22 15:24:29:575 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T20028)Debug(  82): 06/04/22 15:24:29:575 CheckHipMissingPatch(): Missing patches check duration: 17 seconds approximate.
+(T20028)Debug(  84): 06/04/22 15:24:29:575 Deinit Opswat.
+(T20028)Debug( 323): 06/04/22 15:24:30:646 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T20028)Debug(  85): 06/04/22 15:24:30:646 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T20028)Debug( 323): 06/04/22 15:24:30:646 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T20028)Debug(  85): 06/04/22 15:24:30:646 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T20028)Debug(  91): 06/04/22 15:24:30:646 PanGpHipMp quits ...
+(T18972)Debug( 118): 06/04/22 16:24:29:741 Found process PanGpHipMp.exe
+(T18972)Debug(  54): 06/04/22 16:24:29:741 PanGpHipMp started...
+(T18972)Debug(1960): 06/04/22 16:24:34:282 Opswat engine version: 4.3.1646.0
+(T18972)Debug(1965): 06/04/22 16:24:34:282 Opswat V3V4 adaper version: 4.3.1157.0
+(T18972)Debug(  77): 06/04/22 16:24:34:282 Opswat is inited.
+(T18972)Debug(2085): 06/04/22 16:24:47:503 Patches count: 1
+(T18972)Debug(1692): 06/04/22 16:24:47:503 Got missing patches. Size 1.
+(T18972)Debug( 115): 06/04/22 16:24:47:503 Get shared translate length 24
+(T18972)Debug(1757): 06/04/22 16:24:48:561 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T18972)Debug(  82): 06/04/22 16:24:48:561 CheckHipMissingPatch(): Missing patches check duration: 19 seconds approximate.
+(T18972)Debug(  84): 06/04/22 16:24:48:561 Deinit Opswat.
+(T18972)Debug( 323): 06/04/22 16:24:49:609 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T18972)Debug(  85): 06/04/22 16:24:49:609 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T18972)Debug( 323): 06/04/22 16:24:49:609 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T18972)Debug(  85): 06/04/22 16:24:49:609 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T18972)Debug(  91): 06/04/22 16:24:49:609 PanGpHipMp quits ...
+(T18156)Debug( 118): 06/04/22 16:45:17:088 Found process PanGpHipMp.exe
+(T18156)Debug(  54): 06/04/22 16:45:17:088 PanGpHipMp started...
+(T18156)Debug(1960): 06/04/22 16:45:21:589 Opswat engine version: 4.3.1646.0
+(T18156)Debug(1965): 06/04/22 16:45:21:589 Opswat V3V4 adaper version: 4.3.1157.0
+(T18156)Debug(  77): 06/04/22 16:45:21:589 Opswat is inited.
+(T18156)Debug(2085): 06/04/22 16:45:32:709 Patches count: 1
+(T18156)Debug(1692): 06/04/22 16:45:32:709 Got missing patches. Size 1.
+(T18156)Debug( 115): 06/04/22 16:45:32:709 Get shared translate length 24
+(T18156)Debug(1757): 06/04/22 16:45:33:786 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T18156)Debug(  82): 06/04/22 16:45:33:786 CheckHipMissingPatch(): Missing patches check duration: 16 seconds approximate.
+(T18156)Debug(  84): 06/04/22 16:45:33:786 Deinit Opswat.
+(T18156)Debug( 323): 06/04/22 16:45:34:845 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T18156)Debug(  85): 06/04/22 16:45:34:845 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T18156)Debug( 323): 06/04/22 16:45:34:845 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T18156)Debug(  85): 06/04/22 16:45:34:845 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T18156)Debug(  91): 06/04/22 16:45:34:845 PanGpHipMp quits ...
+(T17504)Debug( 118): 06/04/22 18:24:44:803 Found process PanGpHipMp.exe
+(T17504)Debug(  54): 06/04/22 18:24:44:803 PanGpHipMp started...
+(T17504)Debug(1960): 06/04/22 18:24:49:298 Opswat engine version: 4.3.1646.0
+(T17504)Debug(1965): 06/04/22 18:24:49:298 Opswat V3V4 adaper version: 4.3.1157.0
+(T17504)Debug(  77): 06/04/22 18:24:49:298 Opswat is inited.
+(T17504)Debug(2085): 06/04/22 18:25:01:489 Patches count: 2
+(T17504)Debug(1692): 06/04/22 18:25:01:489 Got missing patches. Size 2.
+(T17504)Debug( 115): 06/04/22 18:25:01:489 Get shared translate length 24
+(T17504)Debug(1757): 06/04/22 18:25:02:555 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T17504)Debug(  82): 06/04/22 18:25:02:555 CheckHipMissingPatch(): Missing patches check duration: 18 seconds approximate.
+(T17504)Debug(  84): 06/04/22 18:25:02:555 Deinit Opswat.
+(T17504)Debug( 323): 06/04/22 18:25:03:598 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T17504)Debug(  85): 06/04/22 18:25:03:598 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T17504)Debug( 323): 06/04/22 18:25:03:598 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T17504)Debug(  85): 06/04/22 18:25:03:598 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T17504)Debug(  91): 06/04/22 18:25:03:598 PanGpHipMp quits ...
+(T16676)Debug( 118): 06/04/22 18:25:41:624 Found process PanGpHipMp.exe
+(T16676)Debug(  54): 06/04/22 18:25:41:624 PanGpHipMp started...
+(T16676)Debug(1960): 06/04/22 18:25:46:074 Opswat engine version: 4.3.1646.0
+(T16676)Debug(1965): 06/04/22 18:25:46:074 Opswat V3V4 adaper version: 4.3.1157.0
+(T16676)Debug(  77): 06/04/22 18:25:46:074 Opswat is inited.
+(T16676)Debug(2085): 06/04/22 18:25:53:275 Patches count: 2
+(T16676)Debug(1692): 06/04/22 18:25:53:275 Got missing patches. Size 2.
+(T16676)Debug( 115): 06/04/22 18:25:53:275 Get shared translate length 24
+(T16676)Debug(1757): 06/04/22 18:25:54:343 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T16676)Debug(  82): 06/04/22 18:25:54:343 CheckHipMissingPatch(): Missing patches check duration: 13 seconds approximate.
+(T16676)Debug(  84): 06/04/22 18:25:54:343 Deinit Opswat.
+(T16676)Debug( 323): 06/04/22 18:25:55:394 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T16676)Debug(  85): 06/04/22 18:25:55:394 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T16676)Debug( 323): 06/04/22 18:25:55:394 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T16676)Debug(  85): 06/04/22 18:25:55:394 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T16676)Debug(  91): 06/04/22 18:25:55:394 PanGpHipMp quits ...
+(T15072)Debug( 118): 06/04/22 19:25:27:431 Found process PanGpHipMp.exe
+(T15072)Debug(  54): 06/04/22 19:25:27:431 PanGpHipMp started...
+(T15072)Debug(1960): 06/04/22 19:25:31:913 Opswat engine version: 4.3.1646.0
+(T15072)Debug(1965): 06/04/22 19:25:31:913 Opswat V3V4 adaper version: 4.3.1157.0
+(T15072)Debug(  77): 06/04/22 19:25:31:913 Opswat is inited.
+(T15072)Debug(2085): 06/04/22 19:25:44:555 Patches count: 2
+(T15072)Debug(1692): 06/04/22 19:25:44:555 Got missing patches. Size 2.
+(T15072)Debug( 115): 06/04/22 19:25:44:556 Get shared translate length 24
+(T15072)Debug(1757): 06/04/22 19:25:45:585 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T15072)Debug(  82): 06/04/22 19:25:45:585 CheckHipMissingPatch(): Missing patches check duration: 18 seconds approximate.
+(T15072)Debug(  84): 06/04/22 19:25:45:585 Deinit Opswat.
+(T15072)Debug( 323): 06/04/22 19:25:46:644 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T15072)Debug(  85): 06/04/22 19:25:46:644 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T15072)Debug( 323): 06/04/22 19:25:46:644 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T15072)Debug(  85): 06/04/22 19:25:46:644 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T15072)Debug(  91): 06/04/22 19:25:46:644 PanGpHipMp quits ...
+(T18308)Debug( 118): 06/04/22 22:00:45:428 Found process PanGpHipMp.exe
+(T18308)Debug(  54): 06/04/22 22:00:45:428 PanGpHipMp started...
+(T18308)Debug(1960): 06/04/22 22:00:49:947 Opswat engine version: 4.3.1646.0
+(T18308)Debug(1965): 06/04/22 22:00:49:948 Opswat V3V4 adaper version: 4.3.1157.0
+(T18308)Debug(  77): 06/04/22 22:00:49:948 Opswat is inited.
+(T18308)Debug(2085): 06/04/22 22:01:02:249 Patches count: 2
+(T18308)Debug(1692): 06/04/22 22:01:02:249 Got missing patches. Size 2.
+(T18308)Debug( 115): 06/04/22 22:01:02:249 Get shared translate length 24
+(T18308)Debug(1757): 06/04/22 22:01:03:273 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T18308)Debug(  82): 06/04/22 22:01:03:273 CheckHipMissingPatch(): Missing patches check duration: 18 seconds approximate.
+(T18308)Debug(  84): 06/04/22 22:01:03:273 Deinit Opswat.
+(T18308)Debug( 323): 06/04/22 22:01:04:324 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T18308)Debug(  85): 06/04/22 22:01:04:324 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T18308)Debug( 323): 06/04/22 22:01:04:324 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T18308)Debug(  85): 06/04/22 22:01:04:324 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T18308)Debug(  91): 06/04/22 22:01:04:324 PanGpHipMp quits ...
+(T16908)Debug( 118): 06/04/22 23:00:07:410 Found process PanGpHipMp.exe
+(T16908)Debug(  54): 06/04/22 23:00:07:410 PanGpHipMp started...
+(T16908)Debug(1960): 06/04/22 23:00:11:972 Opswat engine version: 4.3.1646.0
+(T16908)Debug(1965): 06/04/22 23:00:11:972 Opswat V3V4 adaper version: 4.3.1157.0
+(T16908)Debug(  77): 06/04/22 23:00:11:972 Opswat is inited.
+(T16908)Debug(2085): 06/04/22 23:00:20:199 Patches count: 1
+(T16908)Debug(1692): 06/04/22 23:00:20:199 Got missing patches. Size 1.
+(T16908)Debug( 115): 06/04/22 23:00:20:199 Get shared translate length 24
+(T16908)Debug(1757): 06/04/22 23:00:21:248 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T16908)Debug(  82): 06/04/22 23:00:21:248 CheckHipMissingPatch(): Missing patches check duration: 14 seconds approximate.
+(T16908)Debug(  84): 06/04/22 23:00:21:248 Deinit Opswat.
+(T16908)Debug( 323): 06/04/22 23:00:22:308 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T16908)Debug(  85): 06/04/22 23:00:22:308 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T16908)Debug( 323): 06/04/22 23:00:22:308 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T16908)Debug(  85): 06/04/22 23:00:22:308 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T16908)Debug(  91): 06/04/22 23:00:22:308 PanGpHipMp quits ...
+(T9444)Debug( 118): 06/04/22 23:00:56:325 Found process PanGpHipMp.exe
+(T9444)Debug(  54): 06/04/22 23:00:56:325 PanGpHipMp started...
+(T9444)Debug(1960): 06/04/22 23:01:00:819 Opswat engine version: 4.3.1646.0
+(T9444)Debug(1965): 06/04/22 23:01:00:819 Opswat V3V4 adaper version: 4.3.1157.0
+(T9444)Debug(  77): 06/04/22 23:01:00:819 Opswat is inited.
+(T9444)Debug(2085): 06/04/22 23:01:08:010 Patches count: 1
+(T9444)Debug(1692): 06/04/22 23:01:08:010 Got missing patches. Size 1.
+(T9444)Debug( 115): 06/04/22 23:01:08:011 Get shared translate length 24
+(T9444)Debug(1757): 06/04/22 23:01:09:054 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T9444)Debug(  82): 06/04/22 23:01:09:054 CheckHipMissingPatch(): Missing patches check duration: 13 seconds approximate.
+(T9444)Debug(  84): 06/04/22 23:01:09:054 Deinit Opswat.
+(T9444)Debug( 323): 06/04/22 23:01:10:100 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T9444)Debug(  85): 06/04/22 23:01:10:100 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T9444)Debug( 323): 06/04/22 23:01:10:100 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T9444)Debug(  85): 06/04/22 23:01:10:100 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T9444)Debug(  91): 06/04/22 23:01:10:100 PanGpHipMp quits ...
+(T716)Debug( 118): 06/05/22 00:00:30:140 Found process PanGpHipMp.exe
+(T716)Debug(  54): 06/05/22 00:00:30:140 PanGpHipMp started...
+(T716)Debug(1960): 06/05/22 00:00:34:621 Opswat engine version: 4.3.1646.0
+(T716)Debug(1965): 06/05/22 00:00:34:622 Opswat V3V4 adaper version: 4.3.1157.0
+(T716)Debug(  77): 06/05/22 00:00:34:622 Opswat is inited.
+(T716)Debug(2085): 06/05/22 00:00:49:297 Patches count: 2
+(T716)Debug(1692): 06/05/22 00:00:49:297 Got missing patches. Size 2.
+(T716)Debug( 115): 06/05/22 00:00:49:297 Get shared translate length 24
+(T716)Debug(1757): 06/05/22 00:00:50:325 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T716)Debug(  82): 06/05/22 00:00:50:325 CheckHipMissingPatch(): Missing patches check duration: 20 seconds approximate.
+(T716)Debug(  84): 06/05/22 00:00:50:325 Deinit Opswat.
+(T716)Debug( 323): 06/05/22 00:00:51:381 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T716)Debug(  85): 06/05/22 00:00:51:381 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T716)Debug( 323): 06/05/22 00:00:51:381 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T716)Debug(  85): 06/05/22 00:00:51:381 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T716)Debug(  91): 06/05/22 00:00:51:381 PanGpHipMp quits ...
+(T4128)Debug( 118): 06/05/22 01:00:38:429 Found process PanGpHipMp.exe
+(T4128)Debug(  54): 06/05/22 01:00:38:429 PanGpHipMp started...
+(T4128)Debug(1960): 06/05/22 01:00:42:904 Opswat engine version: 4.3.1646.0
+(T4128)Debug(1965): 06/05/22 01:00:42:904 Opswat V3V4 adaper version: 4.3.1157.0
+(T4128)Debug(  77): 06/05/22 01:00:42:904 Opswat is inited.
+(T4128)Debug(2085): 06/05/22 01:00:51:107 Patches count: 2
+(T4128)Debug(1692): 06/05/22 01:00:51:107 Got missing patches. Size 2.
+(T4128)Debug( 115): 06/05/22 01:00:51:108 Get shared translate length 24
+(T4128)Debug(1757): 06/05/22 01:00:52:150 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T4128)Debug(  82): 06/05/22 01:00:52:151 CheckHipMissingPatch(): Missing patches check duration: 14 seconds approximate.
+(T4128)Debug(  84): 06/05/22 01:00:52:151 Deinit Opswat.
+(T4128)Debug( 323): 06/05/22 01:00:53:218 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T4128)Debug(  85): 06/05/22 01:00:53:218 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T4128)Debug( 323): 06/05/22 01:00:53:218 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T4128)Debug(  85): 06/05/22 01:00:53:218 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T4128)Debug(  91): 06/05/22 01:00:53:218 PanGpHipMp quits ...
+(T5472)Debug( 118): 06/05/22 01:01:25:243 Found process PanGpHipMp.exe
+(T5472)Debug(  54): 06/05/22 01:01:25:243 PanGpHipMp started...
+(T5472)Debug(1960): 06/05/22 01:01:29:692 Opswat engine version: 4.3.1646.0
+(T5472)Debug(1965): 06/05/22 01:01:29:692 Opswat V3V4 adaper version: 4.3.1157.0
+(T5472)Debug(  77): 06/05/22 01:01:29:692 Opswat is inited.
+(T5472)Debug(2085): 06/05/22 01:01:37:368 Patches count: 2
+(T5472)Debug(1692): 06/05/22 01:01:37:368 Got missing patches. Size 2.
+(T5472)Debug( 115): 06/05/22 01:01:37:368 Get shared translate length 24
+(T5472)Debug(1757): 06/05/22 01:01:38:422 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T5472)Debug(  82): 06/05/22 01:01:38:422 CheckHipMissingPatch(): Missing patches check duration: 13 seconds approximate.
+(T5472)Debug(  84): 06/05/22 01:01:38:422 Deinit Opswat.
+(T5472)Debug( 323): 06/05/22 01:01:39:481 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T5472)Debug(  85): 06/05/22 01:01:39:481 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T5472)Debug( 323): 06/05/22 01:01:39:481 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T5472)Debug(  85): 06/05/22 01:01:39:481 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T5472)Debug(  91): 06/05/22 01:01:39:481 PanGpHipMp quits ...
+(T6480)Debug( 118): 06/05/22 08:46:28:985 Found process PanGpHipMp.exe
+(T6480)Debug(  54): 06/05/22 08:46:28:985 PanGpHipMp started...
+(T6480)Debug(1960): 06/05/22 08:46:33:473 Opswat engine version: 4.3.1646.0
+(T6480)Debug(1965): 06/05/22 08:46:33:473 Opswat V3V4 adaper version: 4.3.1157.0
+(T6480)Debug(  77): 06/05/22 08:46:33:473 Opswat is inited.
+(T6480)Debug(2085): 06/05/22 08:47:20:127 Patches count: 3
+(T6480)Debug(1692): 06/05/22 08:47:20:127 Got missing patches. Size 3.
+(T6480)Debug( 115): 06/05/22 08:47:20:128 Get shared translate length 24
+(T6480)Debug(1757): 06/05/22 08:47:21:210 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T6480)Debug(  82): 06/05/22 08:47:21:210 CheckHipMissingPatch(): Missing patches check duration: 53 seconds approximate.
+(T6480)Debug(  84): 06/05/22 08:47:21:210 Deinit Opswat.
+(T6480)Debug( 323): 06/05/22 08:47:22:277 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T6480)Debug(  85): 06/05/22 08:47:22:277 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T6480)Debug( 323): 06/05/22 08:47:22:277 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T6480)Debug(  85): 06/05/22 08:47:22:277 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T6480)Debug(  91): 06/05/22 08:47:22:277 PanGpHipMp quits ...
+(T14300)Debug( 118): 06/05/22 12:14:09:821 Found process PanGpHipMp.exe
+(T14300)Debug(  54): 06/05/22 12:14:09:822 PanGpHipMp started...
+(T14300)Debug(1960): 06/05/22 12:14:14:940 Opswat engine version: 4.3.1646.0
+(T14300)Debug(1965): 06/05/22 12:14:14:940 Opswat V3V4 adaper version: 4.3.1157.0
+(T14300)Debug(  77): 06/05/22 12:14:14:940 Opswat is inited.
+(T14300)Debug(2085): 06/05/22 12:14:27:099 Patches count: 3
+(T14300)Debug(1692): 06/05/22 12:14:27:099 Got missing patches. Size 3.
+(T14300)Debug( 115): 06/05/22 12:14:27:099 Get shared translate length 24
+(T14300)Debug(1757): 06/05/22 12:14:28:190 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T14300)Debug(  82): 06/05/22 12:14:28:190 CheckHipMissingPatch(): Missing patches check duration: 19 seconds approximate.
+(T14300)Debug(  84): 06/05/22 12:14:28:190 Deinit Opswat.
+(T14300)Debug( 323): 06/05/22 12:14:29:242 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T14300)Debug(  85): 06/05/22 12:14:29:242 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T14300)Debug( 323): 06/05/22 12:14:29:242 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T14300)Debug(  85): 06/05/22 12:14:29:242 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T14300)Debug(  91): 06/05/22 12:14:29:242 PanGpHipMp quits ...
+(T1416)Debug( 118): 06/05/22 13:13:26:828 Found process PanGpHipMp.exe
+(T1416)Debug(  54): 06/05/22 13:13:26:828 PanGpHipMp started...
+(T1416)Debug(1960): 06/05/22 13:13:31:324 Opswat engine version: 4.3.1646.0
+(T1416)Debug(1965): 06/05/22 13:13:31:324 Opswat V3V4 adaper version: 4.3.1157.0
+(T1416)Debug(  77): 06/05/22 13:13:31:324 Opswat is inited.
+(T1416)Debug(2085): 06/05/22 13:13:40:561 Patches count: 3
+(T1416)Debug(1692): 06/05/22 13:13:40:561 Got missing patches. Size 3.
+(T1416)Debug( 115): 06/05/22 13:13:40:561 Get shared translate length 24
+(T1416)Debug(1757): 06/05/22 13:13:41:631 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T1416)Debug(  82): 06/05/22 13:13:41:631 CheckHipMissingPatch(): Missing patches check duration: 15 seconds approximate.
+(T1416)Debug(  84): 06/05/22 13:13:41:631 Deinit Opswat.
+(T1416)Debug( 323): 06/05/22 13:13:42:681 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T1416)Debug(  85): 06/05/22 13:13:42:681 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T1416)Debug( 323): 06/05/22 13:13:42:681 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T1416)Debug(  85): 06/05/22 13:13:42:681 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T1416)Debug(  91): 06/05/22 13:13:42:681 PanGpHipMp quits ...
+(T4756)Debug( 118): 06/05/22 13:14:18:713 Found process PanGpHipMp.exe
+(T4756)Debug(  54): 06/05/22 13:14:18:713 PanGpHipMp started...
+(T4756)Debug(1960): 06/05/22 13:14:23:189 Opswat engine version: 4.3.1646.0
+(T4756)Debug(1965): 06/05/22 13:14:23:189 Opswat V3V4 adaper version: 4.3.1157.0
+(T4756)Debug(  77): 06/05/22 13:14:23:189 Opswat is inited.
+(T4756)Debug(2085): 06/05/22 13:14:30:391 Patches count: 3
+(T4756)Debug(1692): 06/05/22 13:14:30:391 Got missing patches. Size 3.
+(T4756)Debug( 115): 06/05/22 13:14:30:391 Get shared translate length 24
+(T4756)Debug(1757): 06/05/22 13:14:31:465 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T4756)Debug(  82): 06/05/22 13:14:31:465 CheckHipMissingPatch(): Missing patches check duration: 13 seconds approximate.
+(T4756)Debug(  84): 06/05/22 13:14:31:465 Deinit Opswat.
+(T4756)Debug( 323): 06/05/22 13:14:32:521 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T4756)Debug(  85): 06/05/22 13:14:32:521 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T4756)Debug( 323): 06/05/22 13:14:32:521 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T4756)Debug(  85): 06/05/22 13:14:32:521 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T4756)Debug(  91): 06/05/22 13:14:32:521 PanGpHipMp quits ...
+(T736)Debug( 118): 06/05/22 13:15:04:554 Found process PanGpHipMp.exe
+(T736)Debug(  54): 06/05/22 13:15:04:554 PanGpHipMp started...
+(T736)Debug(1960): 06/05/22 13:15:09:018 Opswat engine version: 4.3.1646.0
+(T736)Debug(1965): 06/05/22 13:15:09:018 Opswat V3V4 adaper version: 4.3.1157.0
+(T736)Debug(  77): 06/05/22 13:15:09:018 Opswat is inited.
+(T736)Debug(2085): 06/05/22 13:15:16:234 Patches count: 3
+(T736)Debug(1692): 06/05/22 13:15:16:234 Got missing patches. Size 3.
+(T736)Debug( 115): 06/05/22 13:15:16:234 Get shared translate length 24
+(T736)Debug(1757): 06/05/22 13:15:17:294 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T736)Debug(  82): 06/05/22 13:15:17:294 CheckHipMissingPatch(): Missing patches check duration: 13 seconds approximate.
+(T736)Debug(  84): 06/05/22 13:15:17:294 Deinit Opswat.
+(T736)Debug( 323): 06/05/22 13:15:18:350 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T736)Debug(  85): 06/05/22 13:15:18:350 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T736)Debug( 323): 06/05/22 13:15:18:350 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T736)Debug(  85): 06/05/22 13:15:18:350 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T736)Debug(  91): 06/05/22 13:15:18:350 PanGpHipMp quits ...
+(T9900)Debug( 118): 06/05/22 14:14:51:401 Found process PanGpHipMp.exe
+(T9900)Debug(  54): 06/05/22 14:14:51:401 PanGpHipMp started...
+(T9900)Debug(1960): 06/05/22 14:14:55:881 Opswat engine version: 4.3.1646.0
+(T9900)Debug(1965): 06/05/22 14:14:55:881 Opswat V3V4 adaper version: 4.3.1157.0
+(T9900)Debug(  77): 06/05/22 14:14:55:881 Opswat is inited.
+(T9900)Debug(2085): 06/05/22 14:15:04:080 Patches count: 3
+(T9900)Debug(1692): 06/05/22 14:15:04:080 Got missing patches. Size 3.
+(T9900)Debug( 115): 06/05/22 14:15:04:080 Get shared translate length 24
+(T9900)Debug(1757): 06/05/22 14:15:05:107 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T9900)Debug(  82): 06/05/22 14:15:05:107 CheckHipMissingPatch(): Missing patches check duration: 14 seconds approximate.
+(T9900)Debug(  84): 06/05/22 14:15:05:107 Deinit Opswat.
+(T9900)Debug( 323): 06/05/22 14:15:06:160 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T9900)Debug(  85): 06/05/22 14:15:06:160 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T9900)Debug( 323): 06/05/22 14:15:06:160 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T9900)Debug(  85): 06/05/22 14:15:06:160 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T9900)Debug(  91): 06/05/22 14:15:06:160 PanGpHipMp quits ...
+(T7840)Debug( 118): 06/05/22 15:51:38:086 Found process PanGpHipMp.exe
+(T7840)Debug(  54): 06/05/22 15:51:38:086 PanGpHipMp started...
+(T7840)Debug(1960): 06/05/22 15:51:42:563 Opswat engine version: 4.3.1646.0
+(T7840)Debug(1965): 06/05/22 15:51:42:563 Opswat V3V4 adaper version: 4.3.1157.0
+(T7840)Debug(  77): 06/05/22 15:51:42:563 Opswat is inited.
+(T7840)Debug(2085): 06/05/22 15:51:51:266 Patches count: 3
+(T7840)Debug(1692): 06/05/22 15:51:51:266 Got missing patches. Size 3.
+(T7840)Debug( 115): 06/05/22 15:51:51:266 Get shared translate length 24
+(T7840)Debug(1757): 06/05/22 15:51:52:298 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T7840)Debug(  82): 06/05/22 15:51:52:298 CheckHipMissingPatch(): Missing patches check duration: 14 seconds approximate.
+(T7840)Debug(  84): 06/05/22 15:51:52:298 Deinit Opswat.
+(T7840)Debug( 323): 06/05/22 15:51:53:350 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T7840)Debug(  85): 06/05/22 15:51:53:350 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T7840)Debug( 323): 06/05/22 15:51:53:350 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T7840)Debug(  85): 06/05/22 15:51:53:350 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T7840)Debug(  91): 06/05/22 15:51:53:350 PanGpHipMp quits ...
+(T10080)Debug( 118): 06/05/22 16:39:07:392 Found process PanGpHipMp.exe
+(T10080)Debug(  54): 06/05/22 16:39:07:392 PanGpHipMp started...
+(T10080)Debug(1960): 06/05/22 16:39:11:883 Opswat engine version: 4.3.1646.0
+(T10080)Debug(1965): 06/05/22 16:39:11:883 Opswat V3V4 adaper version: 4.3.1157.0
+(T10080)Debug(  77): 06/05/22 16:39:11:883 Opswat is inited.
+(T10080)Debug(2085): 06/05/22 16:39:22:487 Patches count: 3
+(T10080)Debug(1692): 06/05/22 16:39:22:487 Got missing patches. Size 3.
+(T10080)Debug( 115): 06/05/22 16:39:22:487 Get shared translate length 24
+(T10080)Debug(1757): 06/05/22 16:39:23:526 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T10080)Debug(  82): 06/05/22 16:39:23:527 CheckHipMissingPatch(): Missing patches check duration: 16 seconds approximate.
+(T10080)Debug(  84): 06/05/22 16:39:23:527 Deinit Opswat.
+(T10080)Debug( 323): 06/05/22 16:39:24:573 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T10080)Debug(  85): 06/05/22 16:39:24:573 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T10080)Debug( 323): 06/05/22 16:39:24:573 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T10080)Debug(  85): 06/05/22 16:39:24:573 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T10080)Debug(  91): 06/05/22 16:39:24:573 PanGpHipMp quits ...
+(T17804)Debug( 118): 06/05/22 17:39:16:608 Found process PanGpHipMp.exe
+(T17804)Debug(  54): 06/05/22 17:39:16:608 PanGpHipMp started...
+(T17804)Debug(1960): 06/05/22 17:39:21:102 Opswat engine version: 4.3.1646.0
+(T17804)Debug(1965): 06/05/22 17:39:21:102 Opswat V3V4 adaper version: 4.3.1157.0
+(T17804)Debug(  77): 06/05/22 17:39:21:102 Opswat is inited.
+(T17804)Debug(2085): 06/05/22 17:39:33:285 Patches count: 3
+(T17804)Debug(1692): 06/05/22 17:39:33:285 Got missing patches. Size 3.
+(T17804)Debug( 115): 06/05/22 17:39:33:286 Get shared translate length 24
+(T17804)Debug(1757): 06/05/22 17:39:34:326 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T17804)Debug(  82): 06/05/22 17:39:34:326 CheckHipMissingPatch(): Missing patches check duration: 18 seconds approximate.
+(T17804)Debug(  84): 06/05/22 17:39:34:326 Deinit Opswat.
+(T17804)Debug( 323): 06/05/22 17:39:35:388 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T17804)Debug(  85): 06/05/22 17:39:35:388 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T17804)Debug( 323): 06/05/22 17:39:35:388 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T17804)Debug(  85): 06/05/22 17:39:35:388 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T17804)Debug(  91): 06/05/22 17:39:35:388 PanGpHipMp quits ...
+(T10244)Debug( 118): 06/05/22 19:15:13:484 Found process PanGpHipMp.exe
+(T10244)Debug(  54): 06/05/22 19:15:13:484 PanGpHipMp started...
+(T10244)Debug(1960): 06/05/22 19:15:17:960 Opswat engine version: 4.3.1646.0
+(T10244)Debug(1965): 06/05/22 19:15:17:960 Opswat V3V4 adaper version: 4.3.1157.0
+(T10244)Debug(  77): 06/05/22 19:15:17:960 Opswat is inited.
+(T10244)Debug(2085): 06/05/22 19:15:32:151 Patches count: 3
+(T10244)Debug(1692): 06/05/22 19:15:32:151 Got missing patches. Size 3.
+(T10244)Debug( 115): 06/05/22 19:15:32:151 Get shared translate length 24
+(T10244)Debug(1757): 06/05/22 19:15:33:177 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T10244)Debug(  82): 06/05/22 19:15:33:178 CheckHipMissingPatch(): Missing patches check duration: 20 seconds approximate.
+(T10244)Debug(  84): 06/05/22 19:15:33:178 Deinit Opswat.
+(T10244)Debug( 323): 06/05/22 19:15:34:229 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T10244)Debug(  85): 06/05/22 19:15:34:229 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T10244)Debug( 323): 06/05/22 19:15:34:229 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T10244)Debug(  85): 06/05/22 19:15:34:229 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T10244)Debug(  91): 06/05/22 19:15:34:229 PanGpHipMp quits ...
+(T10028)Debug( 118): 06/05/22 19:55:45:264 Found process PanGpHipMp.exe
+(T10028)Debug(  54): 06/05/22 19:55:45:264 PanGpHipMp started...
+(T10028)Debug(1960): 06/05/22 19:55:49:740 Opswat engine version: 4.3.1646.0
+(T10028)Debug(1965): 06/05/22 19:55:49:740 Opswat V3V4 adaper version: 4.3.1157.0
+(T10028)Debug(  77): 06/05/22 19:55:49:740 Opswat is inited.
+(T10028)Debug(2085): 06/05/22 19:56:02:404 Patches count: 3
+(T10028)Debug(1692): 06/05/22 19:56:02:404 Got missing patches. Size 3.
+(T10028)Debug( 115): 06/05/22 19:56:02:405 Get shared translate length 24
+(T10028)Debug(1757): 06/05/22 19:56:03:472 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T10028)Debug(  82): 06/05/22 19:56:03:472 CheckHipMissingPatch(): Missing patches check duration: 18 seconds approximate.
+(T10028)Debug(  84): 06/05/22 19:56:03:472 Deinit Opswat.
+(T10028)Debug( 323): 06/05/22 19:56:04:525 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T10028)Debug(  85): 06/05/22 19:56:04:525 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T10028)Debug( 323): 06/05/22 19:56:04:525 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T10028)Debug(  85): 06/05/22 19:56:04:525 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T10028)Debug(  91): 06/05/22 19:56:04:525 PanGpHipMp quits ...
+(T16532)Debug( 118): 06/05/22 20:55:56:553 Found process PanGpHipMp.exe
+(T16532)Debug(  54): 06/05/22 20:55:56:553 PanGpHipMp started...
+(T16532)Debug(1960): 06/05/22 20:56:01:028 Opswat engine version: 4.3.1646.0
+(T16532)Debug(1965): 06/05/22 20:56:01:028 Opswat V3V4 adaper version: 4.3.1157.0
+(T16532)Debug(  77): 06/05/22 20:56:01:028 Opswat is inited.
+(T16532)Debug(2085): 06/05/22 20:56:13:698 Patches count: 3
+(T16532)Debug(1692): 06/05/22 20:56:13:698 Got missing patches. Size 3.
+(T16532)Debug( 115): 06/05/22 20:56:13:698 Get shared translate length 24
+(T16532)Debug(1757): 06/05/22 20:56:14:729 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T16532)Debug(  82): 06/05/22 20:56:14:729 CheckHipMissingPatch(): Missing patches check duration: 18 seconds approximate.
+(T16532)Debug(  84): 06/05/22 20:56:14:729 Deinit Opswat.
+(T16532)Debug( 323): 06/05/22 20:56:15:775 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T16532)Debug(  85): 06/05/22 20:56:15:775 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T16532)Debug( 323): 06/05/22 20:56:15:775 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T16532)Debug(  85): 06/05/22 20:56:15:775 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T16532)Debug(  91): 06/05/22 20:56:15:775 PanGpHipMp quits ...
+(T17176)Debug( 118): 06/05/22 21:56:09:794 Found process PanGpHipMp.exe
+(T17176)Debug(  54): 06/05/22 21:56:09:794 PanGpHipMp started...
+(T17176)Debug(1960): 06/05/22 21:56:14:267 Opswat engine version: 4.3.1646.0
+(T17176)Debug(1965): 06/05/22 21:56:14:267 Opswat V3V4 adaper version: 4.3.1157.0
+(T17176)Debug(  77): 06/05/22 21:56:14:267 Opswat is inited.
+(T17176)Debug(2085): 06/05/22 21:56:25:911 Patches count: 3
+(T17176)Debug(1692): 06/05/22 21:56:25:911 Got missing patches. Size 3.
+(T17176)Debug( 115): 06/05/22 21:56:25:911 Get shared translate length 24
+(T17176)Debug(1757): 06/05/22 21:56:26:949 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T17176)Debug(  82): 06/05/22 21:56:26:949 CheckHipMissingPatch(): Missing patches check duration: 17 seconds approximate.
+(T17176)Debug(  84): 06/05/22 21:56:26:949 Deinit Opswat.
+(T17176)Debug( 323): 06/05/22 21:56:27:997 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T17176)Debug(  85): 06/05/22 21:56:27:997 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T17176)Debug( 323): 06/05/22 21:56:27:997 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T17176)Debug(  85): 06/05/22 21:56:27:997 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T17176)Debug(  91): 06/05/22 21:56:27:997 PanGpHipMp quits ...
+(T11316)Debug( 118): 06/05/22 22:56:23:034 Found process PanGpHipMp.exe
+(T11316)Debug(  54): 06/05/22 22:56:23:034 PanGpHipMp started...
+(T11316)Debug(1960): 06/05/22 22:56:27:514 Opswat engine version: 4.3.1646.0
+(T11316)Debug(1965): 06/05/22 22:56:27:514 Opswat V3V4 adaper version: 4.3.1157.0
+(T11316)Debug(  77): 06/05/22 22:56:27:514 Opswat is inited.
+(T11316)Debug(2085): 06/05/22 22:56:47:823 Patches count: 3
+(T11316)Debug(1692): 06/05/22 22:56:47:823 Got missing patches. Size 3.
+(T11316)Debug( 115): 06/05/22 22:56:47:823 Get shared translate length 24
+(T11316)Debug(1757): 06/05/22 22:56:48:883 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T11316)Debug(  82): 06/05/22 22:56:48:883 CheckHipMissingPatch(): Missing patches check duration: 25 seconds approximate.
+(T11316)Debug(  84): 06/05/22 22:56:48:883 Deinit Opswat.
+(T11316)Debug( 323): 06/05/22 22:56:49:940 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T11316)Debug(  85): 06/05/22 22:56:49:940 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T11316)Debug( 323): 06/05/22 22:56:49:940 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T11316)Debug(  85): 06/05/22 22:56:49:940 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T11316)Debug(  91): 06/05/22 22:56:49:940 PanGpHipMp quits ...
+(T22384)Debug( 118): 06/05/22 23:56:31:989 Found process PanGpHipMp.exe
+(T22384)Debug(  54): 06/05/22 23:56:31:989 PanGpHipMp started...
+(T22384)Debug(1960): 06/05/22 23:56:36:460 Opswat engine version: 4.3.1646.0
+(T22384)Debug(1965): 06/05/22 23:56:36:460 Opswat V3V4 adaper version: 4.3.1157.0
+(T22384)Debug(  77): 06/05/22 23:56:36:460 Opswat is inited.
+(T22384)Debug(2085): 06/05/22 23:56:59:757 Patches count: 3
+(T22384)Debug(1692): 06/05/22 23:56:59:757 Got missing patches. Size 3.
+(T22384)Debug( 115): 06/05/22 23:56:59:757 Get shared translate length 24
+(T22384)Debug(1757): 06/05/22 23:57:00:796 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T22384)Debug(  82): 06/05/22 23:57:00:797 CheckHipMissingPatch(): Missing patches check duration: 29 seconds approximate.
+(T22384)Debug(  84): 06/05/22 23:57:00:797 Deinit Opswat.
+(T22384)Debug( 323): 06/05/22 23:57:01:848 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T22384)Debug(  85): 06/05/22 23:57:01:848 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T22384)Debug( 323): 06/05/22 23:57:01:848 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T22384)Debug(  85): 06/05/22 23:57:01:848 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T22384)Debug(  91): 06/05/22 23:57:01:848 PanGpHipMp quits ...
+(T15168)Debug( 118): 06/06/22 00:56:37:893 Found process PanGpHipMp.exe
+(T15168)Debug(  54): 06/06/22 00:56:37:893 PanGpHipMp started...
+(T15168)Debug(1960): 06/06/22 00:56:42:377 Opswat engine version: 4.3.1646.0
+(T15168)Debug(1965): 06/06/22 00:56:42:377 Opswat V3V4 adaper version: 4.3.1157.0
+(T15168)Debug(  77): 06/06/22 00:56:42:377 Opswat is inited.
+(T15168)Debug(2085): 06/06/22 00:56:55:577 Patches count: 3
+(T15168)Debug(1692): 06/06/22 00:56:55:578 Got missing patches. Size 3.
+(T15168)Debug( 115): 06/06/22 00:56:55:578 Get shared translate length 24
+(T15168)Debug(1757): 06/06/22 00:56:56:625 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T15168)Debug(  82): 06/06/22 00:56:56:625 CheckHipMissingPatch(): Missing patches check duration: 19 seconds approximate.
+(T15168)Debug(  84): 06/06/22 00:56:56:625 Deinit Opswat.
+(T15168)Debug( 323): 06/06/22 00:56:57:683 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T15168)Debug(  85): 06/06/22 00:56:57:683 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T15168)Debug( 323): 06/06/22 00:56:57:683 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T15168)Debug(  85): 06/06/22 00:56:57:683 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T15168)Debug(  91): 06/06/22 00:56:57:683 PanGpHipMp quits ...
+(T3784)Debug( 118): 06/06/22 01:56:57:710 Found process PanGpHipMp.exe
+(T3784)Debug(  54): 06/06/22 01:56:57:710 PanGpHipMp started...
+(T3784)Debug(1960): 06/06/22 01:57:02:199 Opswat engine version: 4.3.1646.0
+(T3784)Debug(1965): 06/06/22 01:57:02:199 Opswat V3V4 adaper version: 4.3.1157.0
+(T3784)Debug(  77): 06/06/22 01:57:02:199 Opswat is inited.
+(T3784)Debug(2085): 06/06/22 01:57:13:372 Patches count: 3
+(T3784)Debug(1692): 06/06/22 01:57:13:372 Got missing patches. Size 3.
+(T3784)Debug( 115): 06/06/22 01:57:13:373 Get shared translate length 24
+(T3784)Debug(1757): 06/06/22 01:57:14:409 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T3784)Debug(  82): 06/06/22 01:57:14:409 CheckHipMissingPatch(): Missing patches check duration: 17 seconds approximate.
+(T3784)Debug(  84): 06/06/22 01:57:14:409 Deinit Opswat.
+(T3784)Debug( 323): 06/06/22 01:57:15:462 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T3784)Debug(  85): 06/06/22 01:57:15:462 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T3784)Debug( 323): 06/06/22 01:57:15:462 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T3784)Debug(  85): 06/06/22 01:57:15:462 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T3784)Debug(  91): 06/06/22 01:57:15:462 PanGpHipMp quits ...
+(T9268)Debug( 118): 06/06/22 01:57:55:491 Found process PanGpHipMp.exe
+(T9268)Debug(  54): 06/06/22 01:57:55:491 PanGpHipMp started...
+(T9268)Debug(1960): 06/06/22 01:57:59:970 Opswat engine version: 4.3.1646.0
+(T9268)Debug(1965): 06/06/22 01:57:59:970 Opswat V3V4 adaper version: 4.3.1157.0
+(T9268)Debug(  77): 06/06/22 01:57:59:970 Opswat is inited.
+(T9268)Debug(2085): 06/06/22 01:58:07:161 Patches count: 3
+(T9268)Debug(1692): 06/06/22 01:58:07:161 Got missing patches. Size 3.
+(T9268)Debug( 115): 06/06/22 01:58:07:161 Get shared translate length 24
+(T9268)Debug(1757): 06/06/22 01:58:08:209 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T9268)Debug(  82): 06/06/22 01:58:08:209 CheckHipMissingPatch(): Missing patches check duration: 13 seconds approximate.
+(T9268)Debug(  84): 06/06/22 01:58:08:209 Deinit Opswat.
+(T9268)Debug( 323): 06/06/22 01:58:09:265 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T9268)Debug(  85): 06/06/22 01:58:09:265 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T9268)Debug( 323): 06/06/22 01:58:09:265 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T9268)Debug(  85): 06/06/22 01:58:09:265 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T9268)Debug(  91): 06/06/22 01:58:09:265 PanGpHipMp quits ...
+(T21948)Debug( 118): 06/06/22 02:57:22:306 Found process PanGpHipMp.exe
+(T21948)Debug(  54): 06/06/22 02:57:22:306 PanGpHipMp started...
+(T21948)Debug(1960): 06/06/22 02:57:26:773 Opswat engine version: 4.3.1646.0
+(T21948)Debug(1965): 06/06/22 02:57:26:773 Opswat V3V4 adaper version: 4.3.1157.0
+(T21948)Debug(  77): 06/06/22 02:57:26:773 Opswat is inited.
+(T21948)Debug(2085): 06/06/22 02:57:49:608 Patches count: 3
+(T21948)Debug(1692): 06/06/22 02:57:49:608 Got missing patches. Size 3.
+(T21948)Debug( 115): 06/06/22 02:57:49:608 Get shared translate length 24
+(T21948)Debug(1757): 06/06/22 02:57:50:666 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T21948)Debug(  82): 06/06/22 02:57:50:667 CheckHipMissingPatch(): Missing patches check duration: 28 seconds approximate.
+(T21948)Debug(  84): 06/06/22 02:57:50:667 Deinit Opswat.
+(T21948)Debug( 323): 06/06/22 02:57:51:715 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T21948)Debug(  85): 06/06/22 02:57:51:715 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T21948)Debug( 323): 06/06/22 02:57:51:715 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T21948)Debug(  85): 06/06/22 02:57:51:715 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T21948)Debug(  91): 06/06/22 02:57:51:715 PanGpHipMp quits ...
+(T13088)Debug( 118): 06/06/22 21:20:58:785 Found process PanGpHipMp.exe
+(T13088)Debug(  54): 06/06/22 21:20:58:786 PanGpHipMp started...
+(T13088)Debug(1960): 06/06/22 21:21:03:270 Opswat engine version: 4.3.1646.0
+(T13088)Debug(1965): 06/06/22 21:21:03:270 Opswat V3V4 adaper version: 4.3.1157.0
+(T13088)Debug(  77): 06/06/22 21:21:03:270 Opswat is inited.
+(T13088)Debug(2085): 06/06/22 21:21:11:019 Patches count: 2
+(T13088)Debug(1692): 06/06/22 21:21:11:019 Got missing patches. Size 2.
+(T13088)Debug( 115): 06/06/22 21:21:11:019 Get shared translate length 24
+(T13088)Debug(1757): 06/06/22 21:21:12:090 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T13088)Debug(  82): 06/06/22 21:21:12:091 CheckHipMissingPatch(): Missing patches check duration: 14 seconds approximate.
+(T13088)Debug(  84): 06/06/22 21:21:12:091 Deinit Opswat.
+(T13088)Debug( 323): 06/06/22 21:21:13:140 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T13088)Debug(  85): 06/06/22 21:21:13:140 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T13088)Debug( 323): 06/06/22 21:21:13:140 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T13088)Debug(  85): 06/06/22 21:21:13:140 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T13088)Debug(  91): 06/06/22 21:21:13:140 PanGpHipMp quits ...
+(T308)Debug( 118): 06/06/22 21:22:06:173 Found process PanGpHipMp.exe
+(T308)Debug(  54): 06/06/22 21:22:06:173 PanGpHipMp started...
+(T308)Debug(1960): 06/06/22 21:22:10:653 Opswat engine version: 4.3.1646.0
+(T308)Debug(1965): 06/06/22 21:22:10:653 Opswat V3V4 adaper version: 4.3.1157.0
+(T308)Debug(  77): 06/06/22 21:22:10:653 Opswat is inited.
+(T308)Debug(2085): 06/06/22 21:22:18:355 Patches count: 2
+(T308)Debug(1692): 06/06/22 21:22:18:355 Got missing patches. Size 2.
+(T308)Debug( 115): 06/06/22 21:22:18:355 Get shared translate length 24
+(T308)Debug(1757): 06/06/22 21:22:19:428 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T308)Debug(  82): 06/06/22 21:22:19:428 CheckHipMissingPatch(): Missing patches check duration: 13 seconds approximate.
+(T308)Debug(  84): 06/06/22 21:22:19:428 Deinit Opswat.
+(T308)Debug( 323): 06/06/22 21:22:20:486 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T308)Debug(  85): 06/06/22 21:22:20:486 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T308)Debug( 323): 06/06/22 21:22:20:486 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T308)Debug(  85): 06/06/22 21:22:20:486 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T308)Debug(  91): 06/06/22 21:22:20:486 PanGpHipMp quits ...
+(T2800)Debug( 118): 06/06/22 21:22:48:510 Found process PanGpHipMp.exe
+(T2800)Debug(  54): 06/06/22 21:22:48:511 PanGpHipMp started...
+(T2800)Debug(1960): 06/06/22 21:22:52:991 Opswat engine version: 4.3.1646.0
+(T2800)Debug(1965): 06/06/22 21:22:52:991 Opswat V3V4 adaper version: 4.3.1157.0
+(T2800)Debug(  77): 06/06/22 21:22:52:991 Opswat is inited.
+(T2800)Debug(2085): 06/06/22 21:23:00:701 Patches count: 2
+(T2800)Debug(1692): 06/06/22 21:23:00:701 Got missing patches. Size 2.
+(T2800)Debug( 115): 06/06/22 21:23:00:701 Get shared translate length 24
+(T2800)Debug(1757): 06/06/22 21:23:01:732 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T2800)Debug(  82): 06/06/22 21:23:01:732 CheckHipMissingPatch(): Missing patches check duration: 13 seconds approximate.
+(T2800)Debug(  84): 06/06/22 21:23:01:732 Deinit Opswat.
+(T2800)Debug( 323): 06/06/22 21:23:02:785 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T2800)Debug(  85): 06/06/22 21:23:02:785 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T2800)Debug( 323): 06/06/22 21:23:02:785 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T2800)Debug(  85): 06/06/22 21:23:02:785 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T2800)Debug(  91): 06/06/22 21:23:02:785 PanGpHipMp quits ...
+(T3904)Debug( 118): 06/06/22 22:22:23:811 Found process PanGpHipMp.exe
+(T3904)Debug(  54): 06/06/22 22:22:23:811 PanGpHipMp started...
+(T3904)Debug(1960): 06/06/22 22:22:28:291 Opswat engine version: 4.3.1646.0
+(T3904)Debug(1965): 06/06/22 22:22:28:291 Opswat V3V4 adaper version: 4.3.1157.0
+(T3904)Debug(  77): 06/06/22 22:22:28:291 Opswat is inited.
+(T3904)Debug(2085): 06/06/22 22:22:40:417 Patches count: 3
+(T3904)Debug(1692): 06/06/22 22:22:40:417 Got missing patches. Size 3.
+(T3904)Debug( 115): 06/06/22 22:22:40:417 Get shared translate length 24
+(T3904)Debug(1757): 06/06/22 22:22:41:447 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T3904)Debug(  82): 06/06/22 22:22:41:447 CheckHipMissingPatch(): Missing patches check duration: 18 seconds approximate.
+(T3904)Debug(  84): 06/06/22 22:22:41:447 Deinit Opswat.
+(T3904)Debug( 323): 06/06/22 22:22:42:501 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T3904)Debug(  85): 06/06/22 22:22:42:501 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T3904)Debug( 323): 06/06/22 22:22:42:501 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T3904)Debug(  85): 06/06/22 22:22:42:501 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T3904)Debug(  91): 06/06/22 22:22:42:501 PanGpHipMp quits ...
+(T15976)Debug( 118): 06/07/22 00:28:51:627 Found process PanGpHipMp.exe
+(T15976)Debug(  54): 06/07/22 00:28:51:628 PanGpHipMp started...
+(T15976)Debug(1960): 06/07/22 00:28:56:119 Opswat engine version: 4.3.1646.0
+(T15976)Debug(1965): 06/07/22 00:28:56:119 Opswat V3V4 adaper version: 4.3.1157.0
+(T15976)Debug(  77): 06/07/22 00:28:56:119 Opswat is inited.
+(T15976)Debug(2085): 06/07/22 00:29:07:310 Patches count: 3
+(T15976)Debug(1692): 06/07/22 00:29:07:310 Got missing patches. Size 3.
+(T15976)Debug( 115): 06/07/22 00:29:07:311 Get shared translate length 24
+(T15976)Debug(1757): 06/07/22 00:29:08:366 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T15976)Debug(  82): 06/07/22 00:29:08:366 CheckHipMissingPatch(): Missing patches check duration: 17 seconds approximate.
+(T15976)Debug(  84): 06/07/22 00:29:08:366 Deinit Opswat.
+(T15976)Debug( 323): 06/07/22 00:29:09:416 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T15976)Debug(  85): 06/07/22 00:29:09:416 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T15976)Debug( 323): 06/07/22 00:29:09:416 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T15976)Debug(  85): 06/07/22 00:29:09:416 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T15976)Debug(  91): 06/07/22 00:29:09:416 PanGpHipMp quits ...
+(T15968)Debug( 118): 06/07/22 00:29:45:455 Found process PanGpHipMp.exe
+(T15968)Debug(  54): 06/07/22 00:29:45:455 PanGpHipMp started...
+(T15968)Debug(1960): 06/07/22 00:29:49:925 Opswat engine version: 4.3.1646.0
+(T15968)Debug(1965): 06/07/22 00:29:49:925 Opswat V3V4 adaper version: 4.3.1157.0
+(T15968)Debug(  77): 06/07/22 00:29:49:925 Opswat is inited.
+(T15968)Debug(2085): 06/07/22 00:29:57:104 Patches count: 3
+(T15968)Debug(1692): 06/07/22 00:29:57:104 Got missing patches. Size 3.
+(T15968)Debug( 115): 06/07/22 00:29:57:104 Get shared translate length 24
+(T15968)Debug(1757): 06/07/22 00:29:58:169 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T15968)Debug(  82): 06/07/22 00:29:58:169 CheckHipMissingPatch(): Missing patches check duration: 13 seconds approximate.
+(T15968)Debug(  84): 06/07/22 00:29:58:169 Deinit Opswat.
+(T15968)Debug( 323): 06/07/22 00:29:59:222 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T15968)Debug(  85): 06/07/22 00:29:59:223 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T15968)Debug( 323): 06/07/22 00:29:59:223 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T15968)Debug(  85): 06/07/22 00:29:59:223 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T15968)Debug(  91): 06/07/22 00:29:59:223 PanGpHipMp quits ...
+(T2724)Debug( 118): 06/08/22 00:34:45:603 Found process PanGpHipMp.exe
+(T2724)Debug(  54): 06/08/22 00:34:45:603 PanGpHipMp started...
+(T2724)Debug(1960): 06/08/22 00:34:50:160 Opswat engine version: 4.3.1646.0
+(T2724)Debug(1965): 06/08/22 00:34:50:160 Opswat V3V4 adaper version: 4.3.1157.0
+(T2724)Debug(  77): 06/08/22 00:34:50:160 Opswat is inited.
+(T2724)Debug(2085): 06/08/22 00:35:08:429 Patches count: 3
+(T2724)Debug(1692): 06/08/22 00:35:08:429 Got missing patches. Size 3.
+(T2724)Debug( 115): 06/08/22 00:35:08:430 Get shared translate length 24
+(T2724)Debug(1757): 06/08/22 00:35:09:476 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T2724)Debug(  82): 06/08/22 00:35:09:476 CheckHipMissingPatch(): Missing patches check duration: 24 seconds approximate.
+(T2724)Debug(  84): 06/08/22 00:35:09:476 Deinit Opswat.
+(T2724)Debug( 323): 06/08/22 00:35:10:525 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T2724)Debug(  85): 06/08/22 00:35:10:525 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T2724)Debug( 323): 06/08/22 00:35:10:525 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T2724)Debug(  85): 06/08/22 00:35:10:525 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T2724)Debug(  91): 06/08/22 00:35:10:525 PanGpHipMp quits ...
+(T5504)Debug( 118): 06/09/22 01:05:31:367 Found process PanGpHipMp.exe
+(T5504)Debug(  54): 06/09/22 01:05:31:367 PanGpHipMp started...
+(T5504)Debug(1960): 06/09/22 01:05:35:904 Opswat engine version: 4.3.1646.0
+(T5504)Debug(1965): 06/09/22 01:05:35:904 Opswat V3V4 adaper version: 4.3.1157.0
+(T5504)Debug(  77): 06/09/22 01:05:35:904 Opswat is inited.
+(T5504)Debug(2085): 06/09/22 01:05:48:586 Patches count: 3
+(T5504)Debug(1692): 06/09/22 01:05:48:586 Got missing patches. Size 3.
+(T5504)Debug( 115): 06/09/22 01:05:48:586 Get shared translate length 24
+(T5504)Debug(1757): 06/09/22 01:05:49:674 Write missing patch file C:\Users\Nam Ta\Documents\VNR\Hong Ngoc\VNP\PanGpMPR.dat.
+(T5504)Debug(  82): 06/09/22 01:05:49:674 CheckHipMissingPatch(): Missing patches check duration: 18 seconds approximate.
+(T5504)Debug(  84): 06/09/22 01:05:49:674 Deinit Opswat.
+(T5504)Debug( 323): 06/09/22 01:05:50:721 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T5504)Debug(  85): 06/09/22 01:05:50:721 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T5504)Debug( 323): 06/09/22 01:05:50:721 ClearHipCustomCheckInfo(): pHipCustomCheckInfo is NULL.
+(T5504)Debug(  85): 06/09/22 01:05:50:721 ClearHipCustomCheckRegKeyInfo(): pHipCustomCheckRegKeyInfo is NULL.
+(T5504)Debug(  91): 06/09/22 01:05:50:721 PanGpHipMp quits ...

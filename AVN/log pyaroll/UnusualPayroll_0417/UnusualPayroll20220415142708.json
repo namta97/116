@@ -1,0 +1,2 @@
+﻿{"timeLog":"2022-04-15 14:27:08","level":"INFO","loggerName":"textfile-UnusualPayroll - 2022-04-15 14:27:08","title":"UnusualPayroll","message":"======> BẮT ĐẦU TÍNH TẠM ỨNG","dataLog":{"data":"thay_dhd / Có  Tính Nghỉ Việc / Có Tính Đang Làm Việc "},"exception":null,"userLog":"thay_dhd"},
+{"timeLog":"2022-04-15 14:27:12","level":"INFO","loggerName":"textfile-UnusualPayroll - 2022-04-15 14:27:08","title":"UnusualPayroll","message":"======> LẤY THÔNG TIN NHÂN VIÊN","dataLog":{"Time":"00:00:03.4126462"},"exception":null,"userLog":"thay_dhd"},
